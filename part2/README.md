@@ -22,11 +22,11 @@ This part builds up the knowledge on React-library. Firstly, it presents how to 
 
 This directory contains the series of exercises for *Part 2*. In this part three applications were developed:
 
-* **courseinfo:** The *CourseInfo App*, which displays information for a course.
+* [**courseinfo**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part2/courseinfo)**:** The *CourseInfo App*, which displays information for a course.
 
-* **dataforcountries:** The *DataForCountries App*, which displays information for various countries.
+* [**dataforcountries**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part2/dataforcountries)**:** The *DataForCountries App*, which displays information for various countries.
 
-* **phonebook:** The *PhoneBook App*, a digital phonebook where users can add and display phonenumbers of desired persons.
+* [**phonebook**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part2/phonebook)**:** The *PhoneBook App*, a digital phonebook where users can add and display phonenumbers of desired persons.
 
 
 <h3>Running the Apps</h3>
