@@ -9,13 +9,15 @@ This part of the course is about GraphQL, Facebook's alternative to REST for com
 
 * **GraphQL-Server:** Schemas and queries, Apollo server, GraphQL-playground, Parameters of a resolver, The default resolver, Object within an object, Mutations, Error handling, Enum, Updating data
 
-* **React and GraphQL:** 
+* **React and GraphQL:** Apollo client, Query-component, Named queries and variables, Cache, Mutation-component, Updating the cache, Handling mutation error messages, Updating data, Apollo Client and the applications state, Render props, Apollo with hooks
 
-* **Database and User Administration:** 
+* **Database and User Administration:** Mongoose and Apollo, Validation, User and log in, Friends list
 
 * **Login and Updating the Cache:** 
 
 * **Fragments and Subscriptions:** 
+
+
 
 
 
@@ -45,4 +47,33 @@ The following list contains the resources provided by the university of Helsinki
 * [**uuid**](https://github.com/kelektiv/node-uuid#readme) library.
 
 * [**GraphQL Validation**](https://graphql.org/learn/validation/).
+
+* [**Relay**](https://relay.dev/), the production-ready GraphQL client for React.
+
+* [**Apollo Client**](https://www.apollographql.com/docs/react/).
+
+* [**Apollo Query Component**](https://www.apollographql.com/docs/react/v2.5/essentials/queries/).
+
+* [**Apollo Consumer Component**](https://www.apollographql.com/docs/react/v2.5/essentials/queries/#manually-firing-a-query).
+
+* [**Apollo Mutation Component**](https://www.apollographql.com/docs/react/v2.5/essentials/mutations/#the-mutation-component).
+
+* [**Apollo Cache**](https://www.apollographql.com/docs/react/v2.5/advanced/caching/).
+
+* [**Apollo Client devtools**](https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm/related).
+
+* [**Render Props React**](https://reactjs.org/docs/render-props.html).
+
+* [**Apollo Client 3.0.0 with hook support**](https://www.npmjs.com/package/react-apollo/v/3.0.0-beta.2).
+
+* [**Using Apollo React Hooks**](https://moonhighway.com/apollo-hooks).
+
+* [**90% Cleaner React With Hooks**](https://www.youtube.com/watch?v=wXLf18DsV-I).
+
+* [**Apollo Fetching Data**](https://www.apollographql.com/docs/apollo-server/data/data/).
+
+* [**Authorization in GraphQL**](https://blog.apollographql.com/authorization-in-graphql-452b1c402a9).
+
+* [**$in operator in MongoDB**](https://docs.mongodb.com/manual/reference/operator/query/in/).
+
 
