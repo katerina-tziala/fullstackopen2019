@@ -17,6 +17,7 @@ The *Library-GraphQl App - Frontend* contains the code for the frontend side of 
 
 **3.** Login with the following credentials:
 
-        username: katetzi
+        username: theuser
         password: secred 
 
+**Note:** For this part all users have the same hardcoded password!
