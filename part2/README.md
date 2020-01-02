@@ -20,8 +20,20 @@ This part builds up the knowledge on React-library. Firstly, it presents how to 
 
 <h2>Exercises of Part 2</h2>
 
-<h2>Material For Further Study</h2>
+This directory contains the series of exercises for *Part 2*. In this part three applications were developed:
 
+* **courseinfo:** The *CourseInfo App* which displays information for a course. Building upon the 
+
+* **dataforcountries:** The *DataForCountries App* 
+
+* **phonebook:** The *PhoneBook App* 
+
+
+<h3>Running the Apps</h3>
+
+For each one of the developed apps follow the instructions in the *README* file, located in the root folder of each app, to compile and run the app locally.
+
+<h2>Material For Further Study</h2>
 
 
 
