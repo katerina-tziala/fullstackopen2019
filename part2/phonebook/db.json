@@ -1,9 +1,14 @@
 {
   "persons": [
     {
-      "name": "asdasd",
-      "number": "sdfsdf",
+      "name": "katerina tziala",
+      "number": "+30 6978234890",
       "id": 4
+    },
+    {
+      "name": "angie tz",
+      "number": "alki;kua",
+      "id": 5
     }
   ]
 }
