@@ -22,7 +22,7 @@ This part builds up the knowledge on React-library. Firstly, it presents how to 
 
 This directory contains the series of exercises for *Part 2*. In this part three applications were developed:
 
-* **courseinfo:** The *CourseInfo App* which displays information for a course. Building upon the 
+* **courseinfo:** The *CourseInfo App* which displays information for a course.
 
 * **dataforcountries:** The *DataForCountries App* 
 

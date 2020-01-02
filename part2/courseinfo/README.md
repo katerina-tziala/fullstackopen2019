@@ -3,7 +3,12 @@
 CourseInfo App<br/>
 </h1>
 
-The *CourseInfo App* is a simple React App which displays information for a course. Building upon the *CourseInfo App* developed in *Part1* of this course, in this app the structure of the data changes, additional information for the course is added, and finally the app is structured with the use of components. 
+The *CourseInfo App* is a simple React App which displays information for a course. Building upon the *CourseInfo App* developed in *Part1* of this course, 
+in this part the *CourseInfo App* is further developed:
+
+* the structure of the data changes
+* additional information for the course is added
+* the app is structured with the use of components
 
 ## Installation of the App
 **1.** Fork and clone this repository.
