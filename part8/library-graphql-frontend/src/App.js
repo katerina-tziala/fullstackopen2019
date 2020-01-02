@@ -93,7 +93,6 @@ const App = (props) => {
   const client = useApolloClient();
   const allAuthors = useQuery(ALL_AUTHORS);
   const allBooks = useQuery(ALL_BOOKS);
-  const currentUser = useQuery(CURRENT_USER);
   const [token, setToken] = useState(localStorage.getItem('user_token') ? localStorage.getItem('user_token') : null);
   const [page, setPage] = useState('authors');
   const [notification, setNotification] = useState(null);
@@ -136,8 +135,7 @@ const App = (props) => {
   });
 
   const [login] = useMutation(LOGIN, {
-    onError: () => { handleError('password or username incorrect') },
-    refetchQueries: [{ query: CURRENT_USER }]
+    onError: () => { handleError('password or username incorrect') }
   });
 
   const setCurrentUserToken = (token) => {
