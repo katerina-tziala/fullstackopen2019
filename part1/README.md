@@ -20,7 +20,7 @@ This part introduces the React-library and it's core conceps, which is used in t
 
 This directory contains the series of exercises for *Part 1*. In this part three applications were developed:
 
-* **courseinfo:** The *Courseinfo App* that displays information for a course.
+* **courseinfo:** The *CourseInfo App* that displays information for a course.
 
 * **unicafe:** The *Unicafe App* collects is a web application for collecting customer feedback. There are only three options for feedback: good, neutral, and bad.
 
