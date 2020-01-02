@@ -3,7 +3,6 @@
 Anecdotes App<br/>
 </h1>
 
-# 
 The Anecdotes App is a simple React App which displays anecdotes from the world of software engineering, where users can display random anecdotes and vote the displayed ones.
 
 ## Installation of the App
