@@ -1,5 +1,5 @@
 # Anecdotes App
-
+The Anecdotes App is a simple React App which displays anecdotes from the world of software engineering, where users can display random anecdotes and vote the displayed ones.
 
 ## Installation of the App
 **1.** Fork and clone this repository.
