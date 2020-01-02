@@ -135,7 +135,8 @@ const App = (props) => {
   });
 
   const [login] = useMutation(LOGIN, {
-    onError: () => { handleError('password or username incorrect') }
+    onError: () => { handleError('password or username incorrect') },
+    refetchQueries: [{ query: CURRENT_USER }]
   });
 
   const setCurrentUserToken = (token) => {
