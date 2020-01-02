@@ -15,7 +15,7 @@ The *Library-GraphQl App - Frontend* contains the code for the frontend side of 
 
 **2.** Navigate from your terminal inside the /part8/library-graphql-frontend and run ***npm start***.
 
-**3.** Login in the app with the following credentials:
+**3.** Login with the following credentials:
 
         username: katetzi
         password: secred 
