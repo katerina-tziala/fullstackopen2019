@@ -1,0 +1,38 @@
+{
+  "name": "bloglist_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node index.js",
+    "watch": "cross-env NODE_ENV=development nodemon index.js",
+    "test": "cross-env NODE_ENV=test npx jest tests/ --runInBand",
+    "unit-test": "cross-env NODE_ENV=test npx jest tests/unit/.*.js --runInBand",
+    "test-api": "cross-env NODE_ENV=test npx jest tests/api/.*.js --runInBand",
+    "test-file": "cross-env NODE_ENV=test npx jest tests/api/user_creation.test --runInBand",
+    "lint": "eslint ."
+  },
+  "author": "katerina tziala",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.13",
+    "mongoose-unique-validator": "^2.0.3",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "cross-env": "^6.0.3",
+    "eslint": "^6.7.2",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.4",
+    "supertest": "^4.0.2"
+  },
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "node"
+  }
+}
