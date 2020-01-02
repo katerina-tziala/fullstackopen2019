@@ -26,7 +26,7 @@ This directory contains the series of exercises for *Part 2*. In this part three
 
 * **dataforcountries:** The *DataForCountries App* 
 
-* **phonebook:** The *PhoneBook App*, an app where users can add phonenumbers of desired persons.
+* **phonebook:** The *PhoneBook App*, a digital phonebook where users can add phonenumbers of desired persons.
 
 
 <h3>Running the Apps</h3>
