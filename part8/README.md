@@ -17,3 +17,18 @@ This part of the course is about GraphQL, Facebook's alternative to REST for com
 
 * **Fragments and Subscriptions:** Fragments, Subscriptions, Subscriptions on the server, Subscriptions on the client, n+1-problem
 
+<h2>Exercises of Part 8</h2>
+
+This directory contains the series of exercises for *Part 8*. In this part the *Library-GraphQl App* was developed, which displays information about books and authors. When users are logged in, they can add books, see reccomendations based on their favorite genre, and update the birth year of the authors.
+
+The *Library-GraphQl App* consists of two parts:
+
+* [**library-graphql-backend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part8/library-graphql-backend)**:** This folder contains the code of the backend side of the app. 
+
+* [**library-graphql-frontend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part8/library-graphql-frontend)**:** This folder contains the code of the frontend side of the app.
+
+<h3>Running the App</h3>
+
+To run the app locally, both parts of the app (backend and frontend) should run in parallel. Follow the instructions in the *README* file, located in the root folder of each part, to compile and run the app locally.
+
+**Note:** Currently, there is only one user that can log in the app. The credentials to log in can be found in the *README* file in the  [**library-graphql-frontend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part8/library-graphql-frontend) folder.
