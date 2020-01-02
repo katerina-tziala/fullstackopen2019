@@ -11,6 +11,6 @@ The *Unicafe App* is a simple React App which collects customer feedback. There 
 **2.** Navigate from your terminal inside the /part1/unicafe folder and run ***npm install*** or ***npm i*** to install the project's dependencies.
 
 ## Running the App Locally
-**1.** Make sure that the dependencies of the *Unicafe App* are installed.
+**1.** Make sure that all the dependencies of the *Unicafe App* are installed.
 
 **2.** Navigate from your terminal inside the /part1/unicafe folder and run ***npm start***.
