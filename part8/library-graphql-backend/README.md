@@ -3,7 +3,7 @@
 Library-GraphQl App - Backend<br/>
 </h1>
 
-The *Library-GraphQl App - Backend* is a simple React App, a digital phonebook, where users can add and display phonenumbers of desired persons.
+The *Library-GraphQl App - Backend* contains the code for the backend side of the *Library-GraphQl App*.
 
 ## Installation of the App
 **1.** Fork and clone this repository.
