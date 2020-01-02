@@ -22,7 +22,7 @@ This directory contains the series of exercises for *Part 1*. In this part three
 
 * **courseinfo:** The *CourseInfo App* which displays information for a course.
 
-* **unicafe:** The *Unicafe App* collects is a web application for collecting customer feedback. There are only three options for feedback: good, neutral, and bad.
+* **unicafe:** The *Unicafe App* is a web application for collecting customer feedback. There are only three options for feedback: good, neutral, and bad.
 
 * **anecdotes:** The *Anecdotes App* displays anecdotes from the world of software engineering, where users can display random anecdotes and vote the displayed ones. 
 
