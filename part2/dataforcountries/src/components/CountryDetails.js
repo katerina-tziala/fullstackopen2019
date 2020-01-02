@@ -6,7 +6,7 @@ import CountryInfo from './CountryInfo';
 import WeatherDetails from './WeatherDetails';
 
 const CountryDetails = ({ country }) => {
-    const apiKey = '_API_KEY';
+    const apiKey = '_API_KEY_';
     const weatherUrl = `http://api.weatherstack.com/current?access_key=${apiKey}&query=${country.name}`;
     const [weather, setWeather] = useState()
     useEffect(() => {
