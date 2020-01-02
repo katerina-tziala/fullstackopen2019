@@ -14,4 +14,4 @@ The *Bloglist App - Backend* contains the code for the backend side of the *Blog
 ## Running the App Locally
 **1.** Make sure that all the dependencies of the *Bloglist App - Backend* are installed.
 
-**2.** 
+**2.** Create .env file at the root of the project and
