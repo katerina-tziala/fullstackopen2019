@@ -13,7 +13,7 @@ This part builds up the knowledge on React-library. Firstly, it presents how to 
 
 * **Getting data from Server:** The browser as a runtime environment, npm, Axios and promises, Effect-hooks, The development runtime environment
 
-* **Altering data in Server:** REST, Sending Data to the Server, Changing the importance of notes, Extracting communication with the backend into a separate module, Cleaner syntax for defining object literals, Promises and errors
+* **Altering data in Server:** REST, Sending Data to the Server, Updating data to the Server, Extracting communication with the backend into a separate module, Cleaner syntax for defining object literals, Promises and errors
 
 * **Adding styles to React App:** External styles, Inline styles, class selectors in React Apps
 
