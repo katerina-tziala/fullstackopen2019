@@ -13,7 +13,7 @@ This part of the course is about GraphQL, Facebook's alternative to REST for com
 
 * **Database and User Administration:** Mongoose and Apollo, Validation, User and log in, Friends list
 
-* **Login and Updating the Cache:** 
+* **Login and Updating the Cache:** User log in, Adding a token to a header, Updating cache
 
 * **Fragments and Subscriptions:** 
 
@@ -76,4 +76,15 @@ The following list contains the resources provided by the university of Helsinki
 
 * [**$in operator in MongoDB**](https://docs.mongodb.com/manual/reference/operator/query/in/).
 
+* [**Apollo Authentication**](https://www.apollographql.com/docs/react/v2.5/recipes/authentication/).
+
+* [**Apollo Boost**](https://github.com/apollographql/apollo-client/tree/master/packages/apollo-boost) library.
+
+* [**Apollo Client**](https://www.apollographql.com/docs/react/api/apollo-client/#apollo-client).
+
+* [**Apollo Link**](https://www.apollographql.com/docs/link/).
+
+* [**Apollo Link HTTP**](https://www.apollographql.com/docs/link/links/http/).
+
+* [**React Apollo Fetch Policy**](https://www.apollographql.com/docs/react/api/react-apollo/#optionsfetchpolicy).
 
