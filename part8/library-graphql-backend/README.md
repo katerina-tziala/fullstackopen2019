@@ -19,3 +19,14 @@ The *Library-GraphQl App - Backend* contains the code for the backend side of th
 <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part8_mongodb_access.png" alt="code snippet in index,js" width="auto" height="60">
 
 **3.** Navigate from your terminal inside the /part8/library-graphql-backend folder and run ***npm run start*** to start the backend server of the app.
+
+**4.** Access the your [**GraphQL Playground **](http://localhost:4000/) and run the following mutation to create a user with username *'theuser'* and facorite genre 'nosql'**:
+
+        mutation {
+            createUser(username: "theuser", favoriteGenre: "nosql") {
+                username 
+                favoriteGenre
+            }
+        }
+
+    
