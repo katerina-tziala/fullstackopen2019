@@ -20,7 +20,7 @@ The *DataForCountries App* is a simple React App, which displays information for
 ## Running the App Locally
 **1.** Make sure that all the dependencies of the *DataForCountries App* are installed.
 
-**2.** Get your own **API key** from [**weatherstack**](https://weatherstack.com/) and set it as the value of the ***'apiKey'*** variable in the ***'CountryDetails.js'*** file.<br/>
+**2.** Get your own **API key** from [**weatherstack**](https://weatherstack.com/) and set it as the value of the ***'apiKey'*** variable in the ***'CountryDetails.js'*** file.<br/><br/>
 <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/dataforcountries_apiKey.png" alt="code snippet in CountryDetails component" width="auto" height="70">
 
 **2.** Navigate from your terminal inside the /part2/dataforcountries folder and run ***npm start***.
