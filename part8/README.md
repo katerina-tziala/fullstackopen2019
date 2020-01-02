@@ -42,9 +42,7 @@ The following list contains the resources provided by the university of Helsinki
 
 * [**Apollo-GraphQL Resolvers**](https://www.apollographql.com/docs/graphql-tools/resolvers/#Resolver-function-signature).
 
+* [**uuid**](https://github.com/kelektiv/node-uuid#readme) library.
 
-
-
-
-
+* [**GraphQL Validation**](https://graphql.org/learn/validation/).
 
