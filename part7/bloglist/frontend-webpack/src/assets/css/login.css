@@ -1,0 +1,12 @@
+.ui.fluid.container, .ui.centered.one.column.grid {
+    height: 100%;
+}
+
+.ui.form {
+    background-color: #fff;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 1px 1px 15px #8c8c8c;
+}

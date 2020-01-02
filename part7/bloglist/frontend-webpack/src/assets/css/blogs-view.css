@@ -1,0 +1,26 @@
+.blogsContainer {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 1px 1px 15px #8c8c8c;
+}
+
+.blogsContainer>h2 {
+    color: #2185d0;
+}
+
+.blogsContainer>h2>span {
+    padding-left: 8px;
+}
+
+.ten.wide {
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.blogsContainer .ui.form {
+    box-shadow: none;
+}

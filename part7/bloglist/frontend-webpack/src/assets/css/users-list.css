@@ -1,0 +1,16 @@
+.usersContainer {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 1px 1px 15px #8c8c8c;
+}
+
+.usersContainer>h2 {
+    color: #2185d0;
+}
+.usersContainer>h2>span {
+    padding-left: 8px;
+}

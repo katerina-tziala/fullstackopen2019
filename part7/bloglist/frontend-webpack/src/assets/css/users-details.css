@@ -1,0 +1,15 @@
+.userDetails {
+    margin: auto;
+    margin-top: 40px;
+    background-color: #fff;
+    box-shadow: 1px 1px 15px #8c8c8c;
+    padding: 20px;
+}
+
+h1 {
+    color: #2185d0;
+}
+
+.item {
+    font-size: 16px;
+}

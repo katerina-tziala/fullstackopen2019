@@ -1,0 +1,78 @@
+header {
+  background-color: #2185d0;
+}
+
+.ui.grid {
+  color: #fff;
+  margin: 0;
+  padding: 10px;
+}
+
+.two.column.row {
+  padding: 0px;
+  margin: 0px;
+}
+
+.floated.four.wide.column {
+  padding: 0px;
+  max-width: 280px;
+  min-width: 280px;
+}
+
+.appTitle {
+  color: #fff;
+}
+.userInfo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.loggedInUser >.user.circle.icon {
+  font-size: 24px;
+}
+
+.loggedInUser {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  max-width: 250px;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.userName {
+  margin-left: 8px;
+  flex-grow: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.ui.inverted.menu {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
+
+
+@media screen and (max-width: 580px) {
+  .floated.four.wide.column {
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .floated.four.wide.column>h1 {
+    text-align: center;
+  }
+  .userInfo {
+    justify-content: flex-start;
+  }
+  .loggedInUser {
+    max-width: 490px;
+  }
+}
