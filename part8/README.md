@@ -29,6 +29,6 @@ The *Library-GraphQl App* consists of two parts:
 
 <h3>Running the App</h3>
 
-To run the app locally, both parts of the app (backend and frontend) should run in parallel. Follow the instructions in the *README* file, located in the root folder of each part, to compile and run the app locally.
+To run the app locally, both parts of the app (backend and frontend) should run in parallel (different terminals). Follow the instructions in the *README* file, located in the root folder of each part, to compile and run the app locally.
 
 **Note:** Currently, there is only one user that can log in the app. The credentials to log in can be found in the *README* file in the  [**library-graphql-frontend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part8/library-graphql-frontend) folder.
