@@ -11,11 +11,15 @@ const JWT_SECRET = 'NEED_HERE_A_SECRET_KEY';
 const { PubSub } = require('apollo-server');
 const pubsub = new PubSub();
 
+const MONGO_DB_USER = '_MONGO_DB_USER_';
+const MONGO_DB_ACCESS_KEY = '_MONGO_DB_ACCESS_KEY_';
+const MONGO_DB_URL = `mongodb+srv://${MONGO_DB_USER}:${MONGO_DB_ACCESS_KEY}@cluster0-xq5jf.mongodb.net/library?retryWrites=true&w=majority`;
+
 mongoose.set('useNewUrlParser', true);
 mongoose.set('useFindAndModify', false);
 mongoose.set('useCreateIndex', true);
 mongoose.set('useUnifiedTopology', true);
-mongoose.connect('mongodb+srv://fullstack:fullstackKT6890@cluster0-xq5jf.mongodb.net/library?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(MONGO_DB_URL, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => {
         console.log('connected to MongoDB');
     })
