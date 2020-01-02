@@ -3,7 +3,7 @@
 <br/>Part 1: Introduction to React<br/>
 </h1>
 
-This part introduces the React-library and it's core conceps, which will be used to write the frontend code of the apps to be developed. Additionally, this part presents some features of Javascript that are important for understanding React.
+This part introduces the React-library and it's core conceps, which is used in this course to write the frontend code of the applications. Additionally, this part presents some features of Javascript that are important for understanding React.
 
 <h2>Overview of Part 1</h2>
 
