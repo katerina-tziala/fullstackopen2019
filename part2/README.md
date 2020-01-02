@@ -24,7 +24,7 @@ This directory contains the series of exercises for *Part 2*. In this part three
 
 * **courseinfo:** The *CourseInfo App*, which displays information for a course.
 
-* **dataforcountries:** The *DataForCountries App*, which displays information of various countries.
+* **dataforcountries:** The *DataForCountries App*, which displays information for various countries.
 
 * **phonebook:** The *PhoneBook App*, a digital phonebook where users can add and display phonenumbers of desired persons.
 

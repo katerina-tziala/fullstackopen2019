@@ -3,7 +3,7 @@
 DataForCountries App<br/>
 </h1>
 
-The *DataForCountries App* is a simple React App, which displays information of various countries
+The *DataForCountries App* is a simple React App, which displays information for various countries
 
 
 ## Installation of the App
