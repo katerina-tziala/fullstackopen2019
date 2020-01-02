@@ -93,7 +93,7 @@ const App = (props) => {
   const client = useApolloClient();
   const allAuthors = useQuery(ALL_AUTHORS);
   const allBooks = useQuery(ALL_BOOKS);
-  const currentUser = useQuery(CURRENT_USER).data;
+  const currentUser = useQuery(CURRENT_USER);
   const [token, setToken] = useState(localStorage.getItem('user_token') ? localStorage.getItem('user_token') : null);
   const [page, setPage] = useState('authors');
   const [notification, setNotification] = useState(null);
@@ -122,11 +122,11 @@ const App = (props) => {
   const [setBornYear] = useMutation(SET_BORN_YEAR, {
     onError: () => { handleError('author was not updated') },
     update: (store, response) => {
-     const updatedAuthor = response.data.editAuthor;
-     const type = 'success';
-     const message = `Author "${updatedAuthor.name}" was updated!`;
-     notifyUser({ type, message });
-     updateCacheWithAuthor(updatedAuthor);
+      const updatedAuthor = response.data.editAuthor;
+      const type = 'success';
+      const message = `Author "${updatedAuthor.name}" was updated!`;
+      notifyUser({ type, message });
+      updateCacheWithAuthor(updatedAuthor);
     }
   });
 
@@ -136,7 +136,8 @@ const App = (props) => {
   });
 
   const [login] = useMutation(LOGIN, {
-    onError: () => { handleError('password or username incorrect') }
+    onError: () => { handleError('password or username incorrect') },
+    refetchQueries: [{ query: CURRENT_USER }]
   });
 
   const setCurrentUserToken = (token) => {
@@ -153,7 +154,11 @@ const App = (props) => {
 
   const includedInSet = (set, object) => set.map(p => p.id).includes(object.id);
 
-  const getFavoriteGenre = () => currentUser.me.favoriteGenre;
+  const getFavoriteGenre = () => {
+    return client.query({ query: CURRENT_USER })
+      .then(result => result.data.me.favoriteGenre)
+      .catch(error => { return undefined });
+  };
 
   const updateCacheWithBook = (addedBook) => {
     const booksInStore = client.readQuery({ query: ALL_BOOKS });
@@ -181,24 +186,25 @@ const App = (props) => {
   };
 
   const updateReccomendations = (addedBook) => {
-    const userFavoriteGenre = getFavoriteGenre();
-    if (addedBook.genres.includes(userFavoriteGenre)) {
-      try {
-        const reccomendations = client.readQuery({
-          query: RECCOMENDED_BOOKS,
-          variables: { genre: userFavoriteGenre },
-        });
-        if (!includedInSet(reccomendations.allBooks, addedBook)) {
-          reccomendations.allBooks.push(addedBook);
-          client.writeQuery({
+    getFavoriteGenre().then(userFavoriteGenre => {
+      if (userFavoriteGenre && addedBook.genres.includes(userFavoriteGenre)) {
+        try {
+          const reccomendations = client.readQuery({
             query: RECCOMENDED_BOOKS,
             variables: { genre: userFavoriteGenre },
-            data: reccomendations
           });
+          if (userFavoriteGenre && !includedInSet(reccomendations.allBooks, addedBook)) {
+            reccomendations.allBooks.push(addedBook);
+            client.writeQuery({
+              query: RECCOMENDED_BOOKS,
+              variables: { genre: userFavoriteGenre },
+              data: reccomendations
+            });
+          }
+        } catch (error) {
         }
-      } catch (error) {
       }
-    }
+    });
   };
 
   const userIsLoggedIn = () => {
