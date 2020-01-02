@@ -22,9 +22,9 @@ This part builds up the knowledge on React-library. Firstly, it presents how to 
 
 This directory contains the series of exercises for *Part 2*. In this part three applications were developed:
 
-* **courseinfo:** The *CourseInfo App* which displays information for a course.
+* **courseinfo:** The *CourseInfo App*, which displays information for a course.
 
-* **dataforcountries:** The *DataForCountries App* 
+* **dataforcountries:** The *DataForCountries App*, an application, in which a user can see information of various countries.
 
 * **phonebook:** The *PhoneBook App*, a digital phonebook where users can add and display phonenumbers of desired persons.
 
