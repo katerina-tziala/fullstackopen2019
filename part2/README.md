@@ -33,10 +33,4 @@ This directory contains the series of exercises for *Part 2*. In this part three
 
 For each one of the developed apps follow the instructions in the *README* file, located in the root folder of each app, to compile and run the app locally.
 
-<h2>Material For Further Study</h2>
-
-
-
-
-
 
