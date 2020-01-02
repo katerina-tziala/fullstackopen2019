@@ -17,11 +17,9 @@ const App = () => {
     axios
       .get('https://restcountries.eu/rest/v2/all')
       .then(response => {
-        console.log('promise fulfilled', response)
-        setCountries(response.data)
-      })
-  }, [])
-
+        setCountries(response.data);
+      });
+  }, []);
 
   const countryName = (country) => country.name.toLowerCase();
   const filterCountries = () => [...countries].filter(country => countryName(country).includes(filter.toLowerCase()));

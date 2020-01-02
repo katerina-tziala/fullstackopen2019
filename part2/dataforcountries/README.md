@@ -6,6 +6,12 @@ DataForCountries App<br/>
 The *DataForCountries App* is a simple React App, which displays information for various countries
 
 
+## APIs Used
+
+* [**REST COUNTRIES**](https://restcountries.eu)**:** A REST API to retrieve information about all countries.
+* [**weatherstack**](https://weatherstack.com/)**:** A Real-Time & Historical World Weather Data API, to retrieve instant, accurate weather information for any country in lightweight JSON format.
+
+
 ## Installation of the App
 **1.** Fork and clone this repository.
 
