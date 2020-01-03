@@ -31,14 +31,14 @@ const AnecdoteList = (props) => {
 const getDisplayedAnecdotes = (anecdotes, filter) => {
     let newList = [...anecdotes];
     if (filter.length) {
-        const filterParts = filter.split(' ');
+        const filterParts = filter.split(' ').map(part => part.toLowerCase());
         newList = newList.filter(anecdote => belongsInFilter(filterParts, anecdote.content));
     }
     return getSortedAnecdotesByVotes(newList);
 };
 
 const belongsInFilter = (filterParts, content) => {
-    const contentParts = content.split(' ');
+    const contentParts = content.split(' ').map(part => part.toLowerCase());
     const matches = filterParts.filter(value => -1 !== contentParts.indexOf(value));
     return (matches.length) ? true : false;
 };
