@@ -5,12 +5,12 @@
 Library-GraphQl App - Backend<br/>
 </h1>
 
-The *Library-GraphQl App - Backend* contains the code for the backend side of the *Library-GraphQl App*.
+The *Library-GraphQl App - Backend* contains the code for the developed API (backend side) of the *Library-GraphQl App*.
 
 ## Installation of the App
 **1.** Fork and clone this repository.
 
-**2.** Navigate from your terminal inside the /part8/library-graphql-backend folder and run ***npm install*** or ***npm i*** to install the project's dependencies.
+**2.** Navigate from your terminal inside the /part8/library-graphql-backend folder and run ***npm install*** or ***npm i*** to install the dependencies of the app.
 
 ## Running the App Locally
 **1.** Make sure that all the dependencies of the *Library-GraphQl App - Backend* are installed.

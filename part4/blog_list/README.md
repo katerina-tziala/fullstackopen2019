@@ -10,7 +10,7 @@ The *Bloglist API* contains the code for the developed API (backend side) of the
 
 **1.** Fork and clone this repository.
 
-**2.** Navigate from your terminal inside the /part4/blog_list folder and run ***npm install*** or ***npm i*** to install the project's dependencies.
+**2.** Navigate from your terminal inside the /part4/blog_list folder and run ***npm install*** or ***npm i*** to install the dependencies of the app.
 
 
 ## Running the App Locally
