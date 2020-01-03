@@ -3,7 +3,7 @@
 <br/>Part 6: State Management with Redux<br/>
 </h1>
 
-This part of the course is about GraphQL, Facebook's alternative to REST for communication between browser and a server.
+In this part, the Redux-library is introduced, which is currently the most popular solution for managing the state of React-applications.
 
 <h2>Contents of Part 6</h2>
 
