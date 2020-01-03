@@ -7,7 +7,7 @@ The first section of this part deals with the practicalities of taking this cour
 
 <h2>Contents of Part 0</h2>
 
-* **General Info:** Prerequisites, Course material, Taking the course, Grading, Course certificate, Submitting exercises, Full stack project, Before you start
+* **General Info:** Prerequisites, Course material, Taking the course, Grading, Course certificate, Submitting exercises, Before you start
 
 * **Fundamentals of Web Apps:** HTTP GET, Traditional Web Applications, Running application logic on the browser, Event handlers and Callback functions, Document Object Model or DOM, Manipulating the document-object from console,  CSS, Forms and HTTP POST, AJAX, Single page app, Javascript-libraries, Full stack web development, Javascript fatigue
 
