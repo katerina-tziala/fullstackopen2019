@@ -1,5 +1,5 @@
 <h1>
-<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/node_express.png" alt="node express logo" width="auto" height="50">
+<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/node_express.png" alt="node express logo" width="auto" height="60">
 <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/mongoDB_logo.png" alt="mongoDB logo" width="50" height="50">
 Bloglist API<br/>
 </h1>
@@ -17,16 +17,16 @@ The *Bloglist API* contains the code for the developed API (backend side) of the
 
 **1.** Make sure that all the dependencies of the *Bloglist API* are installed.
 
-**2.** Create your own account on [**MongoDb**](https://www.mongodb.com/cloud), add a user, and get the your credentials for the database access.
+**2.** Create your own account on [**MongoDb**](https://www.mongodb.com/cloud), add a user, and get your credentials for the database access.
 
 **2.** In the .env file at the root of the project set the *'MONGODB_URI'* and *'TEST_MONGODB_URI'* variables
     
     MONGODB_URI=...
     TEST_MONGODB_URI=...
 
-**Note:** Make sure that the name of the database is **bloglist**.
+**Note:** Make sure that the name of the database is **bloglist**!
 
-**3.**  Navigate from your terminal inside the /part4/blog_list folder and run ***npm run unit-test*** to run unit tests on the app.
+**3.**  Navigate from your terminal inside the /part4/blog_list folder and run ***npm run start*** to run the server of the API.
 
 
 ## Testing the App
