@@ -19,14 +19,14 @@ The *Bloglist API* contains the code for the developed API (backend side) of the
 
 **2.** Create your own account on [**MongoDb**](https://www.mongodb.com/cloud), add a user, and get your credentials for the database access.
 
-**2.** In the .env file at the root of the project set the *'MONGODB_URI'* and *'TEST_MONGODB_URI'* variables
+**2.** In the **.env** file at the root of the project set the *'MONGODB_URI'* and *'TEST_MONGODB_URI'* variables:
     
     MONGODB_URI=...
     TEST_MONGODB_URI=...
 
 **Note:** Make sure that the name of the database is **bloglist**!
 
-**3.**  Navigate from your terminal inside the /part4/blog_list folder and run ***npm run start*** to run the server of the API.
+**3.**  Navigate from your terminal inside the /part4/blog_list folder and run ***npm run start*** to start the server of the API.
 
 
 ## Testing the App
@@ -35,7 +35,9 @@ Before running any tests make sure that:
 
 **1.** All the dependencies of the *Bloglist API* are installed.
 
-**2.** Create .env file at the root of the project and
+**2.** You created have access to a cluster on [**MongoDb**](https://www.mongodb.com/cloud). 
+
+**3.** The *'MONGODB_URI'* and *'TEST_MONGODB_URI'* variables in the **.env** file are correctly defined, as stated before.
 
 
 ### Unit Testing
