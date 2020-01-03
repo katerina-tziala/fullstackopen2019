@@ -16,7 +16,12 @@ In this part, the Redux-library is introduced, which is currently the most popul
 
 <h2>Exercises of Part 6</h2>
 
-This directory contains the series of exercises for *Part 6*. 
+This directory contains the series of exercises for *Part 6*. In this part two applications were developed:
 
+* [**unicafe_redux**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part6/unicafe_redux)**:** The *Unicafe App*, a web application for collecting customer feedback. There are only three options for feedback: good, neutral, and bad.
 
+* [**anecdotes_redux**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part6/anecdotes_redux)**:** The *Anecdotes App*, which displays anecdotes from the world of software engineering, where users can display random anecdotes and vote the displayed ones. 
 
+<h3>Running the Apps</h3>
+
+For each one of the developed apps follow the instructions in the *README* file, located in the root folder of each app, to compile and run the app locally.
