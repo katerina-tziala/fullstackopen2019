@@ -19,4 +19,4 @@ This directory contains the series of exercises for *Part 0*. In this part 3 dia
 
 * [**Single Page App**](https://github.com/katerina-tziala/fullstackopen2019/blob/master/part0/Single%20Page%20App.png)**:** A diagram depicting the situation where the user goes to the single page app version of the notes app at https://fullstack-exampleapp.herokuapp.com/spa.
 
-* [**Single Page App - New Note**](https://github.com/katerina-tziala/fullstackopen2019/blob/master/part0/Single%20Page%20App%20-%20New%20Note.png)**:** A diagram depicting the situation, where user creates a new note using the single page version of the app..
+* [**Single Page App - New Note**](https://github.com/katerina-tziala/fullstackopen2019/blob/master/part0/Single%20Page%20App%20-%20New%20Note.png)**:** A diagram depicting the situation, where user creates a new note using the single page version of the app.
