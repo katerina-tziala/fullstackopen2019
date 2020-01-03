@@ -2,6 +2,12 @@
   "name": "library-graphql-frontend",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katerina-tziala/fullstackopen2019/tree/master/part8/library-graphql-frontend"
+  },
+  "author": "Katerina Tziala",
+  "license": "ISC",
   "dependencies": {
     "apollo-boost": "^0.4.3",
     "apollo-link-context": "^1.0.19",

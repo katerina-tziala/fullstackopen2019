@@ -1,7 +1,6 @@
 {
-  "name": "bloglist_backend",
+  "name": "blog_list",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=production node index.js",
@@ -12,7 +11,11 @@
     "test-file": "cross-env NODE_ENV=test npx jest <PATH_OF_THE_FILE> --runInBand",
     "lint": "eslint ."
   },
-  "author": "katerina tziala",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katerina-tziala/fullstackopen2019/tree/master/part4/blog_list"
+  },
+  "author": "Katerina Tziala",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",

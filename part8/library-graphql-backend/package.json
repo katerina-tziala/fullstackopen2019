@@ -7,8 +7,12 @@
     "start": "node index.js",
     "watch": "nodemon index.js"
   },
-  "author": "katerina tziala",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katerina-tziala/fullstackopen2019/tree/master/part8/library-graphql-backend"
+  },
+  "author": "Katerina Tziala",
+  "license": "ISC",
   "dependencies": {
     "apollo-server": "^2.6.4",
     "graphql": "^14.3.1",

@@ -2,6 +2,12 @@
   "name": "phonebook",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katerina-tziala/fullstackopen2019/tree/master/part2/phonebook"
+  },
+  "author": "Katerina Tziala",
+  "license": "ISC",
   "dependencies": {
     "axios": "^0.19.0",
     "react": "^16.11.0",

@@ -2,6 +2,12 @@
   "name": "courseinfo",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katerina-tziala/fullstackopen2019/tree/master/part1/courseinfo"
+  },
+  "author": "Katerina Tziala",
+  "license": "ISC",
   "dependencies": {
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
