@@ -17,8 +17,14 @@ The *Bloglist API* contains the code for the developed API (backend side) of the
 
 **1.** Make sure that all the dependencies of the *Bloglist API* are installed.
 
-**2.** Create the .env file at the root of the project and
+**2.** Create your own account on [**MongoDb**](https://www.mongodb.com/cloud), add a user, and get the your credentials for the database access.
 
+**2.** In the .env file at the root of the project set the *'MONGODB_URI'* and *'TEST_MONGODB_URI'* variables
+    
+    MONGODB_URI=...
+    TEST_MONGODB_URI=...
+
+**Note:** Make sure that the name of the database is **bloglist**.
 
 **3.**  Navigate from your terminal inside the /part4/blog_list folder and run ***npm run unit-test*** to run unit tests on the app.
 
@@ -34,17 +40,17 @@ Before running any tests make sure that:
 
 ### Unit Testing
 
-In order to run unit tests on the app navigate from your terminal inside the /part4/blog_list folder and run ***npm run unit-test***.
+In order to execute the unit tests on the app navigate from your terminal inside the /part4/blog_list folder and run ***npm run unit-test***.
 
 
 ### Integration Testing
 
-In order to run integration tests on the app navigate from your terminal inside the /part4/blog_list folder and run ***npm run unit-test***.
+In order to execute the integration tests on the app navigate from your terminal inside the /part4/blog_list folder and run ***npm run unit-test***.
 
 
 ### Running Tests of a specific file
 
-In order to run the tests of a single file:
+In order to execute the tests of a single file:
 
 **1.** Define the path of the file you want to test in the *'npm script test-file'* command to execute the tests of the desired file.
 
