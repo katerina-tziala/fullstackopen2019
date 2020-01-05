@@ -21,6 +21,8 @@ This directory contains the series of exercises for *Part 5*. In this part two a
 
 * [**custom_hooks**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part5/custom_hooks)**:** The *CustomHooks App*, a simple React App which demonstrates how custom hooks can be used in different situations.
 
+* [**bloglist**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part5/bloglist)**:** The *Bloglist App*, 
+
 
 
 <h3>Running the Apps</h3>
