@@ -22,3 +22,6 @@ The BlogList App is a simple React App, which allows users to save information a
 
 ## Testing the App
 
+CI=true npm test
+
+CI=true npm test -- --coverage
