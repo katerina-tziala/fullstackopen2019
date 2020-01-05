@@ -3,7 +3,7 @@
 CustomHooks App<br/>
 </h1>
 
-The *CustomHooks App* is a simple React App which demonstrates how custom hooks can be used in different situations.:
+The *CustomHooks App* is a simple React App which demonstrates how custom hooks can be used in different situations:
 
 * **useField hook:** is implemented to manage the state of an input field,
 * **useResource hook:** is implemented to retrieve and create different kind of resources
