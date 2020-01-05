@@ -8,12 +8,12 @@
     "test": "cross-env NODE_ENV=test npx jest tests/ --runInBand",
     "unit-test": "cross-env NODE_ENV=test npx jest tests/unit/.*.js --runInBand",
     "test-api": "cross-env NODE_ENV=test npx jest tests/api/.*.js --runInBand",
-    "test-file": "cross-env NODE_ENV=test npx jest tests/api/user_creation.test --runInBand",
+    "test-file": "cross-env NODE_ENV=test npx jest <PATH_OF_THE_FILE> --runInBand",
     "lint": "eslint ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/katerina-tziala/fullstackopen2019/tree/master/part5/bloglist_backend"
+    "url": "git+https://github.com/katerina-tziala/fullstackopen2019/tree/master/part5/bloglist/backend"
   },
   "author": "Katerina Tziala",
   "license": "ISC",
