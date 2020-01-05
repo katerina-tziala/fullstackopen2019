@@ -23,4 +23,4 @@ This directory contains the series of exercises for *Part 4*. In this part the A
 
 <h3>Running the App</h3>
 
-To run the backend of the *BlogList App* follow the instructions in the *README* file, located in the [**blog_list**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part4/blog_list) folder.
+To run the backend of the *BlogList App* follow the instructions in the *README* file, located in the [**bloglist**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part4/bloglist) folder.
