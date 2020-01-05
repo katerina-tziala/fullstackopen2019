@@ -1,10 +1,12 @@
 <h1>
 <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/react_logo.png" alt="react logo" width="50" height="50">
-<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/redux_logo.png" alt="redux logo" width="50" height="50">
 CustomHooks App<br/>
 </h1>
 
-The *CustomHooks App* is a simple React App 
+The *CustomHooks App* is a simple React App which demonstrates how custom hooks can be used in different situations.:
+
+* **useField hook:** is implemented to manage the state of an input field,
+* **useResource hook:** is implemented to retrieve and create different kind of resources
  
 
 ## Installation of the App
