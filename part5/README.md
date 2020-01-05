@@ -19,7 +19,8 @@ In this part the focus shifts again towards the frontend, starting with a look a
 
 This directory contains the series of exercises for *Part 5*. In this part two applications were developed:
 
-* [**custom_hooks**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part5/custom_hooks)**:** The *CustomHooks App*
+* [**custom_hooks**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part5/custom_hooks)**:** The *CustomHooks App*, a simple React App which demonstrates how custom hooks can be used in different situations.
+
 
 
 <h3>Running the Apps</h3>
