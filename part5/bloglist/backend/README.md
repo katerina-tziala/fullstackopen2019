@@ -10,7 +10,7 @@ The *Bloglist API* contains the code for the developed API (backend side) of the
 
 **1.** Fork and clone this repository.
 
-**2.** Navigate from your terminal inside the /part6/bloglist/backend folder and run ***npm install*** or ***npm i*** to install the dependencies of the app.
+**2.** Navigate from your terminal inside the /part5/bloglist/backend folder and run ***npm install*** or ***npm i*** to install the dependencies of the app.
 
 
 ## Running the App Locally
@@ -26,7 +26,7 @@ The *Bloglist API* contains the code for the developed API (backend side) of the
 
 **Note:** Make sure that the name of the database is **bloglist**!
 
-**3.**  Navigate from your terminal inside the /part6/bloglist/backend folder and run ***npm run start*** to start the server of the API.
+**3.**  Navigate from your terminal inside the /part5/bloglist/backend folder and run ***npm run start*** to start the server of the API.
 
 
 ## Testing the App
@@ -42,15 +42,15 @@ Before running any tests make sure that:
 
 ### Unit Testing
 
-In order to execute the unit tests on the app navigate from your terminal inside the /part6/bloglist/backend folder and run ***npm run unit-test***.
+In order to execute the unit tests on the app navigate from your terminal inside the /part5/bloglist/backend folder and run ***npm run unit-test***.
 
 
 ### Integration Testing
 
-In order to execute the integration tests on the app navigate from your terminal inside the /part6/bloglist/backend folder and run ***npm run unit-test***.
+In order to execute the integration tests on the app navigate from your terminal inside the /part5/bloglist/backend folder and run ***npm run test-api***.
 
 
-### Running Tests of a specific file
+### Running Tests of a Specific File
 
 In order to execute the tests of a single file:
 

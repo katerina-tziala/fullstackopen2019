@@ -8,7 +8,7 @@
     "test": "cross-env NODE_ENV=test npx jest tests/ --runInBand",
     "unit-test": "cross-env NODE_ENV=test npx jest tests/unit/.*.js --runInBand",
     "test-api": "cross-env NODE_ENV=test npx jest tests/api/.*.js --runInBand",
-    "test-file": "cross-env NODE_ENV=test npx jest <PATH_OF_THE_FILE> --runInBand",
+    "test-file": "cross-env NODE_ENV=test npx jest tests/api/users_fetching.test --runInBand",
     "lint": "eslint ."
   },
   "repository": {
