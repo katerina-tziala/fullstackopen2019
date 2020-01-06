@@ -98,7 +98,7 @@ describe('FETCHING BLOGS WHEN USER NOT AUTHENTICATED', () => {
             .expect('Content-Type', /application\/json/);
     });
 
-    test('-- fetching specific blog fails when user not authorizedt', async () => {
+    test('-- fetching specific blog fails when user not authorized', async () => {
         const blogsInDB = await testHelper.blogsInDB();
         const blogToView = blogsInDB[0];
         await api

@@ -50,6 +50,11 @@ In order to execute the unit tests on the app navigate from your terminal inside
 In order to execute the integration tests on the app navigate from your terminal inside the /part4/bloglist folder and run ***npm run test-api***.
 
 
+### Full Testing
+
+In order to execute all tests on the app navigate from your terminal inside the /part4/bloglist folder and run ***npm run test***.
+
+
 ### Running Tests of a Specific File
 
 In order to execute the tests of a single file:
