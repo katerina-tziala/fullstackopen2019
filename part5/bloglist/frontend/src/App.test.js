@@ -22,9 +22,9 @@ describe('<App />', () => {
 describe('<App />', () => {
     test('when the user is logged in, the blog posts are rendered to the page', async () => {
         const user = {
-            name: "Matti Luukkainen",
-            username: "mluukkai",
-            id: "5df66c726fc9672bf8b6bdc7",
+            name: 'Matti Luukkainen',
+            username: 'mluukkai',
+            id: '5df66c726fc9672bf8b6bdc7',
             blogs: []
         };
         const mockLogoutUser = jest.fn();

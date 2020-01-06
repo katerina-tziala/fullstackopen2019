@@ -1,6 +1,10 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Notification = ({ notification }) => {
+    Notification.propTypes = {
+        notification: PropTypes.object
+    };
     if (!notification) {
         return null;
     }

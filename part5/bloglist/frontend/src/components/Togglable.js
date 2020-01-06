@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 
 const Togglable = React.forwardRef((props, ref) => {
     Togglable.propTypes = {
-        buttonLabel: PropTypes.string.isRequired
+        buttonLabel: PropTypes.string.isRequired,
+        displayCancelButton: PropTypes.bool.isRequired
     };
     const [visible, setVisible] = useState(false);
 

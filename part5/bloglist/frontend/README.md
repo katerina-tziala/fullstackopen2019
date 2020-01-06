@@ -3,8 +3,7 @@
 Bloglist Frontend<br/>
 </h1>
 
-The *BlogList Frontend* is a simple React App, which allows users to save information about interesting blogs they have stumbled across on the internet. For each listed blog the app saves the author, the title, the url, and the amount of upvotes from users of the application.
-
+The *BlogList Frontend* contains the code for the frontend side of the *BlogList App*.
 
 ## Installation of the App
 

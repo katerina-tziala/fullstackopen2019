@@ -4,12 +4,12 @@ import { render, fireEvent } from '@testing-library/react';
 import Blog from './Blog';
 
 const blogObject = {
-    id: "5df7d986d663721008ed952c",
+    id: '5df7d986d663721008ed952c',
     title: 'Type wars',
     author: 'Robert C. Martin',
     url: 'http://blog.cleancoder.com/uncle-bob/2016/05/01/TypeWars.html',
     likes: 2,
-    user: { name: "Matti Luukkainen", username: "mluukkai", id: "5df66c726fc9672bf8b6bdc7" }
+    user: { name: 'Matti Luukkainen', username: 'mluukkai', id: '5df66c726fc9672bf8b6bdc7' }
 };
 
 describe('<Blog/>', () => {
@@ -56,7 +56,7 @@ describe('<Blog/>', () => {
 });
 
 test('after clicking the title delete button is not displayed when the logged in user is not the user of the blog', () => {
-    const dummyusername = "dummyUser";
+    const dummyusername = 'dummyUser';
     const mockDeleteHandler = jest.fn();
     const mockLikeHandler = jest.fn();
     const component = render(
