@@ -59,7 +59,12 @@ To run the **End to End Testing** for the *Bloglist App*:
         **2.**  Run ***npm start***.
 
 
-**C.**  To execute the *End to End* testing:
+C. First list item
+   1 First nested list item
+   2 Second nested list item
+
+     
+**C.** To execute the *End to End* testing:
 
 **1.**  Open a new terminal, navigate from your terminal inside the /part7/bloglist/frontend folder and run ***npm run cypress:open***.
 
