@@ -32,13 +32,4 @@ There are only three files for testing the frontend of the app:
 **2.** Blog.test.js 
 **3.** SimpleBlog.test.js 
 
-
 To execute the tests navigate from your terminal inside the /part5/bloglist/frontend folder and run ***npm run test-app***. To include a coverage report for the tests run ***npm run test-app-coverage***.
-
-CI=true npm test a
-
-CI=true npm test -- --coverage
-
-npm test -- --coverage
-
-npm test a
