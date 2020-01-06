@@ -4,7 +4,8 @@
 Bloglist API<br/>
 </h1>
 
-The *Bloglist API* contains the code for the developed API (backend side) of the *Bloglist App*.
+The *Bloglist API* contains the code for the developed API (backend side) of the *Bloglist App*.  This app is build upon the
+*Bloglist API* that was developed in [**part4**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part4/bloglist). 
 
 ## Installation of the App
 
@@ -48,6 +49,11 @@ In order to execute the unit tests on the app navigate from your terminal inside
 ### Integration Testing
 
 In order to execute the integration tests on the app navigate from your terminal inside the /part5/bloglist/backend folder and run ***npm run test-api***.
+
+
+### Full Testing
+
+In order to execute all tests on the app navigate from your terminal inside the /part4/bloglist folder and run ***npm run test***.
 
 
 ### Running Tests of a Specific File
