@@ -2,9 +2,9 @@ describe('Bloglist App - User Is NOT Logged In', function () {
     beforeEach(function () {
         cy.request('POST', 'http://localhost:3003/api/testing/reset');
         const user = {
-            name: 'Matti Luukkainen',
-            username: 'mluukkai',
-            password: 'salainen'
+            name: 'The User',
+            username: 'theuser',
+            password: 'secretcode'
         };
         cy.request('POST', 'http://localhost:3003/api/users/', user);
         cy.visit('http://localhost:3000');
@@ -16,10 +16,10 @@ describe('Bloglist App - User Is NOT Logged In', function () {
 
     it('User can login', function () {
         cy.contains('Login').click();
-        cy.get('#username').type('mluukkai');
-        cy.get('#password').type('salainen');
+        cy.get('#username').type('theuser');
+        cy.get('#password').type('secretcode');
         cy.contains('login').click();
-        cy.contains('Matti Luukkainen');
+        cy.contains('The User');
     });
 });
 
@@ -27,15 +27,15 @@ describe('Bloglist App - User Is Logged In', function () {
     before(function () {
         cy.request('POST', 'http://localhost:3003/api/testing/reset');
         const user = {
-            name: 'Matti Luukkainen',
-            username: 'mluukkai',
-            password: 'salainen'
+            name: 'The User',
+            username: 'theuser',
+            password: 'secretcode'
         };
         cy.request('POST', 'http://localhost:3003/api/users/', user);
         cy.visit('http://localhost:3000');
         cy.contains('Login').click();
-        cy.get('#username').type('mluukkai');
-        cy.get('#password').type('salainen');
+        cy.get('#username').type('theuser');
+        cy.get('#password').type('secretcode');
         cy.contains('login').click();
     });
 
@@ -52,7 +52,7 @@ describe('Bloglist App - User Is Logged In', function () {
     it('Specific user can be viewed', function () {
         cy.contains('users').click();
         cy.contains('Users');
-        cy.get('a').contains('Matti Luukkainen').click();
+        cy.get('a').contains('The User').click();
         cy.contains('Added Blogs');
     });
 

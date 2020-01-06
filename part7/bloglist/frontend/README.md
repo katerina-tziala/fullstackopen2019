@@ -6,7 +6,7 @@ Bloglist Frontend<br/>
 
 The *BlogList Frontend* contains the code for the frontend side of the *BlogList App*.  This app is build upon the *Bloglist Frontend* that was developed in [**part5**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part5/bloglist/frontend). In this version of the *Bloglist App*, 
 
-
+utilizes the Redux-library for state mangement
 
 ## Installation of the App
 
