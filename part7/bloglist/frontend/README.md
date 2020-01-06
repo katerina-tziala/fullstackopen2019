@@ -36,35 +36,36 @@ Navigate from your terminal inside the /part7/bloglist/frontend folder and run *
 
 To run the **End to End Testing** for the *Bloglist App*:
 
-**A.**  Navigate from your terminal inside the /part7/bloglist/backend folder and:
+### Step A
 
-        **1.** Create your own account on [**MongoDb**](https://www.mongodb.com/cloud), add a user, and get your credentials for the database access.
+Navigate from your terminal inside the /part7/bloglist/backend folder and:
 
-        **2.** In the **.env** file at the root of the project set the *'MONGODB_URI'* and *'TEST_MONGODB_URI'* variables with the connection string provided by [**MongoDb**](https://www.mongodb.com/cloud):
+**1.** Create your own account on [**MongoDb**](https://www.mongodb.com/cloud), add a user, and get your credentials for the database access.
+
+**2.** In the **.env** file at the root of the project set the *'MONGODB_URI'* and *'TEST_MONGODB_URI'* variables with the connection string provided by [**MongoDb**](https://www.mongodb.com/cloud):
                 
                 MONGODB_URI=...
                 TEST_MONGODB_URI=...
 
-        **Note:** Make sure that the name of the database is **bloglist**!
+**Note:** Make sure that the name of the database is **bloglist**!
 
-        **3.**  Run ***npm install*** or ***npm i*** to install the dependencies of the app.
+**3.**  Run ***npm install*** or ***npm i*** to install the dependencies of the app.
 
-        **4.** Run ***npm run start:test*** to start the server of the  *Bloglist API* in testing mode.
-
-
-**B.**  Open a new terminal, navigate from your terminal inside the /part7/bloglist/frontend folder and:
-
-        **1.**  Run ***npm install*** or ***npm i*** to install the dependencies of the app.
-
-        **2.**  Run ***npm start***.
+**4.** Run ***npm run start:test*** to start the server of the  *Bloglist API* in testing mode.
 
 
-C. First list item
-   1 First nested list item
-   2 Second nested list item
+### Step B
 
-     
-**C.** To execute the *End to End* testing:
+Open a new terminal, navigate from your terminal inside the /part7/bloglist/frontend folder and:
+
+**1.**  Run ***npm install*** or ***npm i*** to install the dependencies of the app.
+
+**2.**  Run ***npm start***.
+
+
+### Step C
+
+To execute the *End to End* testing:
 
 **1.**  Open a new terminal, navigate from your terminal inside the /part7/bloglist/frontend folder and run ***npm run cypress:open***.
 
