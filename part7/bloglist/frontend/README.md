@@ -32,16 +32,39 @@ utilizes the Redux-library for state mangement
 Navigate from your terminal inside the /part7/bloglist/frontend folder and run ***npm run eslint***.
 
 
-## Testing the App
-<!-- 
-There are only three files for testing the frontend of the app:
+## End to End Testing
+
+To run the **End to End Testing** for the *Bloglist App*:
+
+**A.**  Navigate from your terminal inside the /part7/bloglist/backend folder and:
+
+        **1.** Create your own account on [**MongoDb**](https://www.mongodb.com/cloud), add a user, and get your credentials for the database access.
+
+        **2.** In the **.env** file at the root of the project set the *'MONGODB_URI'* and *'TEST_MONGODB_URI'* variables with the connection string provided by [**MongoDb**](https://www.mongodb.com/cloud):
+                
+                MONGODB_URI=...
+                TEST_MONGODB_URI=...
+
+        **Note:** Make sure that the name of the database is **bloglist**!
+
+        **3.**  Run ***npm install*** or ***npm i*** to install the dependencies of the app.
+
+        **4.** Run ***npm run start:test*** to start the server of the  *Bloglist API* in testing mode.
 
 
-**1.** App.test.js
+**B.**  Open a new terminal, navigate from your terminal inside the /part7/bloglist/frontend folder and:
 
-**2.** Blog.test.js
+        **1.**  Run ***npm install*** or ***npm i*** to install the dependencies of the app.
 
-**3.** SimpleBlog.test.js
+        **2.**  Run ***npm start***.
 
 
-To execute the tests navigate from your terminal inside the /part5/bloglist/frontend folder and run ***npm run test-app***. To include a coverage report for the tests run ***npm run test-app-coverage***. -->
+**C.**  To execute the *End to End* testing:
+
+        **1.**  Open a new terminal, navigate from your terminal inside the /part7/bloglist/frontend folder and run ***npm run cypress:open***.
+
+        **2.**  On the *Cypress Panel* click ***Run all specs*** to execute the tests. <br/><br/>
+        <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/cypress_panel.png" alt="cypess panel" width="auto" height="300">
+
+
+
