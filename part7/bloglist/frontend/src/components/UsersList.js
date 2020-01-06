@@ -8,7 +8,8 @@ import { getAllUsers } from '../reducers/usersReducer';
 
 const UsersList = (props) => {
     UsersList.propTypes = {
-        displayedUsers: PropTypes.array.isRequired
+        displayedUsers: PropTypes.array.isRequired,
+        getAllUsers: PropTypes.func.isRequired
     };
 
     useEffect(() => {

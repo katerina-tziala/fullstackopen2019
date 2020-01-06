@@ -33,7 +33,7 @@ Navigate from your terminal inside the /part7/bloglist/frontend folder and run *
 
 
 ## Testing the App
-
+<!-- 
 There are only three files for testing the frontend of the app:
 
 
@@ -44,4 +44,4 @@ There are only three files for testing the frontend of the app:
 **3.** SimpleBlog.test.js
 
 
-To execute the tests navigate from your terminal inside the /part5/bloglist/frontend folder and run ***npm run test-app***. To include a coverage report for the tests run ***npm run test-app-coverage***.
+To execute the tests navigate from your terminal inside the /part5/bloglist/frontend folder and run ***npm run test-app***. To include a coverage report for the tests run ***npm run test-app-coverage***. -->

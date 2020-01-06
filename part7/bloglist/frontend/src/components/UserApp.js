@@ -15,7 +15,11 @@ import '../assets/css/user-app.css';
 
 const UserApp = (props) => {
     UserApp.propTypes = {
-        initializeBlogs: PropTypes.func.isRequired
+        initializeBlogs: PropTypes.func.isRequired,
+        users: PropTypes.array.isRequired,
+        blogs: PropTypes.array.isRequired,
+        currentUser: PropTypes.object.isRequired,
+        logoutUser: PropTypes.func.isRequired
     };
 
     useEffect(() => {
