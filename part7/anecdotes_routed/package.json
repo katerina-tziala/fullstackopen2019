@@ -4,7 +4,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/anecdotes_routed",
+    "url": "git+https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/anecdotes_routed"
   },
   "author": "Katerina Tziala",
   "license": "ISC",
