@@ -1,9 +1,5 @@
 import React, { useState } from 'react';
-import {
-  BrowserRouter as Router,
-  Route, Link, Redirect, withRouter
-} from 'react-router-dom';
-
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import About from './components/About';
 import AnecdoteList from './components/AnecdoteList';
 import CreateAnecdote from './components/CreateAnecdote';
@@ -26,10 +22,9 @@ const App = () => {
       votes: 0,
       id: '2'
     }
-  ])
+  ]);
 
-  const [notification, setNotification] = useState('')
-
+  const [notification, setNotification] = useState('');
 
   const notify = (notification) => {
     setNotification(notification);
@@ -41,22 +36,12 @@ const App = () => {
     setAnecdotes(anecdotes.concat(anecdote));
     const message = `A new anecdote "${anecdote.content}" was created!`;
     notify({message});
-  }
+  };
 
   const anecdoteById = (id) => {
     return [...anecdotes].find(a => a.id === id);
   };
 
-  const vote = (id) => {
-    const anecdote = anecdoteById(id)
-
-    const voted = {
-      ...anecdote,
-      votes: anecdote.votes + 1
-    }
-
-    setAnecdotes(anecdotes.map(a => a.id === id ? voted : a))
-  }
   const padding = { padding: 5 };
 
   return (
@@ -82,7 +67,6 @@ const App = () => {
     </div>
 
   )
-}
-
+};
 
 export default App;
