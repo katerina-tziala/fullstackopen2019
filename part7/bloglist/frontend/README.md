@@ -61,10 +61,10 @@ To run the **End to End Testing** for the *Bloglist App*:
 
 **C.**  To execute the *End to End* testing:
 
-        **1.**  Open a new terminal, navigate from your terminal inside the /part7/bloglist/frontend folder and run ***npm run cypress:open***.
+**1.**  Open a new terminal, navigate from your terminal inside the /part7/bloglist/frontend folder and run ***npm run cypress:open***.
 
-        **2.**  On the *Cypress Panel* click ***Run all specs*** to execute the tests. <br/><br/>
-        <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/cypress_panel.png" alt="cypess panel" width="auto" height="300">
+**2.**  On the *Cypress Panel* click ***Run all specs*** to execute the tests. <br/><br/>
+<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/cypress_panel.png" alt="cypess panel" width="auto" height="300">
 
 
 
