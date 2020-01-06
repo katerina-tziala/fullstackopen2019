@@ -26,7 +26,10 @@ To run the app locally, both parts of the app (backend and frontend) should run 
 
 +++
 
-<h3>End to end testing</h3>
+
+
+
+<h3>End to End Testing</h3>
 ++++
 
 
@@ -47,6 +50,7 @@ Navigate from your terminal inside the /part7/bloglist/backend folder and:
 
 **4.** Run ***npm run start:test*** to start the server of the API in testing mode.
 
+
 <h4>Setup Frontend for Testing</h4>
 
 Open a new terminal, navigate from your terminal inside the /part7/bloglist/frontend folder and:
@@ -55,8 +59,12 @@ Open a new terminal, navigate from your terminal inside the /part7/bloglist/fron
 
 **2.**  Run ***npm start***.
 
+
 <h4>Testing the App</h4>
 
-Open a new terminal, navigate from your terminal inside the /part7/bloglist/frontend folder and run ***npm run cypress:open*** to execute the tests.
+To execute the *End to End* testing: 
 
+**1.**  Open a new terminal, navigate from your terminal inside the /part7/bloglist/frontend folder and run ***npm run cypress:open***.
+
+**2.**  On the *Cypress Panel* click ***Run all specs*** to execute the tests.
 run all specs + image -->
