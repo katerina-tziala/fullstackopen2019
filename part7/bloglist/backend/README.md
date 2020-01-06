@@ -5,7 +5,7 @@ Bloglist API<br/>
 </h1>
 
 The *Bloglist API* contains the code for the developed API (backend side) of the *Bloglist App*. This API is the same
-*Bloglist API* that was developed in [**part7**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/bloglist). 
+*Bloglist API* that was developed in [**part5**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part5/bloglist). 
 
 ## Installation of the App
 
