@@ -1,68 +1,47 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1>
+<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/react_logo.png" alt="react logo" width="50" height="50">
+<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/redux_logo.png" alt="redux logo" width="50" height="50">
+Bloglist Frontend<br/>
+</h1>
 
-## Available Scripts
+The *BlogList Frontend* contains the code for the frontend side of the *BlogList App*.  This app is build upon the *Bloglist Frontend* that was developed in [**part5**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part5/bloglist/frontend). In this version of the *Bloglist App*, 
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation of the App
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+**1.** Fork and clone this repository.
 
-### `npm test`
+**2.** Navigate from your terminal inside the /part7/bloglist/frontend folder and run ***npm install*** or ***npm i*** to install the dependencies of the app.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Running the App Locally
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**1.** Make sure that all the dependencies of the *Bloglist App* are installed.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+**2.** Navigate from your terminal inside the /part7/bloglist/frontend folder and run ***npm start***.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**3.** Login with the following credentials:
 
-### `npm run eject`
+        username: theuser
+        password: secretcode
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Linting the App
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Navigate from your terminal inside the /part7/bloglist/frontend folder and run ***npm run eslint***.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Testing the App
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+There are only three files for testing the frontend of the app:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+**1.** App.test.js
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+**2.** Blog.test.js
 
-### Analyzing the Bundle Size
+**3.** SimpleBlog.test.js
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+To execute the tests navigate from your terminal inside the /part5/bloglist/frontend folder and run ***npm run test-app***. To include a coverage report for the tests run ***npm run test-app-coverage***.
