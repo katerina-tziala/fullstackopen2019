@@ -27,7 +27,17 @@ The *Bloglist API* contains the code for the developed API (backend side) of the
 
 **Note:** Make sure that the name of the database is **bloglist**!
 
-**4.**  Navigate from your terminal inside the /part5/bloglist/backend folder and run ***npm run start*** to start the server of the API.
+**4.**  Navigate from your terminal inside the /part5/bloglist/backend folder and run ***npm run init-app-db*** to initialize the database and create a user for the app. The user that will be created is:
+
+    {
+        name: 'The User',
+        username: 'theuser',
+        password: 'secretcode'
+    }
+
+**Note:** You will need the username to login in the frontend of the app!
+
+**5.**  Navigate from your terminal inside the /part5/bloglist/backend folder and run ***npm run start*** to start the server of the API.
 
 
 ## Testing the App

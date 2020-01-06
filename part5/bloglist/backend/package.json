@@ -9,6 +9,7 @@
     "unit-test": "cross-env NODE_ENV=test npx jest tests/unit/.*.js --runInBand",
     "test-api": "cross-env NODE_ENV=test npx jest tests/api/.*.js --runInBand",
     "test-file": "cross-env NODE_ENV=test npx jest <PATH_OF_THE_FILE> --runInBand",
+    "init-app-db": "cross-env NODE_ENV=test npx jest init_db/init-app-db.test.js --runInBand",
     "lint": "eslint ."
   },
   "repository": {
