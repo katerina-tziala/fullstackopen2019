@@ -24,6 +24,7 @@ part4/bloglist/node_modules
 part4/bloglist/package-lock.json
 
 
+
 part5/custom_hooks/node_modules
 part5/custom_hooks/package-lock.json
 
@@ -34,6 +35,7 @@ part5/bloglist/frontend/node_modules
 part5/bloglist/frontend/package-lock.json
 part5/bloglist/frontend/coverage.data
 part5/bloglist/frontend/coverage
+
 
 
 part6/anecdotes_redux/node_modules
@@ -49,6 +51,12 @@ part7/anecdotes_routed/package-lock.json
 
 part7/bloglist/backend/node_modules
 part7/bloglist/backend/package-lock.json
+
+part7/bloglist/frontend/node_modules
+part7/bloglist/frontend/package-lock.json
+part7/bloglist/frontend/coverage.data
+part7/bloglist/frontend/coverage
+
 
 
 part8/library-graphql-backend/node_modules
