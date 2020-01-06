@@ -13,7 +13,11 @@
     "lint": "eslint .",
     "start:test": "cross-env NODE_ENV=test node index.js"
   },
-  "author": "katerina tziala",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/bloglist/backend"
+  },
+  "author": "Katerina Tziala",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
