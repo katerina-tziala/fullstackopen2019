@@ -3,7 +3,7 @@
 Anecdotes App<br/>
 </h1>
 
-The *Anecdotes App* is a simple React App which displays anecdotes from the world of software engineering. This app is build upon the *Anecdotes App* that was developed in [**part1**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part1/anecdotes). In this version of the *Anecdotes App*, there are three diffent views:
+The *Anecdotes App* is a simple React App which displays anecdotes from the world of software engineering. This app is build upon the *Anecdotes App* that was developed in [**part1**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part1/anecdotes). In this version of the *Anecdotes App*, the app is structured into three diffent views:
 
 **1.** ***home:*** The view where users can see a list of the anecdotes.
 

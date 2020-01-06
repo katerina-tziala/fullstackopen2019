@@ -4,9 +4,8 @@
 Bloglist Frontend<br/>
 </h1>
 
-The *BlogList Frontend* contains the code for the frontend side of the *BlogList App*.  This app is build upon the *Bloglist Frontend* that was developed in [**part5**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part5/bloglist/frontend). In this version of the *Bloglist App*, 
+The *BlogList Frontend* contains the code for the frontend side of the *BlogList App*.  This app is build upon the *Bloglist Frontend* that was developed in [**part5**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part5/bloglist/frontend). In this version of the *Bloglist App*, the app utilizes the Redux-library for state mangement and is structured into three diffent views with the use of *React Router*.
 
-utilizes the Redux-library for state mangement
 
 ## Installation of the App
 
@@ -68,11 +67,11 @@ Open a new terminal, navigate from your terminal inside the /part7/bloglist/fron
 
 <h3>Step D: </h3>
 
-To execute the *End to End* testing:
+To execute the ***End to End*** testing:
 
 **1.**  Open a new terminal, navigate from your terminal inside the /part7/bloglist/frontend folder and run ***npm run cypress:open***.
 
-**2.**  On the *Cypress Panel* click ***Run all specs*** to execute the tests. <br/><br/>
+**2.**  On the ***Cypress Panel*** click ***Run all specs*** to execute the tests. <br/><br/>
 <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/cypress_panel.png" alt="cypess panel" width="auto" height="300">
 
 
