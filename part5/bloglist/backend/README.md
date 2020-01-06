@@ -35,7 +35,7 @@ The *Bloglist API* contains the code for the developed API (backend side) of the
         password: 'secretcode'
     }
 
-**Note:** You will need the username to login in the frontend of the app!
+**Note:** You will need the username and password to login in the frontend of the app!
 
 **5.**  Navigate from your terminal inside the /part5/bloglist/backend folder and run ***npm run start*** to start the server of the API.
 
