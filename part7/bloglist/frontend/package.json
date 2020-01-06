@@ -28,9 +28,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "eslint": "eslint .",
-    "cypress:open": "cypress open",
-    "test-app": "npm test a",
-    "test-app-coverage": "npm test -- --coverage a"
+    "cypress:open": "cypress open"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -51,7 +49,9 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "cypress": "^3.8.0",
+    "eslint": "^6.8.0",
     "eslint-plugin-jest": "^23.1.1",
+    "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-react-hooks": "^2.3.0"
   }
 }
