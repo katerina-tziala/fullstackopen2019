@@ -1,7 +1,13 @@
 {
-  "name": "bloglist_frontend",
+  "name": "bloglist_frontend-webpack",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/bloglist/frontend-webpack"
+  },
+  "author": "Katerina Tziala",
+  "license": "ISC",
   "dependencies": {
     "@babel/polyfill": "^7.7.0",
     "@testing-library/user-event": "^7.1.2",
