@@ -20,7 +20,7 @@ describe('INITIALIZE DATABASE', () => {
             username: 'theuser',
             password: 'secretcode'
         };
-        
+
         const usersAtStart = await testHelper.usersInDB();
         const newUser = appUser;
         const postResponse = await api
