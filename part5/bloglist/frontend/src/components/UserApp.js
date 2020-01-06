@@ -90,7 +90,7 @@ const UserApp = (props) => {
     return (
         <>
             <h1>BlogList App</h1>
-            <p>{user.name} logged in
+            <p>{user.name} is logged in
                 <Button handleClick={() => props.loggOutUser()} text='loggout' disabled={false} />
             </p>
             <Notification notification={notification} />
