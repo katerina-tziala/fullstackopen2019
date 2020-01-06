@@ -18,6 +18,8 @@ The seventh part of the course touches on several different themes. It starts wi
 
 <h2>Exercises of Part 7</h2>
 
-This directory contains the series of exercises for *Part 7*. 
+This directory contains the series of exercises for *Part 7*. In this part two applications were developed:
 
+* [**anecdotes_routed**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/anecdotes_routed)**:** The *Anecdotes App*, which displays anecdotes from the world of software engineering, structured in different views. 
 
+* [**bloglist**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/bloglist)**:** The *Bloglist App*,
