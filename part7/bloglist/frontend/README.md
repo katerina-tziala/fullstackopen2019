@@ -38,8 +38,6 @@ To run the **End to End Testing** for the *Bloglist App*:
 
 ### Step A
 
-Navigate from your terminal inside the /part7/bloglist/backend folder and:
-
 **1.** Create your own account on [**MongoDb**](https://www.mongodb.com/cloud), add a user, and get your credentials for the database access.
 
 **2.** In the **.env** file at the root of the project set the *'MONGODB_URI'* and *'TEST_MONGODB_URI'* variables with the connection string provided by [**MongoDb**](https://www.mongodb.com/cloud):
@@ -48,6 +46,10 @@ Navigate from your terminal inside the /part7/bloglist/backend folder and:
                 TEST_MONGODB_URI=...
 
 **Note:** Make sure that the name of the database is **bloglist**!
+
+
+Navigate from your terminal inside the /part7/bloglist/backend folder and:
+
 
 **3.**  Run ***npm install*** or ***npm i*** to install the dependencies of the app.
 
