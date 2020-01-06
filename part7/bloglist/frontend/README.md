@@ -36,7 +36,7 @@ Navigate from your terminal inside the /part7/bloglist/frontend folder and run *
 
 To run the **End to End Testing** for the *Bloglist App*:
 
-### Step A
+<h3>Step A: </h3>
 
 **1.** Create your own account on [**MongoDb**](https://www.mongodb.com/cloud), add a user, and get your credentials for the database access.
 
@@ -48,7 +48,7 @@ To run the **End to End Testing** for the *Bloglist App*:
 **Note:** Make sure that the name of the database is **bloglist**!
 
 
-### Step B
+<h3>Step B: </h3>
 
 Navigate from your terminal inside the /part7/bloglist/backend folder and:
 
@@ -57,7 +57,7 @@ Navigate from your terminal inside the /part7/bloglist/backend folder and:
 **4.** Run ***npm run start:test*** to start the server of the  *Bloglist API* in testing mode.
 
 
-### Step C
+<h3>Step C: </h3>
 
 Open a new terminal, navigate from your terminal inside the /part7/bloglist/frontend folder and:
 
@@ -66,7 +66,7 @@ Open a new terminal, navigate from your terminal inside the /part7/bloglist/fron
 **2.**  Run ***npm start***.
 
 
-### Step D
+<h3>Step D: </h3>
 
 To execute the *End to End* testing:
 
