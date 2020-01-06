@@ -8,13 +8,14 @@ Bloglist App<br/>
 
 The *BlogList App* is a simple React App, which allows users to save information about interesting blogs they have stumbled across on the internet. For each listed blog the app saves the author, the title, the url, and the amount of upvotes from users of the application.
 
-++++++++++++++++
-
 The *BlogList App* consists of two parts:
 
 * [**backend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/bloglist/backend)**:** This folder contains the code of the backend side of the app. 
 
 * [**frontend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/bloglist/frontend)**:** This folder contains the code of the frontend side of the app.
+
+
+
 
 
 
