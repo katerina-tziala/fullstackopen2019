@@ -40,6 +40,11 @@ The *Bloglist API* contains the code for the developed API (backend side) of the
 **5.**  Navigate from your terminal inside the /part7/bloglist/backend folder and run ***npm run start*** to start the server of the API.
 
 
+## Linting the App
+
+Navigate from your terminal inside the /part5/bloglist/backend folder and run ***npm run lint***.
+
+
 ## Testing the App
 
 Before running any tests make sure that:
