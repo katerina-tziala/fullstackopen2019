@@ -1,17 +1,11 @@
 import React, { useState } from 'react';
 import Footer from './Footer';
-import {
-  BrowserRouter as Router,
-  Route, Link, Redirect, withRouter
-} from 'react-router-dom';
-
-
+import { withRouter } from 'react-router-dom';
 
 const Create = (props) => {
-  const [content, setContent] = useState('')
-  const [author, setAuthor] = useState('')
-  const [info, setInfo] = useState('')
-
+  const [content, setContent] = useState('');
+  const [author, setAuthor] = useState('');
+  const [info, setInfo] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -50,7 +44,7 @@ const Create = (props) => {
       </div>
       <Footer />
     </>
-  )
+  );
 };
 const CreateAnecdote = withRouter(Create);
 export default CreateAnecdote;
