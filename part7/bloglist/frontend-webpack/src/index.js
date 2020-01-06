@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import App from './App';
 import store from './store';
 import './assets/css/index.css';
-import PromisePolyfill from 'promise-polyfill'
+import PromisePolyfill from 'promise-polyfill';
 
 if (!window.Promise) {
     window.Promise = PromisePolyfill;

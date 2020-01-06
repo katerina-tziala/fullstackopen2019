@@ -13,7 +13,6 @@ module.exports = {
         path: path.resolve(__dirname, 'build'),
         filename: 'main.js'
     },
-    
     devtool: 'source-map',
     module: {
         rules: [

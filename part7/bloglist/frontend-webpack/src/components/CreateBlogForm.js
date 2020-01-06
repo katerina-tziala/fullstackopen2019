@@ -11,8 +11,9 @@ const validator = require('../utils/validator');
 const CreateBlogForm = (props) => {
     CreateBlogForm.propTypes = {
         clearNotification: PropTypes.func.isRequired,
+        createBlog: PropTypes.func.isRequired,
         setNotification: PropTypes.func.isRequired,
-        blogFormRef: PropTypes.object.isRequired,
+        blogFormRef: PropTypes.object.isRequired
     };
 
     const title = useField('text');

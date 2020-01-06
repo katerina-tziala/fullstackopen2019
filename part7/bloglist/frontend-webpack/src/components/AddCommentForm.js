@@ -13,6 +13,7 @@ const AddCommentForm = (props) => {
         clearNotification: PropTypes.func.isRequired,
         setNotification: PropTypes.func.isRequired,
         updateBlog: PropTypes.func.isRequired,
+        displayedBlog: PropTypes.object.isRequired
     };
 
     const comment = useField('text');

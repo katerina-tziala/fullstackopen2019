@@ -13,7 +13,8 @@ const validator = require('../utils/validator');
 const Login = (props) => {
     Login.propTypes = {
         setNotification: PropTypes.func.isRequired,
-        clearNotification: PropTypes.func.isRequired
+        clearNotification: PropTypes.func.isRequired,
+        loginUser: PropTypes.func.isRequired
     };
 
     const [username, setUserName] = useState('');

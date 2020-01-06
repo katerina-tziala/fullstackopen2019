@@ -14,6 +14,7 @@ const Blog = (props) => {
         currentUser: PropTypes.object.isRequired,
         deleteBlog: PropTypes.func.isRequired,
         updateBlog: PropTypes.func.isRequired,
+        history: PropTypes.array.isRequired
     };
 
     const currentUser = props.currentUser;
