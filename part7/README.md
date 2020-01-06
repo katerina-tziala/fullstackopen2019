@@ -16,7 +16,7 @@ The seventh part of the course touches on several different themes. It starts wi
 * **Class Components, E2E-testing:** Class Components, End to end testing of the application, Controlling the state of the database
 
 
-<h2>Exercises of Part 8</h2>
+<h2>Exercises of Part 7</h2>
 
 This directory contains the series of exercises for *Part 7*. 
 
