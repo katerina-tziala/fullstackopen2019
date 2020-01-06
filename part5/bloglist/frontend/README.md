@@ -18,6 +18,11 @@ The *BlogList Frontend* contains the code for the frontend side of the *BlogList
 
 **2.** Navigate from your terminal inside the /part5/bloglist/frontend folder and run ***npm start***.
 
+**3.** Login with the following credentials:
+
+        username: theuser
+        password: secretcode
+
 
 ## Linting the App
 
