@@ -17,7 +17,9 @@ The *Anecdotes App* is a simple React App which displays anecdotes from the worl
 
 **2.** Navigate from your terminal inside the /part7/anecdotes_routed folder and run ***npm install*** or ***npm i*** to install the dependencies of the app.
 
+
 ## Running the App Locally
+
 **1.** Make sure that all the dependencies of the *Anecdotes App* are installed.
 
 **2.** Navigate from your terminal inside the /part7/anecdotes_routed folder and run ***npm start***.
