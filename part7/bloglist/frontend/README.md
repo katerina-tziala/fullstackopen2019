@@ -48,15 +48,16 @@ To run the **End to End Testing** for the *Bloglist App*:
 **Note:** Make sure that the name of the database is **bloglist**!
 
 
-Navigate from your terminal inside the /part7/bloglist/backend folder and:
+### Step B
 
+Navigate from your terminal inside the /part7/bloglist/backend folder and:
 
 **3.**  Run ***npm install*** or ***npm i*** to install the dependencies of the app.
 
 **4.** Run ***npm run start:test*** to start the server of the  *Bloglist API* in testing mode.
 
 
-### Step B
+### Step C
 
 Open a new terminal, navigate from your terminal inside the /part7/bloglist/frontend folder and:
 
@@ -65,7 +66,7 @@ Open a new terminal, navigate from your terminal inside the /part7/bloglist/fron
 **2.**  Run ***npm start***.
 
 
-### Step C
+### Step D
 
 To execute the *End to End* testing:
 
