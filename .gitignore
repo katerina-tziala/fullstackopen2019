@@ -1,68 +1,57 @@
 part1/anecdotes/node_modules
 part1/anecdotes/package-lock.json
-
 part1/courseinfo/node_modules
 part1/courseinfo/package-lock.json
-
 part1/unicafe/node_modules
 part1/unicafe/package-lock.json
 
 
-
 part2/courseinfo/node_modules
 part2/courseinfo/package-lock.json
-
 part2/dataforcountries/node_modules
 part2/dataforcountries/package-lock.json
-
 part2/phonebook/node_modules
 part2/phonebook/package-lock.json
 
+
+part3/phonebook_backend/node_modules
+part3/phonebook_backend/package-lock.json
+part3/phonebook_frontend/node_modules
+part3/phonebook_frontend/package-lock.json
 
 
 part4/bloglist/node_modules
 part4/bloglist/package-lock.json
 
 
-
 part5/custom_hooks/node_modules
 part5/custom_hooks/package-lock.json
-
 part5/bloglist/backend/node_modules
 part5/bloglist/backend/package-lock.json
-
 part5/bloglist/frontend/node_modules
 part5/bloglist/frontend/package-lock.json
 part5/bloglist/frontend/coverage.data
 part5/bloglist/frontend/coverage
 
 
-
 part6/anecdotes_redux/node_modules
 part6/anecdotes_redux/package-lock.json
-
 part6/unicafe_redux/node_modules
 part6/unicafe_redux/package-lock.json
 
 
-
 part7/anecdotes_routed/node_modules
 part7/anecdotes_routed/package-lock.json
-
 part7/bloglist/backend/node_modules
 part7/bloglist/backend/package-lock.json
-
 part7/bloglist/frontend/node_modules
 part7/bloglist/frontend/package-lock.json
-
 part7/bloglist/frontend-webpack/node_modules
 part7/bloglist/frontend-webpack/package-lock.json
 part7/bloglist/frontend-webpack/build
 
 
-
 part8/library-graphql-backend/node_modules
 part8/library-graphql-backend/package-lock.json
-
 part8/library-graphql-frontend/node_modules
 part8/library-graphql-frontend/package-lock.json
