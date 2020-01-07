@@ -5,7 +5,7 @@
 
 This part introduces the React-library and it's core conceps, which is used in this course to write the frontend code of the applications. Additionally, this part presents some features of Javascript that are important for understanding React.
 
-<h2>Contents of Part 1</h2>
+## Contents of Part 1
 
 * **Introduction to React:** Component, JSX, Multiple components, props: passing data to components
 
@@ -15,7 +15,7 @@ This part introduces the React-library and it's core conceps, which is used in t
 
 * **A more complex state, debugging React Apps:** Complex state, Handling arrays, Conditional rendering, Old React, Debugging React applications, Rules of Hooks, Event Handling Revisited, Passing Event Handlers to Child Components, Do Not Define Components Within Components
 
-<h2>Exercises of Part 1</h2>
+## Exercises of Part 1
 
 This directory contains the series of exercises for *Part 1*. In this part three applications were developed:
 
@@ -25,6 +25,6 @@ This directory contains the series of exercises for *Part 1*. In this part three
 
 * [**anecdotes**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part1/anecdotes)**:** The *Anecdotes App*, which displays anecdotes from the world of software engineering, where users can display random anecdotes and vote the displayed ones. 
 
-<h3>Running the Apps</h3>
+## Running the Apps
 
 For each one of the developed apps follow the instructions in the *README* file, located in the root directory of each app, to compile and run the app locally.

@@ -5,7 +5,7 @@ Part 7: React Router, Styling App with CSS and Webpack<br/>
 
 The seventh part of the course touches on several different themes. It starts with React-Router, which helps in dividing an application into different views that are shown based on the URL in the browser's address bar. Next, it presents a few more ways to add CSS-styles to React applications. After this, it presents how Webpack works and how we can use it to configure the applications ourselves.
 
-<h2>Contents of Part 7</h2>
+## Contents of Part 7
 
 * **React-Router:** Application navigation structure, Parameterized route, withRouter and history, redirect
 
@@ -16,7 +16,7 @@ The seventh part of the course touches on several different themes. It starts wi
 * **Class Components, E2E-testing:** Class Components, End to end testing of the application, Controlling the state of the database
 
 
-<h2>Exercises of Part 7</h2>
+## Exercises of Part 7
 
 This directory contains the series of exercises for *Part 7*. In this part two applications were developed:
 

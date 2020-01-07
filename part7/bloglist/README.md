@@ -18,7 +18,7 @@ The *BlogList App* consists of two parts:
 * [**frontend-webpack**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/bloglist/frontend-webpack)**:** This directory contains the code of the frontend side of the app, utilizing the Webpack module bundler too.
 
 
-<h3>Running the App</h3>
+## Running the App
 
 To run the app locally, both parts of the app (backend and frontend) should run in parallel (different terminals).
 

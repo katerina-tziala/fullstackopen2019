@@ -5,7 +5,7 @@
 
 This part builds up the knowledge on React-library. Firstly, it presents how to render a data collection, like a list of names, on the screen. After this, it deals with how a user can submit data to a React application using HTML forms. Next, the focus shifts towards fetching and handling data, stored in a remote backend server, with JavaScript in the client's browser (frontend). Lastly, it provides a quick look at a few simple ways of adding CSS styles to React applications.
 
-<h2>Contents of Part 2</h2>
+## Contents of Part 2
 
 * **Rendering a collection, modules:** console.log & Visual Studio Code snippets, JavaScript Arrays, Event handlers revisited, Rendering collections, Key-attribute, Map, Anti-pattern: array indexes as keys, Refactoring modules, When the application breaks
 
@@ -18,7 +18,7 @@ This part builds up the knowledge on React-library. Firstly, it presents how to 
 * **Adding styles to React App:** External styles, Inline styles, class selectors in React Apps
 
 
-<h2>Exercises of Part 2</h2>
+## Exercises of Part 2
 
 This directory contains the series of exercises for *Part 2*. In this part three applications were developed:
 
@@ -29,7 +29,7 @@ This directory contains the series of exercises for *Part 2*. In this part three
 * [**phonebook**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part2/phonebook)**:** The *PhoneBook App*, a digital phonebook where users can add and display phonenumbers of desired persons.
 
 
-<h3>Running the Apps</h3>
+## Running the Apps
 
 For each one of the developed apps follow the instructions in the *README* file, located in the root directory of each app, to compile and run the app locally.
 

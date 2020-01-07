@@ -5,7 +5,8 @@
 
 In this part, the Redux-library is introduced, which is currently the most popular solution for managing the state of React-applications.
 
-<h2>Contents of Part 6</h2>
+
+## Contents of Part 6
 
 * **Flux-architecture and Redux:** Flux-architecture, Redux, Pure functions, immutable, Array spread syntax, Uncontrolled form, Action creators, Passing the state using props
 
@@ -14,7 +15,7 @@ In this part, the Redux-library is introduced, which is currently the most popul
 * **Communicating with server in a redux application:** Asynchronous actions and redux thunk, Redux DevTools, Redux and component state
 
 
-<h2>Exercises of Part 6</h2>
+## Exercises of Part 6
 
 This directory contains the series of exercises for *Part 6*. In this part two applications were developed:
 
@@ -22,6 +23,7 @@ This directory contains the series of exercises for *Part 6*. In this part two a
 
 * [**anecdotes_redux**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part6/anecdotes_redux)**:** The *Anecdotes App*, which displays anecdotes from the world of software engineering, where users can display random anecdotes and vote the displayed ones. 
 
-<h3>Running the Apps</h3>
+
+## Running the Apps
 
 For each one of the developed apps follow the instructions in the *README* file, located in the root directory of each app, to compile and run the app locally.

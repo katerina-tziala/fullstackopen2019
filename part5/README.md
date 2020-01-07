@@ -5,7 +5,8 @@
 
 In this part the focus shifts again towards the frontend, starting with a look at different possibilities for testing the React code. Also, this part focuses on implementing token based authentication which will enable users to log in to applications.
 
-<h2>Contents of Part 5</h2>
+
+## Contents of Part 5
 
 * **Login in frontend:** Login in frontend, Adding data, Saving the token to browsers local storage
 
@@ -15,7 +16,8 @@ In this part the focus shifts again towards the frontend, starting with a look a
 
 * **Custom Hooks:** Custom hooks, Spread attributes, Rules of hooks, More about hooks
 
-<h2>Exercises of Part 5</h2>
+
+## Exercises of Part 5
 
 This directory contains the series of exercises for *Part 5*. In this part two applications were developed:
 
@@ -24,7 +26,6 @@ This directory contains the series of exercises for *Part 5*. In this part two a
 * [**bloglist**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part5/bloglist)**:** The *Bloglist App*, which allows users to save information about interesting blogs they have stumbled across on the internet. For each listed blog the app saves the author, the title, the url, and the amount of upvotes from users of the application.
 
 
-
-<h3>Running the Apps</h3>
+## Running the Apps
 
 For each one of the developed apps follow the instructions in the *README* file, located in the root directory of each app, to compile and run the app locally.
