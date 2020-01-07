@@ -5,12 +5,16 @@ Anecdotes App<br/>
 
 The *Anecdotes App* is a simple React App which displays anecdotes from the world of software engineering, where users can display random anecdotes and vote the displayed ones.
 
-## Installation of the App
-**1.** Fork and clone this repository.
 
-**2.** Navigate from your terminal inside the /part1/anecdotes directory and run ***npm install*** or ***npm i*** to install the dependencies of the app.
+## Installation of the App
+
+1. Fork and clone this repository.
+
+2. Navigate from your terminal inside the /part1/anecdotes directory and run ***npm install*** or ***npm i*** to install the dependencies of the app.
+
 
 ## Running the App Locally
-**1.** Make sure that all the dependencies of the *Anecdotes App* are installed.
 
-**2.** Navigate from your terminal inside the /part1/anecdotes directory and run ***npm start***.
+1. Make sure that all the dependencies of the *Anecdotes App* are installed.
+
+2. Navigate from your terminal inside the /part1/anecdotes directory and run ***npm start***.
