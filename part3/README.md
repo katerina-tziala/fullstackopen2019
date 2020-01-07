@@ -28,13 +28,13 @@ The *PhoneBook App* consists of two parts:
 * [**phonebook_frontend**] (https://github.com/katerina-tziala/fullstackopen2019/tree/master/part3/phonebook_frontend)**:** This directory contains the code of the frontend side of the app.
 
 
+## Running the App
 
-<!-- ## Running the App
-
-To run the backend of the *BlogList App* follow the instructions in the *README* file, located in the [**bloglist**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part4/bloglist) directory.
-
+To run the app locally, both parts of the app (backend and frontend) should run in parallel (different terminals). Follow the instructions in the *README* file, located in the root directory of each part, to compile and run the app locally.
 
 
-The code of the developed App that was deployed on Heroku can be found in [**phonebook_app repository**](https://github.com/katerina-tziala/phonebook_app), whilst the app can be accessed here:
-[**PhoneBook App**](https://phonebook-app-kt.herokuapp.com/). -->
+
+
+<!-- The code of the developed App that was deployed on Heroku can be found in [**phonebook_app repository**](https://github.com/katerina-tziala/phonebook_app), whilst the app can be accessed here:
+[**PhoneBook App**](https://phonebook-app-kt.herokuapp.com/).  -->
 
