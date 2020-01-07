@@ -9,12 +9,12 @@ The *BlogList App* is a simple React App, which allows users to save information
 
 The *BlogList App* consists of two parts:
 
-* [**backend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part5/bloglist/backend)**:** This folder contains the code of the backend side of the app. 
+* [**backend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part5/bloglist/backend)**:** This directory contains the code of the *Bloglist API* (backend side) of the app. 
 
-* [**frontend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part5/bloglist/frontend)**:** This folder contains the code of the frontend side of the app.
+* [**frontend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part5/bloglist/frontend)**:** This directory contains the code of the frontend side of the app.
 
 <h3>Running the App</h3>
 
-To run the app locally, both parts of the app (backend and frontend) should run in parallel (different terminals). Follow the instructions in the *README* file, located in the root folder of each part, to compile and run the app locally.
+To run the app locally, both parts of the app (backend and frontend) should run in parallel (different terminals). Follow the instructions in the *README* file, located in the root directory of each part, to compile and run the app locally.
 
-**Note:** Make sure that you create a user according to the *README* file in [**backend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part5/bloglist/backend) folder and you will use the credentials to login according to the *README* file in [**frontend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part5/bloglist/frontend) folder.
+**Note:** Make sure that you create a user according to the *README* file in [**backend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part5/bloglist/backend) directory and you will use the credentials to login according to the *README* file in [**frontend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part5/bloglist/frontend) directory.

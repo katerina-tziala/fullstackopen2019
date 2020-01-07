@@ -13,9 +13,9 @@ in this part the *CourseInfo App* is further developed:
 ## Installation of the App
 **1.** Fork and clone this repository.
 
-**2.** Navigate from your terminal inside the /part2/courseinfo folder and run ***npm install*** or ***npm i*** to install the project's dependencies.
+**2.** Navigate from your terminal inside the /part2/courseinfo directory and run ***npm install*** or ***npm i*** to install the project's dependencies.
 
 ## Running the App Locally
 **1.** Make sure that all the dependencies of the *CourseInfo App* are installed.
 
-**2.** Navigate from your terminal inside the /part2/courseinfo folder and run ***npm start***.
+**2.** Navigate from your terminal inside the /part2/courseinfo directory and run ***npm start***.

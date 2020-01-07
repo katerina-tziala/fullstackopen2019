@@ -12,14 +12,14 @@ The *BlogList Frontend* contains the code for the frontend side of the *BlogList
 
 **1.** Fork and clone this repository.
 
-**2.** Navigate from your terminal inside the /part7/bloglist/frontend-webpack folder and run ***npm install*** or ***npm i*** to install the dependencies of the app.
+**2.** Navigate from your terminal inside the /part7/bloglist/frontend-webpack directory and run ***npm install*** or ***npm i*** to install the dependencies of the app.
 
 
 ## Running the App Locally
 
 **1.** Make sure that all the dependencies of the *Bloglist App* are installed.
 
-**2.** Navigate from your terminal inside the /part7/bloglist/frontend-webpack folder and run ***npm start***.
+**2.** Navigate from your terminal inside the /part7/bloglist/frontend-webpack directory and run ***npm start***.
 
 **3.** Login with the following credentials:
 
@@ -29,13 +29,13 @@ The *BlogList Frontend* contains the code for the frontend side of the *BlogList
 
 ## Linting the App
 
-Navigate from your terminal inside the /part7/bloglist/frontend-webpack folder and run ***npm run eslint***.
+Navigate from your terminal inside the /part7/bloglist/frontend-webpack directory and run ***npm run eslint***.
 
 
 ## Building and Running the App
 
 **1.** Make sure that all the dependencies of the *Bloglist App* are installed.
 
-**2.** To **build** the app navigate from your terminal inside the /part7/bloglist/frontend-webpack folder and run ***npm run build***.
+**2.** To **build** the app navigate from your terminal inside the /part7/bloglist/frontend-webpack directory and run ***npm run build***.
 
-**3.** To inspect the bundled version of the app locally navigate from your terminal inside the /part7/bloglist/frontend-webpack/build folder and run ***npx static-server***.
+**3.** To inspect the bundled version of the app locally navigate from your terminal inside the /part7/bloglist/frontend-webpack/build directory and run ***npx static-server***.

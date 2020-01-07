@@ -11,7 +11,7 @@ The *Bloglist API* contains the code for the developed API (backend side) of the
 
 **1.** Fork and clone this repository.
 
-**2.** Navigate from your terminal inside the /part5/bloglist/backend folder and run ***npm install*** or ***npm i*** to install the dependencies of the app.
+**2.** Navigate from your terminal inside the /part5/bloglist/backend directory and run ***npm install*** or ***npm i*** to install the dependencies of the app.
 
 
 ## Running the App Locally
@@ -27,7 +27,7 @@ The *Bloglist API* contains the code for the developed API (backend side) of the
 
 **Note:** Make sure that the name of the database is **bloglist**!
 
-**4.**  Navigate from your terminal inside the /part5/bloglist/backend folder and run ***npm run init-app-db*** to initialize the database and create a user for the app. The user that will be created is:
+**4.**  Navigate from your terminal inside the /part5/bloglist/backend directory and run ***npm run init-app-db*** to initialize the database and create a user for the app. The user that will be created is:
 
     {
         name: 'The User',
@@ -37,12 +37,12 @@ The *Bloglist API* contains the code for the developed API (backend side) of the
 
 **Note:** You will need the username and password to login in the frontend of the app!
 
-**5.**  Navigate from your terminal inside the /part5/bloglist/backend folder and run ***npm run start*** to start the server of the API.
+**5.**  Navigate from your terminal inside the /part5/bloglist/backend directory and run ***npm run start*** to start the server of the API.
 
 
 ## Linting the App
 
-Navigate from your terminal inside the /part5/bloglist/backend folder and run ***npm run lint***.
+Navigate from your terminal inside the /part5/bloglist/backend directory and run ***npm run lint***.
 
 
 ## Testing the App
@@ -58,17 +58,17 @@ Before running any tests make sure that:
 
 ### Unit Testing
 
-In order to execute the unit tests on the app navigate from your terminal inside the /part5/bloglist/backend folder and run ***npm run unit-test***.
+In order to execute the unit tests on the app navigate from your terminal inside the /part5/bloglist/backend directory and run ***npm run unit-test***.
 
 
 ### Integration Testing
 
-In order to execute the integration tests on the app navigate from your terminal inside the /part5/bloglist/backend folder and run ***npm run test-api***.
+In order to execute the integration tests on the app navigate from your terminal inside the /part5/bloglist/backend directory and run ***npm run test-api***.
 
 
 ### Full Testing
 
-In order to execute all tests on the app navigate from your terminal inside the /part4/bloglist folder and run ***npm run test***.
+In order to execute all tests on the app navigate from your terminal inside the /part4/bloglist directory and run ***npm run test***.
 
 
 ### Running Tests of a Specific File
@@ -88,5 +88,5 @@ For example, if you want to execute the tests defined in the *'blog_creation.tes
         "test-file": "cross-env NODE_ENV=test npx jest tests/api/blog_creation.test --runInBand",
 
 
-**2.** Navigate from your terminal inside the /part4/bloglist folder and run ***npm run test-file***.
+**2.** Navigate from your terminal inside the /part4/bloglist directory and run ***npm run test-file***.
 

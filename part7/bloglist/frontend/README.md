@@ -11,14 +11,14 @@ The *BlogList Frontend* contains the code for the frontend side of the *BlogList
 
 **1.** Fork and clone this repository.
 
-**2.** Navigate from your terminal inside the /part7/bloglist/frontend folder and run ***npm install*** or ***npm i*** to install the dependencies of the app.
+**2.** Navigate from your terminal inside the /part7/bloglist/frontend directory and run ***npm install*** or ***npm i*** to install the dependencies of the app.
 
 
 ## Running the App Locally
 
 **1.** Make sure that all the dependencies of the *Bloglist App* are installed.
 
-**2.** Navigate from your terminal inside the /part7/bloglist/frontend folder and run ***npm start***.
+**2.** Navigate from your terminal inside the /part7/bloglist/frontend directory and run ***npm start***.
 
 **3.** Login with the following credentials:
 
@@ -28,7 +28,7 @@ The *BlogList Frontend* contains the code for the frontend side of the *BlogList
 
 ## Linting the App
 
-Navigate from your terminal inside the /part7/bloglist/frontend folder and run ***npm run eslint***.
+Navigate from your terminal inside the /part7/bloglist/frontend directory and run ***npm run eslint***.
 
 
 ## End to End Testing
@@ -49,7 +49,7 @@ To run the **End to End Testing** for the *Bloglist App*:
 
 <h3>Step B: </h3>
 
-Navigate from your terminal inside the /part7/bloglist/backend folder and:
+Navigate from your terminal inside the /part7/bloglist/backend directory and:
 
 **3.**  Run ***npm install*** or ***npm i*** to install the dependencies of the app.
 
@@ -58,7 +58,7 @@ Navigate from your terminal inside the /part7/bloglist/backend folder and:
 
 <h3>Step C: </h3>
 
-Open a new terminal, navigate from your terminal inside the /part7/bloglist/frontend folder and:
+Open a new terminal, navigate from your terminal inside the /part7/bloglist/frontend directory and:
 
 **1.**  Run ***npm install*** or ***npm i*** to install the dependencies of the app.
 
@@ -69,7 +69,7 @@ Open a new terminal, navigate from your terminal inside the /part7/bloglist/fron
 
 To execute the ***End to End*** testing:
 
-**1.**  Open a new terminal, navigate from your terminal inside the /part7/bloglist/frontend folder and run ***npm run cypress:open***.
+**1.**  Open a new terminal, navigate from your terminal inside the /part7/bloglist/frontend directory and run ***npm run cypress:open***.
 
 **2.**  On the ***Cypress Panel*** click ***Run all specs*** to execute the tests. <br/><br/>
 <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/cypress_panel.png" alt="cypess panel" width="auto" height="300">

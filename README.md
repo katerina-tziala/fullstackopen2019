@@ -13,7 +13,7 @@ The course covers development, testing, configuration, environment management, a
 * the use of MongoDB, for storing the application’s data
 * the use of GraphQL, a modern alternative to REST APIs
 
-The structure of this repository is accordingly to the structure of the course. For each part there is a folder that contains the respective exercises.
+The structure of this repository is accordingly to the structure of the course. For each part there is a directory that contains the respective exercises.
 <br/>
 <br/>
 <h1>Course Contents</h1>
