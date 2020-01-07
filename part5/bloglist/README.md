@@ -5,7 +5,8 @@
 Bloglist App<br/>
 </h1>
 
-The *BlogList App* is a simple React App, which allows users to save information about interesting blogs they have stumbled across on the internet. For each listed blog the app saves the author, the title, the url, and the amount of upvotes from users of the application.
+The *BlogList App* is a simple React App, which allows users to save information about interesting blogs they have stumbled across on the internet. FThe *BlogList App* is a simple React App, which allows users to save information about interesting blogs they have stumbled across on the internet. or each listed blog the app saves the author, the title, the url, and the amount of upvotes from users of the application. A user can also delete and upvote blogs, and see information about other users.
+
 
 The *BlogList App* consists of two parts:
 

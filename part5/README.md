@@ -23,7 +23,7 @@ This directory contains the series of exercises for *Part 5*. In this part two a
 
 * [**custom_hooks**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part5/custom_hooks)**:** The *CustomHooks App*, a simple React App which demonstrates how custom hooks can be used in different situations.
 
-* [**bloglist**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part5/bloglist)**:** The *Bloglist App*, which allows users to save information about interesting blogs they have stumbled across on the internet. For each listed blog the app saves the author, the title, the url, and the amount of upvotes from users of the application.
+* [**bloglist**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part5/bloglist)**:** The *Bloglist App*, which allows users to manage information about interesting blogs they have stumbled across on the internet. 
 
 
 ## Running the Apps

@@ -3,7 +3,7 @@
 Bloglist Frontend<br/>
 </h1>
 
-The *BlogList Frontend* contains the code for the frontend side of the *BlogList App*.
+The *BlogList Frontend* contains the code for the frontend side of the *BlogList App*. 
 
 
 ## Installation of the App
