@@ -25,7 +25,7 @@ The *PhoneBook App* consists of two parts:
 
 * [**phonebook_backend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part3/phonebook_backend)**:** This directory contains the code of the *PhoneBook API* (backend side) of the app. 
 
-* [**phonebook_frontend**] (https://github.com/katerina-tziala/fullstackopen2019/tree/master/part3/phonebook_frontend)**:** This directory contains the code of the frontend side of the app.
+* [**phonebook_frontend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part3/phonebook_frontend)**:** This directory contains the code of the frontend side of the app.
 
 
 ## Running the App
