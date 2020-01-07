@@ -34,6 +34,8 @@ Navigate from your terminal inside the /part7/bloglist/frontend-webpack folder a
 
 ## Building and Running the App
 
-**1.** To **build** the app navigate from your terminal inside the /part7/bloglist/frontend-webpack folder and run ***npm run build***.
+**1.** Make sure that all the dependencies of the *Bloglist App* are installed.
 
-**2.** To inspect the bundled version of the app locally navigate from your terminal inside the /part7/bloglist/frontend-webpack/build folder and run ***npx static-server***.
+**2.** To **build** the app navigate from your terminal inside the /part7/bloglist/frontend-webpack folder and run ***npm run build***.
+
+**3.** To inspect the bundled version of the app locally navigate from your terminal inside the /part7/bloglist/frontend-webpack/build folder and run ***npx static-server***.
