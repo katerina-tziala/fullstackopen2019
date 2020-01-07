@@ -18,7 +18,7 @@ In this part, the course advances the knowledge on backend. The first major them
 
 ## Exercises of Part 4
 
-This directory contains the series of exercises for *Part 4*. In this part the API (backend side) of the *BlogList App* is developed. The *BlogList App* allows users to manage information about interesting blogs they have stumbled across on the internet. For each listed blog the app saves the author, the title, the url, and the amount of upvotes from users of the application.
+This directory contains the series of exercises for *Part 4*. In this part the API (backend side) of the *BlogList App* is developed. The *BlogList App* allows users to manage information about interesting blogs they have stumbled across on the internet. For each listed blog the app saves the author, the title, the url, and the amount of upvotes from users of the application. A user can also delete and upvote blogs.
 
 
 ## Running the App

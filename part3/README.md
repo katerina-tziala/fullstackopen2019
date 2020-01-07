@@ -1,6 +1,6 @@
 <h1>
 <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part3_logo.png" alt="part logo" width="80" height="80" align="left"/>
-<br/>Part 3: Programming a Server with NodeJS and Express<br/>
+Part 3: Programming a Server with NodeJS and Express<br/>
 </h1>
 
 In this part the focus shifts towards the backend, that is, towards implementing functionality on the server side of the stack. It covers the implementation of a simple REST API in Node.js by using the Express library, and the application's data are stored in a MongoDB database. Last but not least, a fully developed app is being deployed to the internet, on the
@@ -17,18 +17,24 @@ In this part the focus shifts towards the backend, that is, towards implementing
 * **Validation and ESLint:** Promise chaining, Deploying the database backend to production, Lint
 
 
+## Exercises of Part 3
 
-<!-- ## Exercises of Part 4
+This directory contains the series of exercises for *Part 3*. In this part the the *PhoneBook App* is developed. The *PhoneBook App* is a simple React App, a digital phonebook, where users can add and display phonenumbers of desired persons.
 
-This directory contains the series of exercises for *Part 4*. In this part the API (backend side) of the *BlogList App* is developed. The *BlogList App* allows users to manage information about interesting blogs they have stumbled across on the internet. For each listed blog the app saves the author, the title, the url, and the amount of upvotes from users of the application.
+The *PhoneBook App* consists of two parts:
+
+* [**phonebook_backend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part3/phonebook_backend)**:** This directory contains the code of the *PhoneBook API* (backend side) of the app. 
+
+* [**phonebook_frontend**]https://github.com/katerina-tziala/fullstackopen2019/tree/master/part3/phonebook_frontend)**:** This directory contains the code of the frontend side of the app.
 
 
-## Running the App
+
+<!-- ## Running the App
 
 To run the backend of the *BlogList App* follow the instructions in the *README* file, located in the [**bloglist**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part4/bloglist) directory.
 
 
 
 The code of the developed App that was deployed on Heroku can be found in [**phonebook_app repository**](https://github.com/katerina-tziala/phonebook_app), whilst the app can be accessed here:
-[**PhoneBook App**](https://phonebook-app-kt.herokuapp.com/).
- -->
+[**PhoneBook App**](https://phonebook-app-kt.herokuapp.com/). -->
+

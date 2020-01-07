@@ -25,7 +25,7 @@ This directory contains the series of exercises for *Part 8*. In this part the *
 
 The *Library-GraphQl App* consists of two parts:
 
-* [**library-graphql-backend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part8/library-graphql-backend)**:** This directory contains the code of the backend side of the app. 
+* [**library-graphql-backend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part8/library-graphql-backend)**:** This directory contains the code of the  *Library-GraphQl API*  (backend side) of the app. 
 
 * [**library-graphql-frontend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part8/library-graphql-frontend)**:** This directory contains the code of the frontend side of the app.
 
