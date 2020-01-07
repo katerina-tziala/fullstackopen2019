@@ -31,7 +31,6 @@ To run the app locally, both parts of the app (backend and frontend) should run 
 
 
 **Note:** Make sure that you create a user according to the *README* file in [**backend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/bloglist/backend) directory and you will run the and you will use the credentials to login according to the *README* file in [**frontend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/bloglist/frontend) directory.
-
 <br/><br/>
 
 #### Running the App Using the [frontend-webpack](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/bloglist/frontend-webpack) version:
