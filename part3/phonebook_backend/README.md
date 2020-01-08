@@ -49,6 +49,8 @@ If you test the *PhoneBook API* with [**Postman**](https://www.getpostman.com/):
         http://localhost:3001/api/info
     ```
 
+<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part3_api_info.png" alt="get info reuest on postman" width="100%" height="auto">
+
 * To get the list of all persons in the database send a **GET** request to
     ```
         http://localhost:3001/api/persons
@@ -58,6 +60,7 @@ If you test the *PhoneBook API* with [**Postman**](https://www.getpostman.com/):
     ```
         http://localhost:3001/api/persons
     ```
+<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part3_api_create_person.png" alt="post reuest to create person on postman" width="100%" height="auto">
 
 Make sure that the *Content-Type* header of the request is set with the appropriate value of *application/json*:
 
