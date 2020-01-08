@@ -1,6 +1,6 @@
 <h1>
-  <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/logo.png" alt="course logo" width="auto" height="100" align="left" >
-  <br/>Full Stack Open 2019 - University of Helsinki <br/>Deep Dive Into Modern Web Development<br/>
+  <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/logo.png" alt="course logo" width="auto" height="110" align="left" >
+  Full Stack Open 2019 - University of Helsinki <br/>Deep Dive Into Modern Web Development<br/>
 </h1>
 
 The orientation of this course is JavaScript-based web development. The main focus is on building single page applications with ReactJS that use REST APIs built with Node.js.<br/>
