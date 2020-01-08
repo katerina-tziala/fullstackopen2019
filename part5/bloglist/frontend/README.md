@@ -27,7 +27,9 @@ The *BlogList Frontend* contains the code for the frontend side of the *BlogList
 
 ## Linting the App
 
-Navigate from your terminal inside the /part5/bloglist/frontend directory and run ***npm run eslint***.
+1. Make sure that all the dependencies of the *Bloglist App* are installed.
+
+2. Navigate from your terminal inside the /part5/bloglist/frontend directory and run ***npm run eslint***.
 
 
 ## Testing the App

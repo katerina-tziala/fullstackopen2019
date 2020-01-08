@@ -43,7 +43,9 @@ The *Bloglist API* contains the code for the developed API (backend side) of the
 
 ## Linting the App
 
-Navigate from your terminal inside the /part5/bloglist/backend directory and run ***npm run lint***.
+1. Make sure that all the dependencies of the *Bloglist API* are installed.
+
+2. Navigate from your terminal inside the /part5/bloglist/backend directory and run ***npm run lint***.
 
 
 ## Testing the App
