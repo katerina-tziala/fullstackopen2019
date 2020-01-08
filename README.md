@@ -10,13 +10,14 @@ The course covers development, testing, configuration, environment management, a
 - the use of MongoDB, for storing the application’s data
 - the use of GraphQL, a modern alternative to REST APIs
 
-The structure of this repository is accordingly to the structure of the course. For each part there is a directory that contains the description of the part and the respective exercises. The following list is an overview of the course, whilst the _documentation_images_ directory contains all the images used in the README files of this repository.
+The structure of this repository is accordingly to the structure of the course. For each part there is a directory that contains the description of the part and the respective exercises. The following list is an overview of the course, whilst the *documentation_images* directory contains all the images used in the README files of this repository.
+
 
 # Course Contents
 
 <a class="button" href="https://github.com/katerina-tziala/fullstackopen2019/tree/master/part0" aria-label="access part 0">
   <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part0_logo.png" alt="part logo" width="50" height="50" align="middle" >
-  **Part 0: Fundamentals of Web Apps**
+  <b>Part 0: Fundamentals of Web Apps</b>
 </a>
 
 <!-- <br/>
