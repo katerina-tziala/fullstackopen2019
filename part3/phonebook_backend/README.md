@@ -34,3 +34,20 @@ The *PhoneBook API* contains the code for the developed API (backend side) of th
 1. Make sure that all the dependencies of the *PhoneBook API* are installed.
 
 2. Navigate from your terminal inside the /part3/phonebook_backend directory and run ***npm run lint***.
+
+
+## Testing the API
+
+In order to test the endpoinds of the API make sure that the server is running locally as stated above.
+
+
+* If you use [**Visual Studio Code**](https://code.visualstudio.com/) add the [**VS Code REST client plugin**](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) and run the requests in the *requests* directory in the following order:
+
+
+
+, you can use the VS Code REST client plugin instead of Postman.
+
+Once the plugin is installed, using it is very simple. We make a directory at the root of application named requests. We save all the REST client requests in the directory as files that end with the .rest extension.
+1. Make sure that the server is running locally as stated above.
+
+2. Navigate from your terminal inside the /part3/phonebook_backend directory and run ***npm run lint***.
