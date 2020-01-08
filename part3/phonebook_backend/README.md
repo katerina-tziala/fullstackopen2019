@@ -50,7 +50,6 @@ If you test the *PhoneBook API* with [**Postman**](https://www.getpostman.com/):
     ```
 as illustrated in the following figure:
 <br/>
-<br/>
 <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part3_api_info.png" alt="get info reuest on postman" width="100%" height="auto">
 <br/>
 <br/>
@@ -59,7 +58,6 @@ as illustrated in the following figure:
         http://localhost:3001/api/persons
     ```
 as illustrated in the following figure:
-<br/>
 <br/>
 <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part3_api_persons.png" alt="get persons reuest on postman" width="100%" height="auto">
 <br/>
@@ -70,11 +68,9 @@ as illustrated in the following figure:
     ```
 as illustrated in the following figure (make sure that the ***Content-Type*** header of the request is set with the appropriate value of ***application/json***):
 <br/>
-<br/>
 <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part3_api_create_person.png" alt="post reuest to create person on postman" width="100%" height="auto">
 <br/>
 Make sure that the body of the request includes the correct data for the new person as illustrated in the following figure:
-<br/>
 <br/>
 <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part3_api_create_person_body.png" alt="post reuest to create person on postman" width="100%" height="auto">
 <br/>
@@ -85,24 +81,22 @@ Make sure that the body of the request includes the correct data for the new per
     ```
 as illustrated in the following figure:
 <br/>
-<br/>
 <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part3_api_get_person.png" alt="get request for a specific on postman" width="100%" height="auto">
 <br/>
-<br/>
-Make sure that the ***ID***part of the request contains a valid id!
 
+Make sure that the ***ID*** part of the request contains a valid id!
+<br/>
+<br/>
 * To delete a specified person from the database send a **DELETE** request to
     ```
         http://localhost:3001/api/persons/ID
     ```
 as illustrated in the following figure:
 <br/>
-<br/>
 <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part3_api_delete_person.png" alt="delete request for a specific on postman" width="100%" height="auto">
 <br/>
-<br/>
-Make sure that the ***ID*** part of the request contains a valid id!
 
+Make sure that the ***ID*** part of the request contains a valid id!
 <br/><br/>
 ### Testing the API on Visual Studio Code:
 
