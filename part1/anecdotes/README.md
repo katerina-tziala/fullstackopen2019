@@ -1,7 +1,4 @@
-<h1>
-<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/react_logo.png" alt="react logo" width="50" height="50">
-Anecdotes App<br/>
-</h1>
+# Anecdotes App
 
 The *Anecdotes App* is a simple React App which displays anecdotes from the world of software engineering, where users can display random anecdotes and vote the displayed ones.
 

@@ -1,7 +1,4 @@
-<h1>
-<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part1_logo.png" alt="part logo" width="80" height="80" align="left" >
-<br/>Part 1: Introduction to React<br/>
-</h1>
+# Part 1: Introduction to React
 
 This part introduces the React-library and it's core conceps, which is used in this course to write the frontend code of the applications. Additionally, this part presents some features of Javascript that are important for understanding React.
 

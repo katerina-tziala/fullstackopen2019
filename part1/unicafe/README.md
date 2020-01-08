@@ -1,7 +1,4 @@
-<h1>
-<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/react_logo.png" alt="react logo" width="50" height="50">
-Unicafe App<br/>
-</h1>
+# Unicafe App
 
 The *Unicafe App* is a simple React App which collects customer feedback. There are only three options for feedback: good, neutral, and bad.
 
