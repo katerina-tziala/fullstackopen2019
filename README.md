@@ -15,12 +15,12 @@ The structure of this repository is accordingly to the structure of the course. 
 
 # Course Contents
 
-<h2>
+<h3>
 <a class="button" href="https://github.com/katerina-tziala/fullstackopen2019/tree/master/part0" aria-label="access part 0">
   <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part0_logo.png" alt="part logo" width="60" height="60" align="left" >
   <br/>Part 0: Fundamentals of Web Apps<br/>
   </a>
-</h2>
+</h3>
 
 <!-- <a class="button" href="https://github.com/katerina-tziala/fullstackopen2019/tree/master/part0" aria-label="access part 0">
   <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part0_logo.png" alt="part logo" width="60" height="60" align="left"/>
