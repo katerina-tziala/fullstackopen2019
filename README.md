@@ -27,6 +27,34 @@ The structure of this repository is accordingly to the structure of the course. 
   </a>
 </h3>
 
+<h3>
+  <a class="button" href="https://github.com/katerina-tziala/fullstackopen2019/tree/master/part2" aria-label="access part 0">
+    <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part2_logo.png" alt="part logo" width="50" height="50" align="bottom" >Part 2: Communicating with Server
+  </a>
+</h3>
+
+<h3>
+  <a class="button" href="https://github.com/katerina-tziala/fullstackopen2019/tree/master/part3" aria-label="access part 0">
+    <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part3_logo.png" alt="part logo" width="50" height="50" align="bottom" >Part 3: Programming a Server with NodeJS and Express
+  </a>
+</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- <a class="button" href="https://github.com/katerina-tziala/fullstackopen2019/tree/master/part0" aria-label="access part 0">
   <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part0_logo.png" alt="part logo" width="60" height="60" align="left"/>
   <b>	&nbsp;&nbsp;Part 0: Fundamentals of Web Apps <font size="+3">Description</font></b>
