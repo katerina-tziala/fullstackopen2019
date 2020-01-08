@@ -82,7 +82,7 @@ If you test the *PhoneBook API* with [**Postman**](https://www.getpostman.com/):
     as illustrated in the following figure:
     <br/>
     <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part3_api_get_person.png" alt="get request for a specific on postman" width="100%" height="auto">
-    Make sure that the ***ID*** part of the request contains a valid id!
+    Make sure that the ***ID*** part of the request contains a **valid** id!
     <br/>
     <br/>
 * To delete a specified person from the database send a **DELETE** request to
@@ -92,10 +92,10 @@ If you test the *PhoneBook API* with [**Postman**](https://www.getpostman.com/):
     as illustrated in the following figure:
     <br/>
     <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part3_api_delete_person.png" alt="delete request for a specific on postman" width="100%" height="auto">
-    Make sure that the ***ID*** part of the request contains a valid id!
+    Make sure that the ***ID*** part of the request contains a **valid** id!
     <br/><br/>
 ### Testing the API on Visual Studio Code:
 
 If you use [**Visual Studio Code**](https://code.visualstudio.com/), add the [**VS Code REST client plugin**](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) and execute the requests in the *'requests'* directory.
 
-**Note:** In order to execute the *delete_person* and *get_single_person* requests make sure that you change the ***ID*** part of the request with a valid id.
+**Note:** In order to execute the *delete_person* and *get_single_person* requests make sure that you change the ***ID*** part of the request with a **valid** id.
