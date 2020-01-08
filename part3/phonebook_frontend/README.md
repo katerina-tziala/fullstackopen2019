@@ -16,9 +16,7 @@ The *PhoneBook App* is a simple React App, a digital phonebook, where users can 
 ## Running the App Locally
 1. Make sure that all the dependencies of the *PhoneBook App* are installed.
 
-2. Navigate from your terminal inside the /part3/phonebook_frontend directory and run ***npm run server*** to start the backend server of the app.
-
-3. Open a new terminal, navigate from your terminal inside the /part3/phonebook_frontend directory and run ***npm start***.
+2. Navigate from your terminal inside the /part3/phonebook_frontend directory and run ***npm start***.
 
 
 ## Linting the App
