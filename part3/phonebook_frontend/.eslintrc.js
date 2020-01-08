@@ -36,22 +36,14 @@ module.exports = {
             'error',
             'always'
         ],
-        'eqeqeq': 'error',
-        'no-trailing-spaces': 'error',
-        'object-curly-spacing': [
-            'error', 'always'
+        "eqeqeq": "error",
+        "no-trailing-spaces": "error",
+        "object-curly-spacing": [
+            "error", "always"
         ],
-        'arrow-spacing': [
-            'error', { 'before': true, 'after': true }
+        "arrow-spacing": [
+            "error", { "before": true, "after": true }
         ],
-        'no-console': 0,
-        'react/prop-types': [2, { ignore: ['children'] }],
-    },
-    'settings': {
-        'react': {
-            'pragma': 'React',
-            'version': 'detect',
-            'flowVersion': '0.53'
-        }
+        "react/prop-types": 0
     }
 };
