@@ -1,5 +1,5 @@
 <h1>
-<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part7_logo.png" alt="part logo" width="60" height="60" align="left" >
+<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part7_logo.png" alt="part logo" width="80" height="80" align="left" >
 Part 7: React Router, Styling App with CSS and Webpack<br/>
 </h1>
 
