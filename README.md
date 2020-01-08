@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/logo.png" alt="course logo" width="67.2" height="137.2" align="left" >
+<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/logo.png" alt="course logo" width="auto" height="139" align="left" >
 <h1>
     Full Stack Open 2019 - University of Helsinki
     <br/>
@@ -7,14 +7,23 @@
   <br/>
 </h1>
 
-The orientation of this course is JavaScript-based web development. The main focus is on building single page    applications with ReactJS that use REST APIs built with Node.js.<br/>
+The orientation of this course is JavaScript-based web development. The main focus is on building single page applications with ReactJS that use REST APIs built with Node.js.<br/>
 The course covers development, testing, configuration, environment management, and  additionally:
 * the use of Redux, for managing the state of React-applications
 * the use of MongoDB, for storing the application’s data
 * the use of GraphQL, a modern alternative to REST APIs
 
 The structure of this repository is accordingly to the structure of the course. For each part there is a directory that contains the respective exercises.
-<br/>
+
+
+
+
+
+
+
+
+
+<!-- <br/>
 <br/>
 <h1>Course Contents</h1>
 <h2>
@@ -162,4 +171,4 @@ This part of the course is about GraphQL, Facebook's alternative to REST for com
   <li>Database and User Administration</li>
   <li> Login and Updating the Cache</li>
   <li>Fragments and Subscriptions</li>
-</ol>
+</ol> -->
