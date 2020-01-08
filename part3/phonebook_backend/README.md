@@ -40,8 +40,7 @@ The *PhoneBook API* contains the code for the developed API (backend side) of th
 
 In order to test the endpoinds of the API make sure that the server is running locally, as stated above, before sending any request.
 
-
-* **Testing the API with POSTMAN:** <br/>
+### Testing the API with POSTMAN:
 
 If you test the *PhoneBook API* with [**Postman**](https://www.getpostman.com/):
 
