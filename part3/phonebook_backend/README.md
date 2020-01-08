@@ -51,7 +51,7 @@ If you test the *PhoneBook API* with [**Postman**](https://www.getpostman.com/):
 as illustrated in the following figure:
 <br/>
 <br/>
-<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part3_api_persons.png" alt="get persons reuest on postman" width="100%" height="auto">
+<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part3_api_info.png" alt="get info reuest on postman" width="100%" height="auto">
 <br/>
 <br/>
 * To get the list of all persons in the database send a **GET** request to
@@ -61,7 +61,7 @@ as illustrated in the following figure:
 as illustrated in the following figure:
 <br/>
 <br/>
-<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part3_api_info.png" alt="get info reuest on postman" width="100%" height="auto">
+<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part3_api_persons.png" alt="get persons reuest on postman" width="100%" height="auto">
 <br/>
 <br/>
 * To create a person in the phonebook send a **POST** request to
