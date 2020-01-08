@@ -1,7 +1,4 @@
-<h1>
-<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part8_logo.png" alt="part logo" width="80" height="80" align="left" >
-<br/>Part 6: State Management with Redux<br/>
-</h1>
+# Part 6: State Management with Redux
 
 In this part, the Redux-library is introduced, which is currently the most popular solution for managing the state of React-applications.
 

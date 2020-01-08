@@ -1,9 +1,4 @@
-<h1>
-<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/GraphQL_logo.png" alt="graphql logo" width="50" height="50">
-<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/apollo_logo.png" alt="apollo logo" width="50" height="50">
-<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/mongoDB_logo.png" alt="mongoDB logo" width="50" height="50">
-Library-GraphQl App - Backend<br/>
-</h1>
+# Library-GraphQl App - Backend
 
 The *Library-GraphQl App - Backend* contains the code for the developed API (backend side) of the *Library-GraphQl App*.
 

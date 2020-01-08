@@ -1,7 +1,4 @@
-<h1>
-<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part8_logo.png" alt="part logo" width="80" height="80" align="left" >
-<br/>Part 8: GraphQL<br/>
-</h1>
+# Part 8: GraphQL
 
 This part of the course is about GraphQL, Facebook's alternative to REST for communication between browser and a server.
 

@@ -1,8 +1,4 @@
-<h1>
-<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part2_logo.png" alt="part logo" width="80" height="80" align="left" >
-<br/>Part 2: Communicating with Server<br/>
-</h1>
-
+# Part 2: Communicating with Server
 This part builds up the knowledge on React-library. Firstly, it presents how to render a data collection, like a list of names, on the screen. After this, it deals with how a user can submit data to a React application using HTML forms. Next, the focus shifts towards fetching and handling data, stored in a remote backend server, with JavaScript in the client's browser (frontend). Lastly, it provides a quick look at a few simple ways of adding CSS styles to React applications.
 
 ## Contents of Part 2

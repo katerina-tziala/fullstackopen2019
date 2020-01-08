@@ -1,7 +1,4 @@
-<h1>
-<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part5_logo.png" alt="part logo" width="80" height="80" align="left" >
-<br/>Part 5: Testing React Apps, Custom Hooks<br/>
-</h1>
+# Part 5: Testing React Apps, Custom Hooks
 
 In this part the focus shifts again towards the frontend, starting with a look at different possibilities for testing the React code. Also, this part focuses on implementing token based authentication which will enable users to log in to applications.
 

@@ -1,7 +1,4 @@
-<h1>
-<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/react_logo.png" alt="react logo" width="50" height="50">
-DataForCountries App<br/>
-</h1>
+# DataForCountries App
 
 The *DataForCountries App* is a simple React App, which displays information for various countries
 

@@ -1,7 +1,4 @@
-<h1>
-<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part4_logo.png" alt="part logo" width="80" height="80" align="left"/>
-<br/>Part 4: Testing Express Servers, User Administration<br/>
-</h1>
+# Part 4: Testing Express Servers, User Administration
 
 In this part, the course advances the knowledge on backend. The first major theme is writing unit and integration tests for the backend. After covering testing,it deals with user authentication and authorization.
 
