@@ -57,13 +57,13 @@ Make sure that the *Content-Type* header of the request is set with the appropri
 Make sure that the body of the request includes the correct data for the new person: 
 
 
-* To get a specified person from the database send a **GET** request to  **http://localhost:3001/api/persons/<ID>**:
+* To get a specified person from the database send a **GET** request to  **http://localhost:3001/api/persons/ID**:
 
-Make sure that the ***<ID>*** part of the request contains a valid id!
+Make sure that the ***ID***part of the request contains a valid id!
 
-* To delete a specified person from the database send a **DELETE** request to  **http://localhost:3001/api/persons/<ID>**:
+* To delete a specified person from the database send a **DELETE** request to  **http://localhost:3001/api/persons/ID**:
 
-Make sure that the ***<ID>*** part of the request contains a valid id!
+Make sure that the ***ID*** part of the request contains a valid id!
 
 
 
@@ -71,4 +71,4 @@ Make sure that the ***<ID>*** part of the request contains a valid id!
 
 If you use [**Visual Studio Code**](https://code.visualstudio.com/), add the [**VS Code REST client plugin**](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) and execute the requests in the *'requests'* directory.
 
-**Note:** In order to execute the *delete_person* and *get_single_person* requests make sure that you change the *** <ID> *** part of the request with a valid id.
+**Note:** In order to execute the *delete_person* and *get_single_person* requests make sure that you change the ***ID*** part of the request with a valid id.
