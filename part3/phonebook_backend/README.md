@@ -66,7 +66,7 @@ Make sure that the body of the request includes the correct data for the new per
 
 * To get a specified person from the database send a **GET** request to
     ```
-        http://localhost:3001/api/persons/ID**:
+        http://localhost:3001/api/persons/ID
     ```
 
 Make sure that the ***ID***part of the request contains a valid id!
