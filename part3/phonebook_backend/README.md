@@ -64,8 +64,7 @@ Make sure that the ***ID***part of the request contains a valid id!
 
 Make sure that the ***ID*** part of the request contains a valid id!
 
-
-
+<br/><br/>
 ### Testing the API on Visual Studio Code:
 
 If you use [**Visual Studio Code**](https://code.visualstudio.com/), add the [**VS Code REST client plugin**](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) and execute the requests in the *'requests'* directory.
