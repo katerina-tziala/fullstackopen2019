@@ -82,7 +82,6 @@ Make sure that the body of the request includes the correct data for the new per
 as illustrated in the following figure:
 <br/>
 <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part3_api_get_person.png" alt="get request for a specific on postman" width="100%" height="auto">
-<br/>
 
 Make sure that the ***ID*** part of the request contains a valid id!
 <br/>
@@ -94,7 +93,6 @@ Make sure that the ***ID*** part of the request contains a valid id!
 as illustrated in the following figure:
 <br/>
 <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part3_api_delete_person.png" alt="delete request for a specific on postman" width="100%" height="auto">
-<br/>
 
 Make sure that the ***ID*** part of the request contains a valid id!
 <br/><br/>
