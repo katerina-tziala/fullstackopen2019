@@ -45,5 +45,12 @@ module.exports = {
             "error", { "before": true, "after": true }
         ],
         "react/prop-types": 0
+    },
+    'settings': {
+        'react': {
+            'pragma': 'React',
+            'version': 'detect',
+            'flowVersion': '0.53'
+        }
     }
 };
