@@ -72,10 +72,13 @@ as illustrated in the following figure (make sure that the ***Content-Type*** he
 <br/>
 <br/>
 <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part3_api_create_person.png" alt="post reuest to create person on postman" width="100%" height="auto">
-
-Make sure that the body of the request includes the correct data for the new person: 
-
-
+<br/>
+Make sure that the body of the request includes the correct data for the new person as illustrated in the following figure:
+<br/>
+<br/>
+<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part3_api_create_person_body.png" alt="post reuest to create person on postman" width="100%" height="auto">
+<br/>
+<br/>
 * To get a specified person from the database send a **GET** request to
     ```
         http://localhost:3001/api/persons/ID
