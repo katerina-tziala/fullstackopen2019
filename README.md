@@ -15,29 +15,26 @@ The structure of this repository is accordingly to the structure of the course. 
 
 # Course Contents
 
-<h3>
-  <a class="button" href="https://github.com/katerina-tziala/fullstackopen2019/tree/master/part0" aria-label="access part 0">
-    <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part0_logo.png" alt="part logo" width="50" height="50" align="bottom" >Part 0: Fundamentals of Web Apps
-  </a>
-</h3>
+* [**Part 0: Fundamentals of Web Apps**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part0)
 
-<h3>
-  <a class="button" href="https://github.com/katerina-tziala/fullstackopen2019/tree/master/part1" aria-label="access part 0">
-    <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part1_logo.png" alt="part logo" width="50" height="50" align="bottom" >Part 1: Introduction to React
-  </a>
-</h3>
+* [**Part 1: Introduction to React**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part1)
 
-<h3>
-  <a class="button" href="https://github.com/katerina-tziala/fullstackopen2019/tree/master/part2" aria-label="access part 0">
-    <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part2_logo.png" alt="part logo" width="50" height="50" align="bottom" >Part 2: Communicating with Server
-  </a>
-</h3>
+* [**Part 2: Communicating with Server**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part2)
 
-<h3>
-  <a class="button" href="https://github.com/katerina-tziala/fullstackopen2019/tree/master/part3" aria-label="access part 0">
-    <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part3_logo.png" alt="part logo" width="50" height="50" align="bottom" >Part 3: Programming a Server with NodeJS and Express
-  </a>
-</h3>
+* [**Part 3: Programming a Server with NodeJS and Express**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part3)
+
+* [**Part 4: Testing Express Servers, User Administration**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part4)
+
+* [**Part 5: Testing React Apps, Custom Hooks**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part5)
+
+* [**Part 6: State management with Redux**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part6)
+
+* [**Part 7: React Router, Styling App with CSS and Webpack**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7)
+
+* [**Part 8: GraphQL**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part8)
+
+
+
 
 
 
@@ -133,7 +130,7 @@ The code of the developed App that was deployed on Heroku can be found in [**pho
 
 <h2>
 <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part4_logo.png" alt="part logo" width="60" height="60" align="left" >
-<br/>Part 4: Testing Express Servers, User Administration<br/>
+<br/><br/>
 </h2>
 
 In this part, the course advances the knowledge on backend. The first major theme is writing unit and integration tests for the backend. After covering testing, it deals with implementing user authentication and authorization.
