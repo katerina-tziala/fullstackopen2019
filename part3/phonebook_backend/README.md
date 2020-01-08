@@ -45,9 +45,9 @@ In order to test the endpoinds of the API make sure that the server is running l
 If you test the *PhoneBook API* with [**Postman**](https://www.getpostman.com/):
 
 * To get the info of the *PhoneBook App* send a **GET** request to
-    
-    http://localhost:3001/api/info
-
+    ```
+        http://localhost:3001/api/info
+    ```
 
 * To get the list of all persons in the database send a **GET** request to
     
