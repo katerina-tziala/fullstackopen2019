@@ -35,11 +35,7 @@ The structure of this repository is accordingly to the structure of the course. 
 
 
 
-
-
-
-
-
+# Course Technologies
 
 
 
