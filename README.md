@@ -1,5 +1,5 @@
 <h1>
-  <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/logo.png" alt="course logo" width="auto" height="110" align="left" >
+  <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/logo.png" alt="course logo" width="auto" height="100" align="left" >
   <br/>Full Stack Open 2019 - University of Helsinki <br/>Deep Dive Into Modern Web Development<br/>
 </h1>
 
