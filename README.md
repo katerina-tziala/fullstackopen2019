@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/logo.png" alt="course logo" width="auto" height="139" align="left" >
+<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/logo.png" alt="course logo" width="auto" height="120" align="left" >
 <h1>
     Full Stack Open 2019 - University of Helsinki
     <br/>
