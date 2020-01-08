@@ -48,11 +48,11 @@ If you test the *PhoneBook API* with [**Postman**](https://www.getpostman.com/):
     ```
         http://localhost:3001/api/info
     ```
-as illustrated in the following figure:
-<br/>
-<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part3_api_info.png" alt="get info reuest on postman" width="100%" height="auto">
-<br/>
-<br/>
+    as illustrated in the following figure:
+    <br/>
+    <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part3_api_info.png" alt="get info reuest on postman" width="100%" height="auto">
+    <br/>
+    <br/>
 * To get the list of all persons in the database send a **GET** request to
     ```
         http://localhost:3001/api/persons
