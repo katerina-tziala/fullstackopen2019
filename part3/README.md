@@ -33,8 +33,6 @@ The *PhoneBook App* consists of two parts:
 To run the app locally, both parts of the app (backend and frontend) should run in parallel (different terminals). Follow the instructions in the *README* file, located in the root directory of each part, to compile and run the app locally.
 
 
+## Deploying the App
 
-
-<!-- The code of the developed App that was deployed on Heroku can be found in [**phonebook_app repository**](https://github.com/katerina-tziala/phonebook_app), whilst the app can be accessed here:
-[**PhoneBook App**](https://phonebook-app-kt.herokuapp.com/).  -->
-
+The code of the developed App that was deployed on [**Heroku**](https://phonebook-app-kt.herokuapp.com/) can be found in [**phonebook_app repository**](https://github.com/katerina-tziala/phonebook_app), whilst the app can be accessed here: [**PhoneBook App**](https://phonebook-app-kt.herokuapp.com/).
