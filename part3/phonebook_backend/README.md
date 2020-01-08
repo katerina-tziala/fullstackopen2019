@@ -50,14 +50,14 @@ If you test the *PhoneBook API* with [**Postman**](https://www.getpostman.com/):
     ```
 
 * To get the list of all persons in the database send a **GET** request to
-    
-    http://localhost:3001/api/persons
-
+    ```
+        http://localhost:3001/api/persons
+    ```
 
 * To create a person in the phonebook send a **POST** request to
-
-    http://localhost:3001/api/persons
-
+    ```
+        http://localhost:3001/api/persons
+    ```
 
 Make sure that the *Content-Type* header of the request is set with the appropriate value of *application/json*:
 
@@ -65,16 +65,16 @@ Make sure that the body of the request includes the correct data for the new per
 
 
 * To get a specified person from the database send a **GET** request to
-
-    http://localhost:3001/api/persons/ID**:
-
+    ```
+        http://localhost:3001/api/persons/ID**:
+    ```
 
 Make sure that the ***ID***part of the request contains a valid id!
 
 * To delete a specified person from the database send a **DELETE** request to
-
-    http://localhost:3001/api/persons/ID
-    
+    ```
+        http://localhost:3001/api/persons/ID
+    ```
 
 Make sure that the ***ID*** part of the request contains a valid id!
 
