@@ -45,20 +45,24 @@ The *PhoneBook API* contains the code for the developed API (backend side) of th
 
 The application works as follows. Navigate from your terminal inside the /part3/phonebook_backend directory and execute the command:
 
-* node mongo.js *yourpassword*: to display all of the entries in the phonebook database
+* **node mongo.js *yourpassword*:** to display all of the entries in the phonebook database
 
-* node mongo.js *yourpassword* *name* *number*: to create an entry in the phonebook database
+* **node mongo.js *yourpassword* *name* *number*:** to create an entry in the phonebook database
 
-For example the command 
+For example the command
+
     ```
         node mongo.js *yourpassword* Anna 040-1234556
     ```
-
+<br/>
 will print:
+
     ```
         added Anna number 040-1234556 to phonebook
     ```
+<br/>
 And the new entry to the phonebook will be saved to the database. Notice that if the name contains whitespace characters, it must be enclosed in quotes:
+
     ```
         node mongo.js *yourpassword* "Arto Vihavainen" 040-1234556
     ```
