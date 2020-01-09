@@ -5,9 +5,11 @@ if (process.argv.length < 3) {
     process.exit(1);
 }
 
+const DB_USERNAME = 'fullstack';
+const DB_URI = '@cluster0-xq5jf.mongodb.net/phonebook?retryWrites=true&w=majority';
 const password = process.argv[2];
 
-const url = `mongodb+srv://fullstack:${password}@cluster0-xq5jf.mongodb.net/phonebook?retryWrites=true&w=majority`;
+const url = `mongodb+srv://${DB_USERNAME}:${password}${DB_URI}`;
 
 mongoose.connect(url, { useUnifiedTopology: true, useNewUrlParser: true });
 

@@ -14,7 +14,7 @@ The *PhoneBook API* contains the code for the developed API (backend side) of th
 
 1. Make sure that all the dependencies of the *PhoneBook API* are installed.
 
-2. Create your own account on [**MongoDb**](https://www.mongodb.com/cloud), add a user, and get your credentials for the database access.
+2. Create your own account on [**MongoDb**](https://www.mongodb.com/cloud), create a cluster, add a database user, and get your credentials for the database access.
 
 3. In the **.env** file at the root of the project set the *'MONGODB_URI'* variable with the connection string provided by [**MongoDb**](https://www.mongodb.com/cloud):
     
@@ -30,6 +30,38 @@ The *PhoneBook API* contains the code for the developed API (backend side) of th
 1. Make sure that all the dependencies of the *PhoneBook API* are installed.
 
 2. Navigate from your terminal inside the /part3/phonebook_backend directory and run ***npm run lint***.
+
+
+## Command-line Database
+
+1. Make sure that all the dependencies of the *PhoneBook API* are installed.
+
+2. Create your own account on [**MongoDb**](https://www.mongodb.com/cloud), create a cluster, add a database user, and get your credentials for the database access (if you haven't done it yet).
+
+3. In the **mongo.js** file at the root of the project set the *'DB_USERNAME'* variable with the username of the created database user, and the *'DB_URI'* variable with the part of the connection string provided by [**MongoDb**](https://www.mongodb.com/cloud) that starts with *@cluster*...:
+
+    **Note:** Make sure that the name of the database is **phonebook**!
+
+
+The application works as follows. Navigate from your terminal inside the /part3/phonebook_backend directory and execute the command:
+
+* node mongo.js *yourpassword*: to display all of the entries in the phonebook database
+
+* node mongo.js *yourpassword* *name* *number*: to create an entry in the phonebook database
+
+For example the command 
+    ```
+        node mongo.js *yourpassword* Anna 040-1234556
+    ```
+
+will print:
+    ```
+        added Anna number 040-1234556 to phonebook
+    ```
+And the new entry to the phonebook will be saved to the database. Notice that if the name contains whitespace characters, it must be enclosed in quotes:
+    ```
+        node mongo.js *yourpassword* "Arto Vihavainen" 040-1234556
+    ```
 
 
 ## Testing the API

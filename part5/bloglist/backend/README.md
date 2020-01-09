@@ -15,7 +15,7 @@ The *Bloglist API* contains the code for the developed API (backend side) of the
 
 1. Make sure that all the dependencies of the *Bloglist API* are installed.
 
-2. Create your own account on [**MongoDb**](https://www.mongodb.com/cloud), add a user, and get your credentials for the database access.
+2. Create your own account on [**MongoDb**](https://www.mongodb.com/cloud), create a cluster, add a database user, and get your credentials for the database access.
 
 3. In the **.env** file at the root of the project set the *'MONGODB_URI'* and *'TEST_MONGODB_URI'* variables with the connection string provided by [**MongoDb**](https://www.mongodb.com/cloud):
     

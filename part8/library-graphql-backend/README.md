@@ -14,7 +14,7 @@ The *Library-GraphQl App - Backend* contains the code for the developed API (bac
 
 1. Make sure that all the dependencies of the *Library-GraphQl App - Backend* are installed.
 
-2. Create your own account on [**MongoDb**](https://www.mongodb.com/cloud), add a user, and set the your credentials for the database access in the ***'index.js'*** file.<br/><br/>
+2. Create your own account on [**MongoDb**](https://www.mongodb.com/cloud),create a cluster, add a database user, and get your credentials for the database access in the ***'index.js'*** file.<br/><br/>
 <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part8_mongodb_access.png" alt="code snippet in index,js" width="auto" height="60">
 
 3. Navigate from your terminal inside the /part8/library-graphql-backend directory and run ***npm run start*** to start the backend server of the app.
