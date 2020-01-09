@@ -1,7 +1,6 @@
 # Part 3: Programming a Server with NodeJS and Express
 
-In this part the focus shifts towards the backend, that is, towards implementing functionality on the server side of the stack. It covers the implementation of a simple REST API in Node.js by using the Express library, and the application's data are stored in a MongoDB database. Last but not least, a fully developed app is being deployed to the internet, on the
-[**Heroku Platform**](https://www.heroku.com/platform).
+In this part the focus shifts towards the backend, that is, towards implementing functionality on the server side of the stack. It covers the implementation of a simple REST API in Node.js by using the Express library, and the application's data are stored in a MongoDB database. Last but not least, a fully developed app is being deployed to the internet, on the [**Heroku Platform**](https://www.heroku.com/platform).
 
 ## Contents of Part3
 
