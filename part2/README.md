@@ -22,7 +22,7 @@ This directory contains the series of exercises for *Part 2*. In this part three
 
 * [**dataforcountries**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part2/dataforcountries)**:** The *DataForCountries App*, which displays information for various countries.
 
-* [**phonebook**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part2/phonebook)**:** The *PhoneBook App*, a digital phonebook where users can add and display phonenumbers of desired persons.
+* [**phonebook**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part2/phonebook)**:** The *PhoneBook App*, a digital phonebook where users can manage and display phonenumbers of desired persons.
 
 
 ## Running the Apps

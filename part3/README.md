@@ -15,7 +15,7 @@ In this part the focus shifts towards the backend, that is, towards implementing
 
 ## Exercises of Part 3
 
-This directory contains the series of exercises for *Part 3*. In this part the the *PhoneBook App* is developed. The *PhoneBook App* is a simple React App, a digital phonebook, where users can add and display phonenumbers of desired persons.
+This directory contains the series of exercises for *Part 3*. In this part the the *PhoneBook App* is developed. The *PhoneBook App* is a simple React App, a digital phonebook, where users can manage and display phonenumbers of desired persons.
 
 The *PhoneBook App* consists of two parts:
 

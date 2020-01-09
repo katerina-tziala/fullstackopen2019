@@ -1,6 +1,6 @@
 # PhoneBook App
 
-The *PhoneBook App* is a simple React App, a digital phonebook, where users can add and display phonenumbers of desired persons.
+The *PhoneBook App* is a simple React App, a digital phonebook, where users can manage and display phonenumbers of desired persons.
 
 
 ## Installation of the App
