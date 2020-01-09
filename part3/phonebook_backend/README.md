@@ -51,21 +51,19 @@ The application works as follows. Navigate from your terminal inside the /part3/
 
 For example the command
 
-    ```
+
         node mongo.js *yourpassword* Anna 040-1234556
-    ```
+
 
 will print:
 
-    ```
         added Anna number 040-1234556 to phonebook
-    ```
+
 
 And the new entry to the phonebook will be saved to the database. Notice that if the name contains whitespace characters, it must be enclosed in quotes:
 
-    ```
+
         node mongo.js *yourpassword* "Arto Vihavainen" 040-1234556
-    ```
 
 
 ## Testing the API
