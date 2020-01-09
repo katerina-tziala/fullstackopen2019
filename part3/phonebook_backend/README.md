@@ -126,6 +126,6 @@ If you test the *PhoneBook API* with [**Postman**](https://www.getpostman.com/):
     <br/><br/>
 ### Testing the API on Visual Studio Code:
 
-If you use [**Visual Studio Code**](https://code.visualstudio.com/), add the [**VS Code REST client plugin**](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) and execute the requests in the *'requests'* directory.
+If you use [**Visual Studio Code**](https://code.visualstudio.com/), install the [**VS Code REST client plugin**](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) and execute the requests in the *'requests'* directory.
 
 **Note:** In order to execute the *delete_person* and *get_single_person* requests make sure that you change the ***ID*** part of the request with a **valid** id.
