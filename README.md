@@ -48,3 +48,7 @@ The course consists of the following parts:
 - **Webpack**
 
 - **GraphQL and Apollo GraphQL**
+
+## Repository Dependencies
+
+Make sure that before trying to run any of the developed apps you have installed [**Node.js**](https://nodejs.org/en/)!
