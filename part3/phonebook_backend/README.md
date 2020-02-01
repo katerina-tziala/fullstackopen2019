@@ -42,7 +42,7 @@ The *PhoneBook API* contains the code for the developed API (backend side) of th
 
 1. Make sure that all the dependencies of the *PhoneBook API* are installed.
 
-2. Navigate from your terminal inside the ***fullstackopen2019/part3/phonebook_backend***  directory and run:
+2. Navigate from your terminal inside the ***fullstackopen2019/part3/phonebook_backend*** directory and run:
 
     ```
     npm run lint
