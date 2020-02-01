@@ -103,17 +103,18 @@ In order to execute the tests of a single file:
 
 1. Define the path of the file you want to test in the ***test-file*** command  in ***package.json*** to execute the tests of the desired file.
     ```javascript
-        "scripts": {
-            ...
-            "test-file": "cross-env NODE_ENV=test npx jest <PATH_OF_THE_FILE> --runInBand",
-            ...
-        },
+    "scripts": {
+        ...
+        "test-file": "cross-env NODE_ENV=test npx jest <PATH_OF_THE_FILE> --runInBand",
+         ...
+    },
     ```
 
     For example, if you want to execute the tests defined in the ***blog_creation.test*** file then the ***test-file*** command becomes:
-        ```javascript
-            "test-file": "cross-env NODE_ENV=test npx jest tests/api/blog_creation.test --runInBand",
-        ```
+
+    ```
+    "test-file": "cross-env NODE_ENV=test npx jest tests/api/blog_creation.test --runInBand",
+    ```
 
 2. Navigate from your terminal inside the ***fullstackopen2019/part4/bloglist*** directory and run:
 
