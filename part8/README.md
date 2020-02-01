@@ -2,19 +2,17 @@
 
 This part of the course is about GraphQL, Facebook's alternative to REST for communication between browser and a server.
 
-
 ## Contents of Part 8
 
-* **GraphQL-Server:** Schemas and queries, Apollo server, GraphQL-playground, Parameters of a resolver, The default resolver, Object within an object, Mutations, Error handling, Enum, Updating data
+- **GraphQL-Server:** Schemas and queries, Apollo server, GraphQL-playground, Parameters of a resolver, The default resolver, Object within an object, Mutations, Error handling, Enum, Updating data
 
-* **React and GraphQL:** Apollo client, Query-component, Named queries and variables, Cache, Mutation-component, Updating the cache, Handling mutation error messages, Updating data, Apollo Client and the applications state, Render props, Apollo with hooks
+- **React and GraphQL:** Apollo client, Query-component, Named queries and variables, Cache, Mutation-component, Updating the cache, Handling mutation error messages, Updating data, Apollo Client and the applications state, Render props, Apollo with hooks
 
-* **Database and User Administration:** Mongoose and Apollo, Validation, User and log in, Friends list
+- **Database and User Administration:** Mongoose and Apollo, Validation, User and log in, Friends list
 
-* **Login and Updating the Cache:** User log in, Adding a token to a header, Updating cache
+- **Login and Updating the Cache:** User log in, Adding a token to a header, Updating cache
 
-* **Fragments and Subscriptions:** Fragments, Subscriptions, Subscriptions on the server, Subscriptions on the client, n+1-problem
-
+- **Fragments and Subscriptions:** Fragments, Subscriptions, Subscriptions on the server, Subscriptions on the client, n+1-problem
 
 ## Exercises of Part 8
 
@@ -22,9 +20,9 @@ This directory contains the series of exercises for *Part 8*. In this part the *
 
 The *Library-GraphQl App* consists of two parts:
 
-* [**library-graphql-backend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part8/library-graphql-backend)**:** This directory contains the code of the  *Library-GraphQl API*  (backend side) of the app. 
+- [**library-graphql-backend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part8/library-graphql-backend)**:** This directory contains the code of the  *Library-GraphQl API*  (backend side) of the app. 
 
-* [**library-graphql-frontend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part8/library-graphql-frontend)**:** This directory contains the code of the frontend side of the app.
+- [**library-graphql-frontend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part8/library-graphql-frontend)**:** This directory contains the code of the frontend side of the app.
 
 
 ## Running the App

@@ -11,8 +11,8 @@ const JWT_SECRET = 'NEED_HERE_A_SECRET_KEY';
 const { PubSub } = require('apollo-server');
 const pubsub = new PubSub();
 
-const MONGO_DB_USER = '_MONGO_DB_USER_';
-const MONGO_DB_ACCESS_KEY = '_MONGO_DB_ACCESS_KEY_';
+const MONGO_DB_USER = 'YOUR_OWN_MONGODB_USERNAME';
+const MONGO_DB_ACCESS_KEY = 'YOUR_OWN_MONGODB_PASSWORD';
 const MONGO_DB_URL = `mongodb+srv://${MONGO_DB_USER}:${MONGO_DB_ACCESS_KEY}@cluster0-xq5jf.mongodb.net/library?retryWrites=true&w=majority`;
 
 mongoose.set('useNewUrlParser', true);

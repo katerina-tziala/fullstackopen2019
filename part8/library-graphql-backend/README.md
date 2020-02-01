@@ -1,25 +1,48 @@
-# Library-GraphQl App - Backend
+# Library-GraphQl API
 
-The *Library-GraphQl App - Backend* contains the code for the developed API (backend side) of the *Library-GraphQl App*.
+The *Library-GraphQl API* contains the code for the developed API (backend side) of the *Library-GraphQl App*.
+
+## App Requirements
+
+For the *Library-GraphQl API* you need an account on [**MongoDb**](https://www.mongodb.com/cloud) to connect to the database. Read the [**README_DB_CONNECTION**](https://github.com/katerina-tziala/fullstackopen2019/blob/master/README_DB_CONNECTION.md) file in the root directory of this repository in order to: 
+
+1. Create a database user and get your own credentials (***YOUR_OWN_MONGODB_USERNAME***, ***YOUR_OWN_MONGODB_PASSWORD***) for the database access.
 
 
 ## Installation of the App
 
 1. Fork and clone this repository.
 
-2. Navigate from your terminal inside the /part8/library-graphql-backend directory and run ***npm install*** or ***npm i*** to install the dependencies of the app.
+2. To install the dependencies of the app, navigate from your terminal inside the ***fullstackopen2019/part8/library-graphql-backend*** directory and run:
 
+    ```
+    npm install
+    ```
+
+    or
+
+    ```
+    npm i
+    ```
 
 ## Running the App Locally
 
-1. Make sure that all the dependencies of the *Library-GraphQl App - Backend* are installed.
+1. Make sure that all the dependencies of the *Library-GraphQl API* are installed.
 
-2. Create your own account on [**MongoDb**](https://www.mongodb.com/cloud),create a cluster, add a database user, and get your credentials for the database access in the ***'index.js'*** file.<br/><br/>
-<img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part8_mongodb_access.png" alt="code snippet in index,js" width="auto" height="60">
+2. In the ***index.js*** file set **YOUR_OWN_MONGODB_USERNAME** as the value of the ***MONGO_DB_USER*** variable, and **YOUR_OWN_MONGODB_PASSWORD** as the value of the ***MONGO_DB_ACCESS_KEY***:
 
-3. Navigate from your terminal inside the /part8/library-graphql-backend directory and run ***npm run start*** to start the backend server of the app.
+    ```javascript
+    14. const MONGO_DB_USER = 'YOUR_OWN_MONGODB_USERNAME';
+    15. const MONGO_DB_ACCESS_KEY = 'YOUR_OWN_MONGODB_PASSWORD';
+    ```
 
-4. Access the your [**GraphQL Playground**](http://localhost:4000/) and run the following mutation to create a user with username *'theuser'* and favorite genre *'nosql'*:
+3. To start the server of the API, navigate from your terminal inside the ***fullstackopen2019//part8/library-graphql-backend*** directory and run:
+
+    ```
+    npm run start
+    ```
+
+4. Access the your [**GraphQL Playground**](http://localhost:4000/) and run the following mutation to create a user with username ***theuser*** and favorite genre ***nosql***:
 
         mutation {
             createUser(username: "theuser", favoriteGenre: "nosql") {

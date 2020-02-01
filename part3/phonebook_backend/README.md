@@ -20,7 +20,7 @@ The following list presents the endpoints of the *PhoneBook API*.
 
 For the *PhoneBook API* you need an account on [**MongoDb**](https://www.mongodb.com/cloud) to connect to the database. Read the [**README_DB_CONNECTION**](https://github.com/katerina-tziala/fullstackopen2019/blob/master/README_DB_CONNECTION.md) file in the root directory of this repository in order to: 
 
-1. Create your own credentials (***YOUR_OWN_MONGODB_USERNAME***, ***YOUR_OWN_MONGODB_PASSWORD***) for the database access.
+1. Create a database user and get your own credentials (***YOUR_OWN_MONGODB_USERNAME***, ***YOUR_OWN_MONGODB_PASSWORD***) for the database access.
 
 2. Create ***YOUR_OWN_MONGODB_URI***. Make sure that the name of the database is **phonebook**!
 
