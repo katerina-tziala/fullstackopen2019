@@ -38,5 +38,3 @@ The *CustomHooks App* is a simple React App which demonstrates how custom hooks 
     ````
 
 4. Access the app locally at: ```http://localhost:3000/```
-
-5. Access the server locally at: ```http://localhost:3001/``` and the resources at: ```http://localhost:3001/persons```
