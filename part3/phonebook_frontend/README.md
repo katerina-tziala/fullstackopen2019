@@ -37,3 +37,5 @@ The *PhoneBook App* is a simple React App, a digital phonebook, where users can 
     ```
     npm run lint
     ````
+
+3. Access the app locally at: ```http://localhost:3000/```

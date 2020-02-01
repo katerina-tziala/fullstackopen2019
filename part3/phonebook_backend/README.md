@@ -56,6 +56,8 @@ For the *PhoneBook API* you need an account on [**MongoDb**](https://www.mongodb
     npm run start
     ````
 
+4. Access the server locally at: ```http://localhost:3001/```
+
 ## Linting the App
 
 1. Make sure that all the dependencies of the *PhoneBook API* are installed.
