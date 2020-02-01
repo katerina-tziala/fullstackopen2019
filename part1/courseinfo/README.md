@@ -6,7 +6,7 @@ The *CourseInfo App* is a simple React App which displays information for a cour
 
 1. Fork and clone this repository.
 
-2. To install the dependencies of the app,  navigate from your terminal inside the ***fullstackopen2019/part1/courseinfo*** directory and run:
+2. To install the dependencies of the app, navigate from your terminal inside the ***fullstackopen2019/part1/courseinfo*** directory and run:
 
     ```
     npm instal
@@ -28,4 +28,4 @@ The *CourseInfo App* is a simple React App which displays information for a cour
     npm start
     ````
 
-3. Access the app locally at ```http://localhost:3000/```.
+3. Access the app locally at: ```http://localhost:3000/```
