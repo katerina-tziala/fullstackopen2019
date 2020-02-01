@@ -9,7 +9,7 @@ The *Anecdotes App* is a simple React App which displays anecdotes from the worl
 2. To install the dependencies of the app, navigate from your terminal inside the ***fullstackopen2019/part1/anecdotes*** directory and run:
 
     ```
-    npm instal
+    npm install
     ````
 
     or

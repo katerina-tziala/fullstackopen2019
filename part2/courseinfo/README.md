@@ -13,7 +13,7 @@ The *CourseInfo App* is a simple React App which displays information for a cour
 2. To install the dependencies of the app, navigate from your terminal inside the ***fullstackopen2019/part2/courseinfo*** directory and run:
 
     ```
-    npm instal
+    npm install
     ````
 
     or

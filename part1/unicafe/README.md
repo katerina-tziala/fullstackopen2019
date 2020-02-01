@@ -9,7 +9,7 @@ The *Unicafe App* is a simple React App which collects customer feedback. There 
 2. To install the dependencies of the app, navigate from your terminal inside the ***fullstackopen2019/part1/unicafe*** directory and run:
 
     ```
-    npm instal
+    npm install
     ````
 
     or
