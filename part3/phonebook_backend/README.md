@@ -66,19 +66,19 @@ The application works as follows:
 
 2. To display all of the entries in the phonebook database execute the command:
     ```
-    node mongo.js *Your_Password*
+    node mongo.js "Your_Password"
     ````
 
 3. To create an entry in the phonebook database:
     ```
-    node mongo.js *Your_Password* *name* *number*
+    node mongo.js "Your_Password" "name" "number"
     ````
 
 
 For example the command
 
 ```
-node mongo.js *Your_Password* Anna 040-1234556
+node mongo.js "Your_Password" Anna 040-1234556
 ````
 
 will print:
@@ -92,10 +92,10 @@ And the new entry to the phonebook will be saved to the database.
 Notice that if the name contains whitespace characters, it must be enclosed in quotes:
 
 ```
-node mongo.js *Your_Password* "Arto Vihavainen" 040-1234556
+node mongo.js "Your_Password" "Arto Vihavainen" 040-1234556
 ````
 
-
+**Note:** Make sure that for the commands above you use **your own password for the MongoDb access** instead of the ***"Your_Password"***!
 
 
 
