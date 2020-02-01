@@ -2,6 +2,20 @@
 
 The *PhoneBook API* contains the code for the developed API (backend side) of the *PhoneBook App*.
 
+## PhoneBook API Endpoints:
+
+The following list presents the endpoints of the *PhoneBook API*.
+
+- **GET /api/info :** Get the info of the *phonebook* database
+
+- **GET /api/persons :** To retrieve the list of all persons in the *phonebook* database.
+
+- **POST /api/persons :** To create a person in the *phonebook* database.
+
+- **GET /api/persons/ID :** To retrieve a specified person from the *phonebook* database.
+
+- **DELETE /api/persons/ID :** To delete a specified person from the *phonebook* database.
+
 ## App Requirements
 
 For the *PhoneBook API* you need an account on [**MongoDb**](https://www.mongodb.com/cloud) to connect to the database. Read the [**README_DB_CONNECTION**](https://github.com/katerina-tziala/fullstackopen2019/blob/master/README_DB_CONNECTION.md) file in the root directory of this repository in order to: 
@@ -9,7 +23,6 @@ For the *PhoneBook API* you need an account on [**MongoDb**](https://www.mongodb
 1. Create your own credentials (***YOUR_OWN_MONGODB_USERNAME***, ***YOUR_OWN_MONGODB_PASSWORD***) for the database access.
 
 2. Create ***YOUR_OWN_MONGODB_URI***. Make sure that the name of the database is **phonebook**!
-
 
 ## Installation of the App
 
@@ -79,7 +92,7 @@ The application works as follows:
     node mongo.js "YOUR_OWN_MONGODB_PASSWORD" "name" "number"
     ````
 
-For example the command
+For example the command:
 
 ```
 node mongo.js "YOUR_OWN_MONGODB_PASSWORD" Anna 040-1234556
@@ -107,7 +120,7 @@ In order to test the endpoinds of the API make sure that the server is running l
 
 If you test the *PhoneBook API* with [**Postman**](https://www.getpostman.com/):
 
-* To get the info of the *PhoneBook App* send a **GET** request to
+* To retrieve the info of the *phonebook* database send a **GET** request to
     ```
     http://localhost:3001/api/info
     ```
@@ -116,7 +129,7 @@ If you test the *PhoneBook API* with [**Postman**](https://www.getpostman.com/):
     <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part3_api_info.png" alt="get info reuest on postman" width="100%" height="auto">
     <br/>
     <br/>
-* To get the list of all persons in the database send a **GET** request to
+* To retrieve the list of all persons in the database send a **GET** request to
     ```
     http://localhost:3001/api/persons
     ```
@@ -138,7 +151,7 @@ If you test the *PhoneBook API* with [**Postman**](https://www.getpostman.com/):
     <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/part3_api_create_person_data.png" alt="post reuest to create person on postman" width="100%" height="auto">
     <br/>
     <br/>
-* To get a specified person from the database send a **GET** request to
+* To retrieve a specified person from the database send a **GET** request to
     ```
     http://localhost:3001/api/persons/ID
     ```
