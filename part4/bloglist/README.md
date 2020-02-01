@@ -2,19 +2,25 @@
 
 The *Bloglist API* contains the code for the developed API (backend side) of the *Bloglist App*.
 
-## Bloglist API Endpoints:
+## Bloglist API Endpoints
 
 The following list presents the endpoints of the *PhoneBook API*.
 
-- **GET /api/info :** Get the info of the *phonebook* database
+- **POST /api/login :** To login in the *Bloglist App*
 
-- **GET /api/persons :** To retrieve the list of all persons in the *phonebook* database.
+- **GET /api/users :** To retrieve all users from the *bloglist* database.
 
-- **POST /api/persons :** To create a person in the *phonebook* database.
+- **POST /api/users :** To create a user in the *bloglist* database.
 
-- **GET /api/persons/ID :** To retrieve a specified person from the *phonebook* database.
+- **GET /api/blogs :** To retrieve all blogs from the *bloglist* database.
 
-- **DELETE /api/persons/ID :** To delete a specified person from the *phonebook* database.
+- **POST /api/blogs :** To create a blog in the *bloglist* database.
+
+- **GET /api/blogs/ID :** To retrieve a specified blog from the *bloglist* database.
+
+- **PUT /api/blogs/ID :** To update a specified blog in the *bloglist* database.
+
+- **DELETE /api/blogs/ID :** To delete a specified blog from the *bloglist* database.
 
 ## App Requirements
 
@@ -40,8 +46,6 @@ For the *Bloglist API* you need an account on [**MongoDb**](https://www.mongodb.
     ```
     npm i
     ````
-
-
 
 ## Running the App Locally
 

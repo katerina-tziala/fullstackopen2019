@@ -2,13 +2,13 @@
 
 The *PhoneBook API* contains the code for the developed API (backend side) of the *PhoneBook App*.
 
-## PhoneBook API Endpoints:
+## PhoneBook API Endpoints
 
 The following list presents the endpoints of the *PhoneBook API*.
 
 - **GET /api/info :** Get the info of the *phonebook* database
 
-- **GET /api/persons :** To retrieve the list of all persons in the *phonebook* database.
+- **GET /api/persons :** To retrieve all persons from the *phonebook* database.
 
 - **POST /api/persons :** To create a person in the *phonebook* database.
 
