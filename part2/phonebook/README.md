@@ -22,7 +22,7 @@ The *PhoneBook App* is a simple React App, a digital phonebook, where users can 
 
 1. Make sure that all the dependencies of the *PhoneBook App* are installed.
 
-2. To start the backend server of the app navigate from your terminal inside the ***fullstackopen2019/part2/phonebook*** directory and run:
+2. To start the backend server of the app, navigate from your terminal inside the ***fullstackopen2019/part2/phonebook*** directory and run:
 
     ```
     npm run server

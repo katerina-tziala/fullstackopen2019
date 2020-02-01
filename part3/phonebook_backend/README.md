@@ -2,13 +2,21 @@
 
 The *PhoneBook API* contains the code for the developed API (backend side) of the *PhoneBook App*.
 
-
 ## Installation of the App
 
 1. Fork and clone this repository.
 
-2. Navigate from your terminal inside the /part3/phonebook_backend directory and run ***npm install*** or ***npm i*** to install the dependencies of the app.
+2. To install the dependencies of the app, navigate from your terminal inside the ***fullstackopen2019/part3/phonebook_backend*** directory and run:
 
+    ```
+    npm install
+    ````
+
+    or
+
+    ```
+    npm i
+    ````
 
 ## Running the App Locally
 
@@ -18,19 +26,27 @@ The *PhoneBook API* contains the code for the developed API (backend side) of th
 
 3. In the **.env** file at the root of the project set the *'MONGODB_URI'* variable with the connection string provided by [**MongoDb**](https://www.mongodb.com/cloud):
     
+    ```
     MONGODB_URI=...
+    ```
 
     **Note:** Make sure that the name of the database is **phonebook**!
 
-4. Navigate from your terminal inside the /part3/phonebook_backend directory and run ***npm run start*** to start the server of the API.
+4. To start the server of the API, navigate from your terminal inside the ***fullstackopen2019/part3/phonebook_backend*** directory and run:
 
+    ```
+    npm run start
+    ````
 
 ## Linting the App
 
 1. Make sure that all the dependencies of the *PhoneBook API* are installed.
 
-2. Navigate from your terminal inside the /part3/phonebook_backend directory and run ***npm run lint***.
+2. Navigate from your terminal inside the ***fullstackopen2019/part3/phonebook_backend***  directory and run:
 
+    ```
+    npm run lint
+    ````
 
 ## Command-line Database
 
@@ -43,11 +59,12 @@ The *PhoneBook API* contains the code for the developed API (backend side) of th
     **Note:** Make sure that the name of the database is **phonebook**!
 
 
-The application works as follows. Navigate from your terminal inside the /part3/phonebook_backend directory and execute the command:
+The application works as follows. Navigate from your terminal inside the ***fullstackopen2019/part3/phonebook_backend*** directory and execute the command:
+    ```  node mongo.js *yourpassword*  ````
 
-* **node mongo.js *yourpassword*:** to display all of the entries in the phonebook database
+ - ```  node mongo.js *yourpassword*  ````: to display all of the entries in the phonebook database
 
-* **node mongo.js *yourpassword* *name* *number*:** to create an entry in the phonebook database
+ **node mongo.js *yourpassword* *name* *number*:** to create an entry in the phonebook database
 
 For example the command
 
