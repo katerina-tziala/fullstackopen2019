@@ -20,4 +20,4 @@ This directory contains the series of exercises for *Part 6*. In this part two a
 
 ## Running the Apps
 
-For each one of the developed apps follow the instructions in the ***README** file, located in the root directory of each app, to compile and run the app locally.
+For each one of the developed apps follow the instructions in the ***README*** file, located in the root directory of each app, to compile and run the app locally.
