@@ -38,13 +38,13 @@ For the *Bloglist API* you need an account on [**MongoDb**](https://www.mongodb.
 
     ```
     npm install
-    ````
+    ```
 
     or
 
     ```
     npm i
-    ````
+    ```
 
 ## Running the App Locally
 
@@ -62,7 +62,7 @@ For the *Bloglist API* you need an account on [**MongoDb**](https://www.mongodb.
 
     ```
     npm run start
-    ````
+    ```
 
 4. Access the server locally at: ```http://localhost:3003/```
 

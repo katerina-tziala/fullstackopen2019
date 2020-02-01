@@ -19,13 +19,13 @@ In order to run the *DataForCountries App* you need to get your own **API key** 
 
     ```
     npm install
-    ````
+    ```
 
     or
 
     ```
     npm i
-    ````
+    ```
 
 ## Running the App Locally
 
@@ -41,6 +41,6 @@ In order to run the *DataForCountries App* you need to get your own **API key** 
 
     ```
     npm start
-    ````
+    ```
 
 4. Access the app locally at: ```http://localhost:3000/```

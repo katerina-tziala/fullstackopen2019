@@ -39,13 +39,13 @@ For the *Bloglist API* you need an account on [**MongoDb**](https://www.mongodb.
 
     ```
     npm install
-    ````
+    ```
 
     or
 
     ```
     npm i
-    ````
+    ```
 
 ## Running the App Locally
 
@@ -58,10 +58,10 @@ For the *Bloglist API* you need an account on [**MongoDb**](https://www.mongodb.
     TEST_MONGODB_URI=...
     ```
 
-3.  To initialize the database and create a user for the app navigate from your terminal inside the ***fullstackopen2019/part5/bloglist/backendt***  directory and run:
+3.  To initialize the database and create a user for the app navigate from your terminal inside the ***fullstackopen2019/part5/bloglist/backend***  directory and run:
     ```
     npm run init-app-db
-    ````
+    ```
     The user that will be created is:
     ```javascript
     {
@@ -77,7 +77,7 @@ For the *Bloglist API* you need an account on [**MongoDb**](https://www.mongodb.
 
     ```
     npm run start
-    ````
+    ```
 
 5. Access the server locally at: ```http://localhost:3003/```
 
@@ -89,7 +89,7 @@ For the *Bloglist API* you need an account on [**MongoDb**](https://www.mongodb.
 
     ```
     npm run lint
-    ````
+    ```
 
 ## Testing the App
 
@@ -98,7 +98,6 @@ Before running any tests make sure that:
 1. All the dependencies of the *Bloglist API* are installed.
 
 2. The ***MONGODB_URI*** and ***TEST_MONGODB_URI*** variables in the  ***.env*** file are correctly defined, as stated above.
-
 
 ### Unit Testing
 

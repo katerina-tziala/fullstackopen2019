@@ -32,13 +32,13 @@ For the *PhoneBook API* you need an account on [**MongoDb**](https://www.mongodb
 
     ```
     npm install
-    ````
+    ```
 
     or
 
     ```
     npm i
-    ````
+    ```
 
 ## Running the App Locally
 
@@ -54,7 +54,7 @@ For the *PhoneBook API* you need an account on [**MongoDb**](https://www.mongodb
 
     ```
     npm run start
-    ````
+    ```
 
 4. Access the server locally at: ```http://localhost:3001/```
 
@@ -66,7 +66,7 @@ For the *PhoneBook API* you need an account on [**MongoDb**](https://www.mongodb
 
     ```
     npm run lint
-    ````
+    ```
 
 ## Command-line Database
 
@@ -87,24 +87,24 @@ The application works as follows:
 2. To display all of the entries in the phonebook database execute the command:
     ```
     node mongo.js "YOUR_OWN_MONGODB_PASSWORD"
-    ````
+    ```
 
 3. To create an entry in the phonebook database:
     ```
     node mongo.js "YOUR_OWN_MONGODB_PASSWORD" "name" "number"
-    ````
+    ```
 
 For example the command:
 
 ```
 node mongo.js "YOUR_OWN_MONGODB_PASSWORD" Anna 040-1234556
-````
+```
 
 will print:
 
 ```
 added Anna number 040-1234556 to phonebook
-````
+```
 
 And the new entry to the phonebook will be saved to the database.
 
@@ -112,7 +112,7 @@ Notice that if the name contains whitespace characters, it must be enclosed in q
 
 ```
 node mongo.js "YOUR_OWN_MONGODB_PASSWORD" "Arto Vihavainen" 040-1234556
-````
+```
 
 ## Testing the API
 

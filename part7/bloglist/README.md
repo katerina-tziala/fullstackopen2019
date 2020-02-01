@@ -20,19 +20,19 @@ To run the app locally, both parts of the app (backend and frontend) should run 
 
 #### Running the App Using the [frontend](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/bloglist/frontend):
 
-1. Follow the instructions in the *README* file, located in the root directory of [**backend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/bloglist/backend), to compile and run the app ***Bloglist API***.
+1. Follow the instructions in the ***README*** file, located in the root directory of [**backend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/bloglist/backend), to compile and run the app ***Bloglist API***.
 
-2. Follow the instructions in the *README* file, located in the root directory of [**frontend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/bloglist/frontend), to compile and run the frontend side of the app.
+2. Follow the instructions in the ***README*** file, located in the root directory of [**frontend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/bloglist/frontend), to compile and run the frontend side of the app.
 
 
-**Note:** Make sure that you create a user according to the *README* file in [**backend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/bloglist/backend) directory and you will run the and you will use the credentials to login according to the *README* file in [**frontend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/bloglist/frontend) directory.
+**Note:** Make sure that you create a user according to the ***README*** file in [**backend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/bloglist/backend) directory and you will run the and you will use the credentials to login according to the ***README*** file in [**frontend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/bloglist/frontend) directory.
 <br/><br/>
 
 #### Running the App Using the [frontend-webpack](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/bloglist/frontend-webpack):
 
-1. Follow the instructions in the *README* file, located in the root directory of [**backend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/bloglist/backend), to compile and run the app ***Bloglist API***.
+1. Follow the instructions in the ***README*** file, located in the root directory of [**backend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/bloglist/backend), to compile and run the app ***Bloglist API***.
 
-2. Follow the instructions in the *README* file, located in the root directory of [**frontend-webpack**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/bloglist/frontend-webpack), to compile and run the frontend side of the app.
+2. Follow the instructions in the ***README*** file, located in the root directory of [**frontend-webpack**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/bloglist/frontend-webpack), to compile and run the frontend side of the app.
 
 
-**Note:** Make sure that you create a user according to the *README* file in [**backend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/bloglist/backend) directory and you will run the and you will use the credentials to login according to the *README* file in [**frontend-webpack**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/bloglist/frontend-webpack) directory.
+**Note:** Make sure that you create a user according to the ***README*** file in [**backend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/bloglist/backend) directory and you will run the and you will use the credentials to login according to the ***README*** file in [**frontend-webpack**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/bloglist/frontend-webpack) directory.

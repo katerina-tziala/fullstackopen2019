@@ -2,75 +2,82 @@
 
 The *BlogList Frontend* contains the code for the frontend side of the *BlogList App*.  This app is build upon the *Bloglist Frontend* that was developed in [**part5**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part5/bloglist/frontend). In this version of the *Bloglist App*, the app utilizes the Redux-library for state mangement and is structured into three diffent views with the use of *React Router*.
 
-
 ## Installation of the App
 
 1. Fork and clone this repository.
 
-2. Navigate from your terminal inside the /part7/bloglist/frontend directory and run ***npm install*** or ***npm i*** to install the dependencies of the app.
+2. To install the dependencies of the app, navigate from your terminal inside the ***fullstackopen2019/part7/bloglist/frontend*** directory and run:
 
+    ```
+    npm install
+    ```
+
+    or
+
+    ```
+    npm i
+    ```
 
 ## Running the App Locally
 
 1. Make sure that all the dependencies of the *Bloglist App* are installed.
 
-2. Navigate from your terminal inside the /part7/bloglist/frontend directory and run ***npm start***.
+2. Navigate from your terminal inside the ***fullstackopen2019/part7/bloglist/frontend*** directory and run:
 
-3. Login with the following credentials:
+    ```
+    npm start
+    ```
+3. Access the app locally at: ```http://localhost:3000/```
 
-        username: theuser
-        password: secretcode
-
+4. Login with the following credentials:
+    ```
+    username: theuser
+    password: secretcode
+    ```
 
 ## Linting the App
 
 1. Make sure that all the dependencies of the *Bloglist App* are installed.
 
-2. Navigate from your terminal inside the /part7/bloglist/frontend directory and run ***npm run lint***.
+2. Navigate from your terminal inside the ***fullstackopen2019/part7/bloglist/frontend*** directory and run:
 
+    ```
+    npm run lint
+    ```
 
 ## End to End Testing
 
 To run the **End to End Testing** for the *Bloglist App*:
 
-<h3>Step A: </h3>
+### Step A:
 
-1. Create your own account on [**MongoDb**](https://www.mongodb.com/cloud), create a cluster, add a database user, and get your credentials for the database access.
+1. Make sure that all the dependencies of the [**Bloglist API**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/bloglist/backend) are installed.
 
-2. In the **.env** file at the root of the project set the *'MONGODB_URI'* and *'TEST_MONGODB_URI'* variables with the connection string provided by [**MongoDb**](https://www.mongodb.com/cloud):
-                
-                MONGODB_URI=...
-                TEST_MONGODB_URI=...
+2. The ***MONGODB_URI*** and ***TEST_MONGODB_URI*** variables in the  ***.env*** file of the  [**backend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part7/bloglist/backend) directory are correctly defined.
 
-**Note:** Make sure that the name of the database is **bloglist**!
+### Step B:
 
+To start the server of the  *Bloglist API* in testing mode, navigate from your terminal inside the ***fullstackopen2019/part7/bloglist/backend*** directory and run:
 
-<h3>Step B: </h3>
+    ```
+    npm run start:test
+    ```
 
-Navigate from your terminal inside the /part7/bloglist/backend directory and:
+### Step C:
 
-3.  Run ***npm install*** or ***npm i*** to install the dependencies of the app.
-
-4. Run ***npm run start:test*** to start the server of the  *Bloglist API* in testing mode.
+Run the  *Bloglist App* locally as stated above.
 
 
-<h3>Step C: </h3>
-
-Open a new terminal, navigate from your terminal inside the /part7/bloglist/frontend directory and:
-
-1.  Run ***npm install*** or ***npm i*** to install the dependencies of the app.
-
-2.  Run ***npm start***.
-
-
-<h3>Step D: </h3>
+### Step D:
 
 To execute the ***End to End*** testing:
 
-1.  Open a new terminal, navigate from your terminal inside the /part7/bloglist/frontend directory and run ***npm run cypress:open***.
+1. Open a new terminal, navigate from your terminal inside the ***fullstackopen2019/part7/bloglist/frontend*** directory and run:
+
+    ```
+    npm run cypress:open
+    ```
+
 
 2. On the ***Cypress Panel*** click ***Run all specs*** to execute the tests. <br/><br/>
 <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/cypress_panel.png" alt="cypess panel" width="auto" height="300">
-
-
-

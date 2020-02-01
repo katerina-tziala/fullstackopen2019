@@ -10,13 +10,13 @@ The *Anecdotes App* is a simple React App which utilizes the Redux-library for s
 
     ```
     npm install
-    ````
+    ```
 
     or
 
     ```
     npm i
-    ````
+    ```
 
 ## Running the App Locally
 
@@ -26,13 +26,13 @@ The *Anecdotes App* is a simple React App which utilizes the Redux-library for s
 
     ```
     npm run server
-    ````
+    ```
 
 3. Open a new terminal, navigate from your terminal inside the ***fullstackopen2019/part6/anecdotes_redux*** directory and run:
 
     ```
     npm start
-    ````
+    ```
 
 4. Access the app locally at: ```http://localhost:3000/```
 

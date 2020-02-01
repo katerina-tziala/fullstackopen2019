@@ -10,13 +10,13 @@ The *BlogList Frontend* contains the code for the frontend side of the *BlogList
 
     ```
     npm install
-    ````
+    ```
 
     or
 
     ```
     npm i
-    ````
+    ```
 
 ## Running the App Locally
 
@@ -26,15 +26,15 @@ The *BlogList Frontend* contains the code for the frontend side of the *BlogList
 
     ```
     npm start
-    ````
+    ```
 
-3. Login with the following credentials:
+3. Access the app locally at: ```http://localhost:3000/```
+
+4. Login with the following credentials:
     ```
     username: theuser
     password: secretcode
     ```
-
-4. Access the app locally at: ```http://localhost:3000/```
 
 ## Linting the App
 
@@ -44,7 +44,7 @@ The *BlogList Frontend* contains the code for the frontend side of the *BlogList
 
     ```
     npm run lint
-    ````
+    ```
 
 ## Testing the App
 
@@ -61,10 +61,10 @@ To execute the tests navigate from your terminal inside the ***fullstackopen2019
 
 ```
 npm run test-app
-````
+```
 
 To include a coverage report for the tests run:
 
 ```
 npm run test-app-coverage
-````
+```

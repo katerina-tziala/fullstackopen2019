@@ -10,13 +10,13 @@ The *Anecdotes App* is a simple React App which displays anecdotes from the worl
 
     ```
     npm install
-    ````
+    ```
 
     or
 
     ```
     npm i
-    ````
+    ```
 
 ## Running the App Locally
 
@@ -26,6 +26,6 @@ The *Anecdotes App* is a simple React App which displays anecdotes from the worl
 
     ```
     npm start
-    ````
+    ```
 
 3. Access the app locally at: ```http://localhost:3000/```

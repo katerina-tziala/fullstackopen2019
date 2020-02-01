@@ -14,4 +14,4 @@ The *BlogList App* consists of two parts:
 
 To run the app locally, both parts of the app (backend and frontend) should run in parallel (different terminals). Follow the instructions in the *README* file, located in the root directory of each part, to compile and run the app locally.
 
-**Note:** Make sure that you create a user according to the *README* file in [**backend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part5/bloglist/backend) directory and you will use the credentials to login according to the *README* file in [**frontend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part5/bloglist/frontend) directory.
+**Note:** Make sure that you create a user according to the ***README*** file in [**backend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part5/bloglist/backend) directory and you will use the credentials to login according to the ***README*** file in [**frontend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part5/bloglist/frontend) directory.
