@@ -59,12 +59,22 @@ The *PhoneBook API* contains the code for the developed API (backend side) of th
     **Note:** Make sure that the name of the database is **phonebook**!
 
 
-The application works as follows. Navigate from your terminal inside the ***fullstackopen2019/part3/phonebook_backend*** directory and execute the command:
-    ```  node mongo.js *yourpassword*  ````
+The application works as follows. Navigate from your terminal inside the ***fullstackopen2019/part3/phonebook_backend*** directory and:
+
+- To display all of the entries in the phonebook database execute the command:
+    ```
+    node mongo.js *yourpassword*
+    ````
+
+- To create an entry in the phonebook database:
+    ```
+    node mongo.js *yourpassword* *name* *number*
+    ````
+<!-- 
 
  - ```  node mongo.js *yourpassword*  ````: to display all of the entries in the phonebook database
 
- **node mongo.js *yourpassword* *name* *number*:** to create an entry in the phonebook database
+ **node mongo.js *yourpassword* *name* *number*:** to create an entry in the phonebook database -->
 
 For example the command
 
