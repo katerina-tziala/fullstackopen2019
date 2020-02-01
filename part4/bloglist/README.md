@@ -2,29 +2,64 @@
 
 The *Bloglist API* contains the code for the developed API (backend side) of the *Bloglist App*.
 
+## Bloglist API Endpoints:
+
+The following list presents the endpoints of the *PhoneBook API*.
+
+- **GET /api/info :** Get the info of the *phonebook* database
+
+- **GET /api/persons :** To retrieve the list of all persons in the *phonebook* database.
+
+- **POST /api/persons :** To create a person in the *phonebook* database.
+
+- **GET /api/persons/ID :** To retrieve a specified person from the *phonebook* database.
+
+- **DELETE /api/persons/ID :** To delete a specified person from the *phonebook* database.
+
+## App Requirements
+
+For the *Bloglist API* you need an account on [**MongoDb**](https://www.mongodb.com/cloud) to connect to the database. Read the [**README_DB_CONNECTION**](https://github.com/katerina-tziala/fullstackopen2019/blob/master/README_DB_CONNECTION.md) file in the root directory of this repository in order to: 
+
+1. Create your own credentials (***YOUR_OWN_MONGODB_USERNAME***, ***YOUR_OWN_MONGODB_PASSWORD***) for the database access.
+
+2. Create ***YOUR_OWN_MONGODB_URI***. Make sure that the name of the database is **bloglist**!
+
 
 ## Installation of the App
 
 1. Fork and clone this repository.
 
-2. Navigate from your terminal inside the /part4/bloglist directory and run ***npm install*** or ***npm i*** to install the dependencies of the app.
+2. To install the dependencies of the app, navigate from your terminal inside the ***fullstackopen2019/part4/bloglist*** directory and run:
+
+    ```
+    npm install
+    ````
+
+    or
+
+    ```
+    npm i
+    ````
+
 
 
 ## Running the App Locally
 
 1. Make sure that all the dependencies of the *Bloglist API* are installed.
 
-2. Create your own account on [**MongoDb**](https://www.mongodb.com/cloud), create a cluster, add a database user, and get your credentials for the database access.
 
-3. In the **.env** file at the root of the project set the *'MONGODB_URI'* and *'TEST_MONGODB_URI'* variables with the connection string provided by [**MongoDb**](https://www.mongodb.com/cloud):
-    
+2. In the ***.env*** file set **YOUR_OWN_MONGODB_URI** as the value of the ***MONGODB_URI*** and ***TEST_MONGODB_URI*** variables:
+   
+    ```
     MONGODB_URI=...
     TEST_MONGODB_URI=...
+    ```
 
-    **Note:** Make sure that the name of the database is **bloglist**!
+3. To start the server of the API, navigate from your terminal inside the ***fullstackopen2019/part4/bloglist*** directory and run:
 
-4. Navigate from your terminal inside the /part4/bloglist directory and run ***npm run start*** to start the server of the API.
-
+    ```
+    npm run start
+    ````
 
 ## Testing the App
 
@@ -32,15 +67,15 @@ Before running any tests make sure that:
 
 1. All the dependencies of the *Bloglist API* are installed.
 
-2. You have access to a cluster on [**MongoDb**](https://www.mongodb.com/cloud). 
-
-3. The *'MONGODB_URI'* and *'TEST_MONGODB_URI'* variables in the **.env** file are correctly defined, as stated before.
-
+2. The ***MONGODB_URI*** and ***TEST_MONGODB_URI*** variables in the  ***.env*** file are correctly defined, as stated above.
 
 ### Unit Testing
 
-In order to execute the unit tests on the app navigate from your terminal inside the /part4/bloglist directory and run ***npm run unit-test***.
+In order to execute the unit tests on the app navigate from your terminal inside the ***fullstackopen2019/part4/bloglist*** directory and run:
 
+```
+npm run unit-test
+````
 
 ### Integration Testing
 
