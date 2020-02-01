@@ -8,6 +8,9 @@ For the *Library-GraphQl API* you need an account on [**MongoDb**](https://www.m
 
 1. Create a database user and get your own credentials (***YOUR_OWN_MONGODB_USERNAME***, ***YOUR_OWN_MONGODB_PASSWORD***) for the database access.
 
+## Library-GraphQl API Endpoints
+
+The *Library-GraphQl API* has only one endpoint ***/graphql*** for all the requests required for the *Library-GraphQl App*
 
 ## Installation of the App
 
@@ -36,7 +39,7 @@ For the *Library-GraphQl API* you need an account on [**MongoDb**](https://www.m
     15. const MONGO_DB_ACCESS_KEY = 'YOUR_OWN_MONGODB_PASSWORD';
     ```
 
-3. To start the server of the API, navigate from your terminal inside the ***fullstackopen2019//part8/library-graphql-backend*** directory and run:
+3. To start the server of the API, navigate from your terminal inside the ***fullstackopen2019/part8/library-graphql-backend*** directory and run:
 
     ```
     npm run start

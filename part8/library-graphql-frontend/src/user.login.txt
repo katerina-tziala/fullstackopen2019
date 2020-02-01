@@ -1,2 +1,0 @@
-username: katetzi
-password: secred

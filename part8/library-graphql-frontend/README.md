@@ -27,7 +27,7 @@ The *Library-GraphQl App - Frontend* contains the code for the frontend side of 
     ```
     npm start
     ```
-3. Access the app locally at: ```http://localhost:3000/```
+3. Access the app locally at: ```http://localhost:4000/```
 
 4. Login with the following credentials:
     ```
