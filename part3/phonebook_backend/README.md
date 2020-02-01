@@ -24,7 +24,7 @@ The *PhoneBook API* contains the code for the developed API (backend side) of th
 
 2. Create your own account on [**MongoDb**](https://www.mongodb.com/cloud), create a cluster, add a database user, and get your credentials for the database access.
 
-3. In the **.env** file at the root of the project set the *'MONGODB_URI'* variable with the connection string provided by [**MongoDb**](https://www.mongodb.com/cloud):
+3. In the **.env** file at the root of the project set the ***MONGODB_URI*** variable with the connection string provided by [**MongoDb**](https://www.mongodb.com/cloud):
     
     ```
     MONGODB_URI=...
@@ -58,40 +58,50 @@ The *PhoneBook API* contains the code for the developed API (backend side) of th
 
     **Note:** Make sure that the name of the database is **phonebook**!
 
+<br/>
 
-The application works as follows. Navigate from your terminal inside the ***fullstackopen2019/part3/phonebook_backend*** directory and:
 
-- To display all of the entries in the phonebook database execute the command:
+The application works as follows:
+
+1. Navigate from your terminal inside the ***fullstackopen2019/part3/phonebook_backend*** directory.
+
+2. To display all of the entries in the phonebook database execute the command:
     ```
-    node mongo.js *yourpassword*
+    node mongo.js *Your_Password*
     ````
 
-- To create an entry in the phonebook database:
+3. To create an entry in the phonebook database:
     ```
-    node mongo.js *yourpassword* *name* *number*
+    node mongo.js *Your_Password* *name* *number*
     ````
-<!-- 
 
- - ```  node mongo.js *yourpassword*  ````: to display all of the entries in the phonebook database
-
- **node mongo.js *yourpassword* *name* *number*:** to create an entry in the phonebook database -->
 
 For example the command
 
-
-        node mongo.js *yourpassword* Anna 040-1234556
-
+```
+    node mongo.js *Your_Password* Anna 040-1234556
+````
 
 will print:
 
-        added Anna number 040-1234556 to phonebook
+```
+    added Anna number 040-1234556 to phonebook
+````
+
+And the new entry to the phonebook will be saved to the database.
+
+Notice that if the name contains whitespace characters, it must be enclosed in quotes:
+
+```
+    node mongo.js *Your_Password* "Arto Vihavainen" 040-1234556
+````
 
 
-And the new entry to the phonebook will be saved to the database. Notice that if the name contains whitespace characters, it must be enclosed in quotes:
 
 
-        node mongo.js *yourpassword* "Arto Vihavainen" 040-1234556
 
+
+<!-- 
 
 ## Testing the API
 
@@ -155,4 +165,4 @@ If you test the *PhoneBook API* with [**Postman**](https://www.getpostman.com/):
 
 If you use [**Visual Studio Code**](https://code.visualstudio.com/), install the [**VS Code REST client plugin**](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) and execute the requests in the *'requests'* directory.
 
-**Note:** In order to execute the *delete_person* and *get_single_person* requests make sure that you change the ***ID*** part of the request with a **valid** id.
+**Note:** In order to execute the *delete_person* and *get_single_person* requests make sure that you change the ***ID*** part of the request with a **valid** id. -->
