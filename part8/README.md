@@ -24,7 +24,6 @@ The *Library-GraphQl App* consists of two parts:
 
 - [**library-graphql-frontend**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part8/library-graphql-frontend)**:** This directory contains the code of the frontend side of the app.
 
-
 ## Running the App
 
 To run the app locally, both parts of the app (backend and frontend) should run in parallel (different terminals). Follow the instructions in the ***README*** file, located in the root directory of each part, to compile and run the app locally.
