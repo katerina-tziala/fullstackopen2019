@@ -79,6 +79,8 @@ For the *Bloglist API* you need an account on [**MongoDb**](https://www.mongodb.
     npm run start
     ````
 
+5. Access the server locally at: ```http://localhost:3003/```
+
 ## Linting the App
 
 1. Make sure that all the dependencies of the *Bloglist API* are installed.

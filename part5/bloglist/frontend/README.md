@@ -34,6 +34,8 @@ The *BlogList Frontend* contains the code for the frontend side of the *BlogList
     password: secretcode
     ```
 
+4. Access the app locally at: ```http://localhost:3000/```
+
 ## Linting the App
 
 1. Make sure that all the dependencies of the *Bloglist App* are installed.
