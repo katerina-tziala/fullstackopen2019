@@ -27,3 +27,5 @@ The *CourseInfo App* is a simple React App which displays information for a cour
     ```
     npm start
     ````
+
+3. Access the app locally at ```http://localhost:3000/```.
