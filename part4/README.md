@@ -4,13 +4,13 @@ In this part, the course advances the knowledge on backend. The first major them
 
 ## Contents of Part 4
 
-* **Structure of backend application, introduction to testing:** Project structure, Testing Node applications
+- **Structure of backend application, introduction to testing:** Project structure, Testing Node applications
 
-* **Testing the Backend:** Test environment, Supertest, Logger, Initializing the database before tests, Running tests one by one, async/await, async/await in the backend, More tests and refactoring the backend, Error handling and async/await, Optimizing the beforeEach function, Refactoring tests
+- **Testing the Backend:** Test environment, Supertest, Logger, Initializing the database before tests, Running tests one by one, async/await, async/await in the backend, More tests and refactoring the backend, Error handling and async/await, Optimizing the beforeEach function, Refactoring tests
 
-* **User Administration:** References across collections, Mongoose schema for users, Creating users, Populate
+- **User Administration:** References across collections, Mongoose schema for users, Creating users, Populate
 
-* **Token Authentication:** Limiting creating documents to logged in users, Error handling
+- **Token Authentication:** Limiting creating documents to logged in users, Error handling
 
 ## Exercises of Part 4
 
