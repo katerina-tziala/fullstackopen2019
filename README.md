@@ -1,6 +1,4 @@
-<h1>
-  Full Stack Open 2019 - University of Helsinki<br/>Deep Dive Into Modern Web Development
-</h1>
+# Full Stack Open 2019 - University of Helsinki<br/>Deep Dive Into Modern Web Development
 
 The orientation of this course is JavaScript-based web development. The main focus is on building single page applications with ReactJS that use REST APIs built with Node.js.<br/>
 The course covers development, testing, configuration, environment management, and additionally:
