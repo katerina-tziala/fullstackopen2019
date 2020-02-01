@@ -14,8 +14,8 @@
 
 This connection link is required to connect the app with the database and will be referred from now on as ***YOUR_OWN_MONGODB_URI***.
    
-**Notes:**
+## Notes
 
 - Make sure that you use the correct credentials (**username** and **password**) in the connection link.
 
-- Make sure that you use the correct database name in the connection link.
+- Make sure that you use the correct **database** name in the connection link.
