@@ -10,7 +10,7 @@ For the *Library-GraphQl API* you need an account on [**MongoDb**](https://www.m
 
 ## Library-GraphQl API Endpoints
 
-The *Library-GraphQl API* has only one endpoint (***/graphql***) for all the requests required for the *Library-GraphQl App*.
+The *Library-GraphQl API* has only one endpoint, the ***/graphql*** endpoint, for all the requests required for the *Library-GraphQl App*.
 
 ## Installation of the App
 
