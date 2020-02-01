@@ -2,6 +2,15 @@
 
 The *PhoneBook API* contains the code for the developed API (backend side) of the *PhoneBook App*.
 
+## App Requirements
+
+For the *PhoneBook API* you need an account on [**MongoDb**](https://www.mongodb.com/cloud) to connect to the database. Read the [**README_DB_CONNECTION**](https://github.com/katerina-tziala/fullstackopen2019/blob/master/README_DB_CONNECTION.md) file in the root directory of this repository in order to: 
+
+1. Create your own credentials (***YOUR_OWN_MONGODB_USERNAME***, ***YOUR_OWN_MONGODB_PASSWORD***) for the database access.
+
+2. Create ***YOUR_OWN_MONGODB_URI***. Make sure that the name of the database is **phonebook**!
+
+
 ## Installation of the App
 
 1. Fork and clone this repository.
@@ -22,15 +31,11 @@ The *PhoneBook API* contains the code for the developed API (backend side) of th
 
 1. Make sure that all the dependencies of the *PhoneBook API* are installed.
 
-2. Create your own account on [**MongoDb**](https://www.mongodb.com/cloud), create a cluster, add a database user, and get your credentials for the database access.
-
-3. In the **.env** file at the root of the project set the ***MONGODB_URI*** variable with the connection string provided by [**MongoDb**](https://www.mongodb.com/cloud):
+2. In the **.env** file at the root of the project set the value of the ***MONGODB_URI*** variable with ***YOUR_OWN_MONGODB_URI***:
     
     ```
     MONGODB_URI=...
     ```
-
-    **Note:** Make sure that the name of the database is **phonebook**!
 
 4. To start the server of the API, navigate from your terminal inside the ***fullstackopen2019/part3/phonebook_backend*** directory and run:
 
@@ -48,13 +53,27 @@ The *PhoneBook API* contains the code for the developed API (backend side) of th
     npm run lint
     ````
 
+
+
+
+
+
+
+
+<!-- 
+
+
+
+
+
+
 ## Command-line Database
 
 1. Make sure that all the dependencies of the *PhoneBook API* are installed.
 
 2. Create your own account on [**MongoDb**](https://www.mongodb.com/cloud), create a cluster, add a database user, and get your credentials for the database access (if you haven't done it yet).
 
-3. In the **mongo.js** file at the root of the project set the *'DB_USERNAME'* variable with the username of the created database user, and the *'DB_URI'* variable with the part of the connection string provided by [**MongoDb**](https://www.mongodb.com/cloud) that starts with *@cluster*...:
+3. In the **mongo.js** file at the root of the project set the *'DB_USERNAME'* variable with the username of the created database user, and the *'DB_URI'* variable with the part of the connection string provided by [**MongoDb**](https://www.mongodb.com/cloud) that starts with *cluster*...:
 
     **Note:** Make sure that the name of the database is **phonebook**!
 
@@ -73,7 +92,6 @@ The application works as follows:
     ```
     node mongo.js "Your_Password" "name" "number"
     ````
-
 
 For example the command
 
@@ -95,8 +113,8 @@ Notice that if the name contains whitespace characters, it must be enclosed in q
 node mongo.js "Your_Password" "Arto Vihavainen" 040-1234556
 ````
 
-**Note:** Make sure that for the commands above you use **your own password for the MongoDb access** instead of the ***"Your_Password"***!
-
+**Note:** Make sure that for the commands above you use **your own password for the MongoDb access** instead of the ***"Your_Password"***! -->
+ -->
 
 
 
