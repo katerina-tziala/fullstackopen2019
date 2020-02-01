@@ -6,7 +6,7 @@ The *Library-GraphQl API* contains the code for the developed API (backend side)
 
 For the *Library-GraphQl API* you need an account on [**MongoDb**](https://www.mongodb.com/cloud) to connect to the database. Read the [**README_DB_CONNECTION**](https://github.com/katerina-tziala/fullstackopen2019/blob/master/README_DB_CONNECTION.md) file in the root directory of this repository in order to: 
 
-1. Create a database user and get your own credentials (***YOUR_OWN_MONGODB_USERNAME***, ***YOUR_OWN_MONGODB_PASSWORD***) for the database access.
+1. Create a database user and get your own credentials, ***YOUR_OWN_MONGODB_USERNAME*** and ***YOUR_OWN_MONGODB_PASSWORD***, for the database access.
 
 ## Library-GraphQl API Endpoints
 
