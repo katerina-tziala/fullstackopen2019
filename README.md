@@ -13,7 +13,7 @@ The course covers development, testing, configuration, environment management, a
 - GraphQL, a modern alternative to REST APIs
 
 ## Course Contents
-The course consists of the following nine parts:
+The course consists of the following parts:
 
 - [**Part 0: Fundamentals of Web Apps**](https://github.com/katerina-tziala/fullstackopen2019/tree/master/part0)
 
