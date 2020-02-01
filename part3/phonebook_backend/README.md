@@ -31,13 +31,13 @@ For the *PhoneBook API* you need an account on [**MongoDb**](https://www.mongodb
 
 1. Make sure that all the dependencies of the *PhoneBook API* are installed.
 
-2. In the **.env** file at the root of the project set the value of the ***MONGODB_URI*** variable with ***YOUR_OWN_MONGODB_URI***:
-    
+2. In the ***.env*** file set **YOUR_OWN_MONGODB_URI** as the value of the ***MONGODB_URI*** variable:
+   
     ```
     MONGODB_URI=...
     ```
 
-4. To start the server of the API, navigate from your terminal inside the ***fullstackopen2019/part3/phonebook_backend*** directory and run:
+3. To start the server of the API, navigate from your terminal inside the ***fullstackopen2019/part3/phonebook_backend*** directory and run:
 
     ```
     npm run start
@@ -53,29 +53,15 @@ For the *PhoneBook API* you need an account on [**MongoDb**](https://www.mongodb
     npm run lint
     ````
 
-
-
-
-
-
-
-
-<!-- 
-
-
-
-
-
-
 ## Command-line Database
 
 1. Make sure that all the dependencies of the *PhoneBook API* are installed.
 
-2. Create your own account on [**MongoDb**](https://www.mongodb.com/cloud), create a cluster, add a database user, and get your credentials for the database access (if you haven't done it yet).
+2. In the ***mongo.js*** file set **YOUR_OWN_MONGODB_USERNAME** as the value of the ***DB_USERNAME*** variable:
 
-3. In the **mongo.js** file at the root of the project set the *'DB_USERNAME'* variable with the username of the created database user, and the *'DB_URI'* variable with the part of the connection string provided by [**MongoDb**](https://www.mongodb.com/cloud) that starts with *cluster*...:
-
-    **Note:** Make sure that the name of the database is **phonebook**!
+    ```javascript
+    9. const DB_USERNAME = 'YOUR_OWN_MONGODB_USERNAME';
+    ```
 
 <br/>
 
@@ -85,18 +71,18 @@ The application works as follows:
 
 2. To display all of the entries in the phonebook database execute the command:
     ```
-    node mongo.js "Your_Password"
+    node mongo.js "YOUR_OWN_MONGODB_PASSWORD"
     ````
 
 3. To create an entry in the phonebook database:
     ```
-    node mongo.js "Your_Password" "name" "number"
+    node mongo.js "YOUR_OWN_MONGODB_PASSWORD" "name" "number"
     ````
 
 For example the command
 
 ```
-node mongo.js "Your_Password" Anna 040-1234556
+node mongo.js "YOUR_OWN_MONGODB_PASSWORD" Anna 040-1234556
 ````
 
 will print:
@@ -110,15 +96,8 @@ And the new entry to the phonebook will be saved to the database.
 Notice that if the name contains whitespace characters, it must be enclosed in quotes:
 
 ```
-node mongo.js "Your_Password" "Arto Vihavainen" 040-1234556
+node mongo.js "YOUR_OWN_MONGODB_PASSWORD" "Arto Vihavainen" 040-1234556
 ````
-
-**Note:** Make sure that for the commands above you use **your own password for the MongoDb access** instead of the ***"Your_Password"***! -->
- -->
-
-
-
-<!-- 
 
 ## Testing the API
 
@@ -130,7 +109,7 @@ If you test the *PhoneBook API* with [**Postman**](https://www.getpostman.com/):
 
 * To get the info of the *PhoneBook App* send a **GET** request to
     ```
-        http://localhost:3001/api/info
+    http://localhost:3001/api/info
     ```
     as illustrated in the following figure:
     <br/>
@@ -139,7 +118,7 @@ If you test the *PhoneBook API* with [**Postman**](https://www.getpostman.com/):
     <br/>
 * To get the list of all persons in the database send a **GET** request to
     ```
-        http://localhost:3001/api/persons
+    http://localhost:3001/api/persons
     ```
     as illustrated in the following figure:
     <br/>
@@ -148,7 +127,7 @@ If you test the *PhoneBook API* with [**Postman**](https://www.getpostman.com/):
     <br/>
 * To create a person in the phonebook send a **POST** request to
     ```
-        http://localhost:3001/api/persons
+    http://localhost:3001/api/persons
     ```
     as illustrated in the following figure (make sure that the ***Content-Type*** header of the request is set with the appropriate value of ***application/json***):
     <br/>
@@ -161,7 +140,7 @@ If you test the *PhoneBook API* with [**Postman**](https://www.getpostman.com/):
     <br/>
 * To get a specified person from the database send a **GET** request to
     ```
-        http://localhost:3001/api/persons/ID
+    http://localhost:3001/api/persons/ID
     ```
     as illustrated in the following figure:
     <br/>
@@ -171,7 +150,7 @@ If you test the *PhoneBook API* with [**Postman**](https://www.getpostman.com/):
     <br/>
 * To delete a specified person from the database send a **DELETE** request to
     ```
-        http://localhost:3001/api/persons/ID
+    http://localhost:3001/api/persons/ID
     ```
     as illustrated in the following figure:
     <br/>
@@ -182,4 +161,4 @@ If you test the *PhoneBook API* with [**Postman**](https://www.getpostman.com/):
 
 If you use [**Visual Studio Code**](https://code.visualstudio.com/), install the [**VS Code REST client plugin**](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) and execute the requests in the *'requests'* directory.
 
-**Note:** In order to execute the *delete_person* and *get_single_person* requests make sure that you change the ***ID*** part of the request with a **valid** id. -->
+**Note:** In order to execute the *delete_person* and *get_single_person* requests make sure that you change the ***ID*** part of the request with a **valid** id.

@@ -1,14 +1,14 @@
 const mongoose = require('mongoose');
 const process = require('process');
+
 if (process.argv.length < 3) {
     console.log('Give password as argument');
     process.exit(1);
 }
 
-const DB_USERNAME = '_DB_USERNAME_';
+const DB_USERNAME = 'YOUR_OWN_MONGODB_PASSWORD';
 const DB_URI = '@cluster0-xq5jf.mongodb.net/phonebook?retryWrites=true&w=majority';
 const password = process.argv[2];
-
 const url = `mongodb+srv://${DB_USERNAME}:${password}${DB_URI}`;
 
 mongoose.connect(url, { useUnifiedTopology: true, useNewUrlParser: true });
