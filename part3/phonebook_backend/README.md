@@ -60,7 +60,6 @@ The *PhoneBook API* contains the code for the developed API (backend side) of th
 
 <br/>
 
-
 The application works as follows:
 
 1. Navigate from your terminal inside the ***fullstackopen2019/part3/phonebook_backend*** directory.
@@ -79,13 +78,13 @@ The application works as follows:
 For example the command
 
 ```
-    node mongo.js *Your_Password* Anna 040-1234556
+node mongo.js *Your_Password* Anna 040-1234556
 ````
 
 will print:
 
 ```
-    added Anna number 040-1234556 to phonebook
+added Anna number 040-1234556 to phonebook
 ````
 
 And the new entry to the phonebook will be saved to the database.
@@ -93,7 +92,7 @@ And the new entry to the phonebook will be saved to the database.
 Notice that if the name contains whitespace characters, it must be enclosed in quotes:
 
 ```
-    node mongo.js *Your_Password* "Arto Vihavainen" 040-1234556
+node mongo.js *Your_Password* "Arto Vihavainen" 040-1234556
 ````
 
 
