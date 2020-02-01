@@ -8,16 +8,30 @@ The *Anecdotes App* is a simple React App which displays anecdotes from the worl
 
 3. *about:* The view where users can see information about the *Anecdotes App*.
 
-
 ## Installation of the App
 
 1. Fork and clone this repository.
 
-2. Navigate from your terminal inside the /part7/anecdotes_routed directory and run ***npm install*** or ***npm i*** to install the dependencies of the app.
+2. To install the dependencies of the app, navigate from your terminal inside the ***fullstackopen2019/part7/anecdotes_routed*** directory and run:
 
+    ```
+    npm install
+    ```
+
+    or
+
+    ```
+    npm i
+    ```
 
 ## Running the App Locally
 
 1. Make sure that all the dependencies of the *Anecdotes App* are installed.
 
-2. Navigate from your terminal inside the /part7/anecdotes_routed directory and run ***npm start***.
+2. Navigate from your terminal inside the ***fullstackopen2019/part7/anecdotes_routed*** directory and run:
+
+    ```
+    npm start
+    ```
+
+3. Access the app locally at: ```http://localhost:3000/```

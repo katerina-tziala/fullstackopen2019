@@ -65,8 +65,7 @@ To start the server of the  *Bloglist API* in testing mode, navigate from your t
 
 ### Step C:
 
-Run the  *Bloglist App* locally as stated above.
-
+Run the  *Bloglist App* locally (on a different terminal) as stated above.
 
 ### Step D:
 
@@ -77,7 +76,6 @@ To execute the ***End to End*** testing:
     ```
     npm run cypress:open
     ```
-
 
 2. On the ***Cypress Panel*** click ***Run all specs*** to execute the tests. <br/><br/>
 <img src="https://raw.githubusercontent.com/katerina-tziala/fullstackopen2019/master/documentation_images/cypress_panel.png" alt="cypess panel" width="auto" height="300">
