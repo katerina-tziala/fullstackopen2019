@@ -1,20 +1,19 @@
 # Full Stack Open 2019 - University of Helsinki<br/>Deep Dive Into Modern Web Development
 
-This repository contains all exercises of the ***Deep Dive Into Modern Web Development*** course offered by the  *University of Helsinki*.
+This repository contains all exercises of the ***Deep Dive Into Modern Web Development*** course offered by the *University of Helsinki*, and it's structured according to the course's structure.
 
+## Deep Dive Into Modern Web Development Course
 
+The orientation of this course is JavaScript-based web development. The main focus is on building single page applications with ReactJS that use REST APIs built with Node.js.<br/>
+The course covers development, testing, configuration, environment management, and additionally the use of:
 
-
-
+- Redux, for managing the state of React-applications
+- MongoDB, for storing the application’s data
+- GraphQL, a modern alternative to REST APIs
 
 <!-- 
 
-The orientation of this course is JavaScript-based web development. The main focus is on building single page applications with ReactJS that use REST APIs built with Node.js.<br/>
-The course covers development, testing, configuration, environment management, and additionally:
 
-- the use of Redux, for managing the state of React-applications
-- the use of MongoDB, for storing the application’s data
-- the use of GraphQL, a modern alternative to REST APIs
 
 The structure of this repository is accordingly to the structure of the course. For each part there is a directory that contains the description of the part and the respective exercises. The following list is an overview of the course, whilst the *documentation_images* directory contains all the images used in the README files of this repository.
 
