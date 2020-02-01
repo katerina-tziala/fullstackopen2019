@@ -30,7 +30,6 @@ For the *Bloglist API* you need an account on [**MongoDb**](https://www.mongodb.
 
 2. Create ***YOUR_OWN_MONGODB_URI***. Make sure that the name of the database is **bloglist**!
 
-
 ## Installation of the App
 
 1. Fork and clone this repository.
