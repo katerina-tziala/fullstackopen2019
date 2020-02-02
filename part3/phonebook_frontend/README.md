@@ -6,7 +6,7 @@ The *PhoneBook App* is a simple React App, a digital phonebook, where users can 
 
 1. Fork and clone this repository.
 
-2. To install the dependencies of the app, navigate from your terminal inside the ***fullstackopen2019/part3/phonebook_frontends*** directory and run:
+2. To install the dependencies of the app, navigate from your terminal inside the ***fullstackopen2019/part3/phonebook_frontend*** directory and run:
 
     ```
     npm install
