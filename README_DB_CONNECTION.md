@@ -12,7 +12,7 @@
    mongodb+srv://<username>:<password>@cluster0-xq5jf.mongodb.net/<database>?retryWrites=true"&"w=majority
    ```
 
-This connection link is required to connect the app with the database and will be referred from now on as ***YOUR_OWN_MONGODB_URI***.
+   This connection link is required to connect the app with the database and will be referred from now on as ***YOUR_OWN_MONGODB_URI***.
    
 ## Notes
 
