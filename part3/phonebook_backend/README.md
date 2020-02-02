@@ -12,9 +12,11 @@ The following list presents the endpoints of the *PhoneBook API*.
 
 - **POST /api/persons :** To create a person in the *phonebook* database.
 
-- **GET /api/persons/ID :** To retrieve a specified person from the *phonebook* database.
+- **GET /api/persons/(ObjectID) :** To retrieve a specified person from the *phonebook* database.
 
-- **DELETE /api/persons/ID :** To delete a specified person from the *phonebook* database.
+- **DELETE /api/persons/(ObjectID) :** To delete a specified person from the *phonebook* database.
+
+**Note:** Make sure that  you change the **(ObjectID)** part of the request with a **valid** id.
 
 ## App Requirements
 
@@ -176,4 +178,4 @@ If you test the *PhoneBook API* with [**Postman**](https://www.getpostman.com/):
 
 If you use [**Visual Studio Code**](https://code.visualstudio.com/), install the [**VS Code REST client plugin**](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) and execute the requests in the ***requests*** directory.
 
-**Note:** In order to execute the *delete_person* and *get_single_person* requests make sure that you change the ***ID*** part of the request with a **valid** id.
+**Note:** In order to execute the *delete_person* and *get_single_person* requests make sure that you change the **(ObjectID)** part of the request with a **valid** id.

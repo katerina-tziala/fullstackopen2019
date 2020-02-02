@@ -16,11 +16,13 @@ The following list presents the endpoints of the *PhoneBook API*.
 
 - **POST /api/blogs :** To create a blog in the *bloglist* database.
 
-- **GET /api/blogs/ID :** To retrieve a specified blog from the *bloglist* database.
+- **GET /api/blogs/(ObjectID) :** To retrieve a specified blog from the *bloglist* database.
 
-- **PUT /api/blogs/ID :** To update a specified blog in the *bloglist* database.
+- **PUT /api/blogs/(ObjectID) :** To update a specified blog in the *bloglist* database.
 
-- **DELETE /api/blogs/ID :** To delete a specified blog from the *bloglist* database.
+- **DELETE /api/blogs/(ObjectID) :** To delete a specified blog from the *bloglist* database.
+
+**Note:** Make sure that  you change the **(ObjectID)** part of the request with a **valid** id.
 
 ## App Requirements
 
